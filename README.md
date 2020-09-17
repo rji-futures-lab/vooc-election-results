@@ -6,15 +6,15 @@ Pipeline infrastructure for live 2020 general election results for the [Voice of
 
 1. Get results from each data source
 
-  a. If data has differences, cache the results in an S3 bucket
+    a. If data has differences, cache the results in an S3 bucket
 
 2. For any race included in the results:
 
-  a. Subset and transform data for infogram graphic
-    - Note: For races that span Local Election Authorities, we also need to integrate the latest version of those results from our cache
-  b. [GET](https://developers.infogr.am/rest/get-infographics-id.html) the infogram graphic
-  c. Modify the infogram graphic [content](https://developers.infogr.am/rest/content-schema.html)
-  d. [PUT](https://developers.infogr.am/rest/put-infographics-id.html) the infogram graphic content
+    a. Subset and transform data for infogram graphic
+        - Note: For races that span Local Election Authorities, we also need to integrate the latest version of those results from our cache
+    b. [GET](https://developers.infogr.am/rest/get-infographics-id.html) the infogram graphic
+    c. Modify the infogram graphic [content](https://developers.infogr.am/rest/content-schema.html)
+    d. [PUT](https://developers.infogr.am/rest/put-infographics-id.html) the infogram graphic content
 
 
 ## Bootstrapping
