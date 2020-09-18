@@ -5,3 +5,4 @@ function.json
 .envrc
 .ipynb_checkpoints
 __pycache__/
+infogram-login.txt
