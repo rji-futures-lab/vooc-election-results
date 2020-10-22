@@ -1,3 +1,4 @@
+data/*
 .python-version
 .envrc
 event-rule.json
@@ -6,3 +7,4 @@ function.json
 .ipynb_checkpoints
 __pycache__/
 infogram-login.txt
+.DS_Store
