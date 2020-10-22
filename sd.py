@@ -16,7 +16,7 @@ def parse_single(xml, race_id, output_path):
     xpath = './Table[RaceID="' + str(race_id) + '"]'
     
     elements = root.findall(xpath)
-    candidates = [{c.tag: c.text for c in e.getchildren()} for e in elements]
+    candidates = [{c.tag: c.text for c in list(e)} for e in elements]
 
     data = json.loads('{"totalVotes": 0, "ReportingTime": "", "candidates": []}')
     data['ReportingTime'] = root.find('GeneratedDate').text
@@ -33,9 +33,6 @@ def parse_single(xml, race_id, output_path):
         data['totalVotes'] += int(item['Votes'])
         data['votesAdded'] = data['totalVotes'] - old_results['totalVotes'] if old_results else data['totalVotes']
         data['candidates'].append(item)
-
-    with open('data/sd/output/output.json', 'w') as f:
-        json.dump(data, f)
 
     data = json.dumps(data)
 
@@ -54,7 +51,7 @@ def parse_sd(xml):
     data['generatedDate'] = root.find('GeneratedDate').text
     elements = root.findall('./Table')
 
-    races_list = [{c.tag: c.text for c in e.getchildren()} for e in elements]
+    races_list = [{c.tag: c.text for c in list(e)} for e in elements]
 
     current_id = '0'
     for race in races_list:
