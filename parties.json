@@ -1,0 +1,33 @@
+{
+    "DEM": {
+        "name": "Democratic",
+        "primary_color": "#1D37A0",
+        "secondary_color": "#62bfff"
+
+    },
+    "REP": {
+        "name": "Republican",
+        "primary_color": "#A80000",
+        "secondary_color": "#F27E7D"
+    },
+    "AI": {
+        "name": "American Independent",
+        "primary_color": "#89857A"
+
+    },
+    "GRN": {
+        "name": "Green",
+        "primary_color": "#268327"
+
+    },
+    "LIB": {
+        "name": "Libertarian",
+        "primary_color": "#f0d612"
+
+    },
+    "P/F": {
+        "name": "Peace and Freedom",
+        "primary_color": "#8e67a0"
+
+    }
+}

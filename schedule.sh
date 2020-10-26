@@ -3,7 +3,7 @@
 
 aws events put-rule \
     --name "${PROJECT_NAME}-rule" \
-    --schedule-expression 'rate(12 hours)' \
+    --schedule-expression 'rate(15 minutes)' \
     > 'event-rule.json'
 
 aws lambda add-permission \

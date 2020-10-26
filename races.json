@@ -1,0 +1,4267 @@
+{
+    "1000": {
+        "race_title": "PRESIDENT AND VICE PRESIDENT",
+        "candidates": {
+            "10391": {
+                "name": "JOSEPH R. BIDEN/KAMALA D. HARRIS",
+                "party": "DEM",
+                "color": "#1D37A0",
+                "is_incumbent": false
+            },
+            "10392": {
+                "name": "DONALD J. TRUMP/MICHAEL R. PENCE",
+                "party": "REP",
+                "color": "#A80000",
+                "is_incumbent": true
+            },
+            "10393": {
+                "name": "ROQUE \"ROCKY\" DE LA FUENTE GUERRA/KANYE OMARI WEST",
+                "party": "AI",
+                "color": "#89857A",
+                "is_incumbent": false
+            },
+            "10394": {
+                "name": "HOWIE HAWKINS/ANGELA NICOLE WALKER",
+                "party": "GRN",
+                "color": "#268327",
+                "is_incumbent": false
+            },
+            "10395": {
+                "name": "JO JORGENSEN/JEREMY \"SPIKE\" COHEN",
+                "party": "LIB",
+                "color": "#f0d612",
+                "is_incumbent": false
+            },
+            "10396": {
+                "name": "GLORIA LA RIVA/SUNIL FREEMAN",
+                "party": "P/F",
+                "color": "#8e67a0",
+                "is_incumbent": false
+            }
+        }
+    },
+    "1120": {
+        "race_title": "UNITED STATES REPRESENTATIVE 38th District",
+        "candidates": {
+            "9744": {
+                "name": "LINDA T. SANCHEZ",
+                "party": "DEM",
+                "color": "#1D37A0",
+                "is_incumbent": true
+            },
+            "9745": {
+                "name": "MICHAEL TOLAR",
+                "party": "DEM",
+                "color": "#1D37A0",
+                "is_incumbent": false
+            }
+        }
+    },
+    "1130": {
+        "race_title": "UNITED STATES REPRESENTATIVE 39th District",
+        "candidates": {
+            "9746": {
+                "name": "YOUNG KIM",
+                "party": "REP",
+                "color": "#A80000",
+                "is_incumbent": false
+            },
+            "9747": {
+                "name": "GIL CISNEROS",
+                "party": "DEM",
+                "color": "#1D37A0",
+                "is_incumbent": true
+            }
+        }
+    },
+    "1140": {
+        "race_title": "UNITED STATES REPRESENTATIVE 45th District",
+        "candidates": {
+            "9748": {
+                "name": "GREG RATHS",
+                "party": "REP",
+                "color": "#A80000",
+                "is_incumbent": false
+            },
+            "9749": {
+                "name": "KATIE PORTER",
+                "party": "DEM",
+                "color": "#1D37A0",
+                "is_incumbent": true
+            }
+        }
+    },
+    "1150": {
+        "race_title": "UNITED STATES REPRESENTATIVE 46th District",
+        "candidates": {
+            "9750": {
+                "name": "JAMES S. WATERS",
+                "party": "REP",
+                "color": "#A80000",
+                "is_incumbent": false
+            },
+            "9751": {
+                "name": "LOU CORREA",
+                "party": "DEM",
+                "color": "#1D37A0",
+                "is_incumbent": false
+            }
+        }
+    },
+    "1160": {
+        "race_title": "UNITED STATES REPRESENTATIVE 47th District",
+        "candidates": {
+            "9752": {
+                "name": "ALAN LOWENTHAL",
+                "party": "DEM",
+                "color": "#1D37A0",
+                "is_incumbent": true
+            },
+            "9753": {
+                "name": "JOHN BRISCOE",
+                "party": "REP",
+                "color": "#A80000",
+                "is_incumbent": false
+            }
+        }
+    },
+    "1170": {
+        "race_title": "UNITED STATES REPRESENTATIVE 48th District",
+        "candidates": {
+            "9754": {
+                "name": "HARLEY ROUDA",
+                "party": "DEM",
+                "color": "#1D37A0",
+                "is_incumbent": true
+            },
+            "9755": {
+                "name": "MICHELLE STEEL",
+                "party": "REP",
+                "color": "#A80000",
+                "is_incumbent": false
+            }
+        }
+    },
+    "1180": {
+        "race_title": "UNITED STATES REPRESENTATIVE 49th District",
+        "candidates": {
+            "9756": {
+                "name": "BRIAN MARYOTT",
+                "party": "REP",
+                "color": "#A80000",
+                "is_incumbent": false
+            },
+            "9757": {
+                "name": "MIKE LEVIN",
+                "party": "DEM",
+                "color": "#1D37A0",
+                "is_incumbent": true
+            }
+        }
+    },
+    "1200": {
+        "race_title": "STATE SENATOR 29th District",
+        "candidates": {
+            "9758": {
+                "name": "JOSH NEWMAN",
+                "party": "DEM",
+                "color": "#1D37A0",
+                "is_incumbent": false
+            },
+            "9759": {
+                "name": "LING LING CHANG",
+                "party": "REP",
+                "color": "#A80000",
+                "is_incumbent": true
+            }
+        }
+    },
+    "1240": {
+        "race_title": "STATE SENATOR 37th District",
+        "candidates": {
+            "9760": {
+                "name": "JOHN M. W. MOORLACH",
+                "party": "REP",
+                "color": "#A80000",
+                "is_incumbent": true
+            },
+            "9761": {
+                "name": "DAVE MIN",
+                "party": "DEM",
+                "color": "#1D37A0",
+                "is_incumbent": false
+            }
+        }
+    },
+    "1300": {
+        "race_title": "MEMBER OF THE STATE ASSEMBLY 55th District",
+        "candidates": {
+            "9762": {
+                "name": "PHILLIP CHEN",
+                "party": "REP",
+                "color": "#A80000",
+                "is_incumbent": true
+            },
+            "9763": {
+                "name": "ANDREW E. RODRIGUEZ",
+                "party": "DEM",
+                "color": "#1D37A0",
+                "is_incumbent": false
+            }
+        }
+    },
+    "1310": {
+        "race_title": "MEMBER OF THE STATE ASSEMBLY 65th District",
+        "candidates": {
+            "9764": {
+                "name": "SHARON QUIRK-SILVA",
+                "party": "DEM",
+                "color": "#1D37A0",
+                "is_incumbent": true
+            },
+            "9765": {
+                "name": "CYNTHIA THACKER",
+                "party": "REP",
+                "color": "#A80000",
+                "is_incumbent": false
+            }
+        }
+    },
+    "1320": {
+        "race_title": "MEMBER OF THE STATE ASSEMBLY 68th District",
+        "candidates": {
+            "9766": {
+                "name": "STEVEN \"STEVE\" CHOI",
+                "party": "REP",
+                "color": "#A80000",
+                "is_incumbent": true
+            },
+            "9767": {
+                "name": "MELISSA FOX",
+                "party": "DEM",
+                "color": "#1D37A0",
+                "is_incumbent": false
+            }
+        }
+    },
+    "1330": {
+        "race_title": "MEMBER OF THE STATE ASSEMBLY 69th District",
+        "candidates": {
+            "9768": {
+                "name": "JON PAUL WHITE",
+                "party": "REP",
+                "color": "#A80000",
+                "is_incumbent": false
+            },
+            "9769": {
+                "name": "TOM DALY",
+                "party": "DEM",
+                "color": "#1D37A0",
+                "is_incumbent": true
+            }
+        }
+    },
+    "1340": {
+        "race_title": "MEMBER OF THE STATE ASSEMBLY 72nd District",
+        "candidates": {
+            "9770": {
+                "name": "JANET NGUYEN",
+                "party": "REP",
+                "color": "#A80000",
+                "is_incumbent": false
+            },
+            "9771": {
+                "name": "DIEDRE NGUYEN",
+                "party": "DEM",
+                "color": "#1D37A0",
+                "is_incumbent": false
+            }
+        }
+    },
+    "1350": {
+        "race_title": "MEMBER OF THE STATE ASSEMBLY 73rd District",
+        "candidates": {
+            "9772": {
+                "name": "SCOTT RHINEHART",
+                "party": "DEM",
+                "color": "#1D37A0",
+                "is_incumbent": false
+            },
+            "9773": {
+                "name": "LAURIE DAVIES",
+                "party": "REP",
+                "color": "#A80000",
+                "is_incumbent": false
+            }
+        }
+    },
+    "1360": {
+        "race_title": "MEMBER OF THE STATE ASSEMBLY 74th District",
+        "candidates": {
+            "9774": {
+                "name": "DIANE DIXON",
+                "party": "REP",
+                "color": "#A80000",
+                "is_incumbent": false
+            },
+            "9775": {
+                "name": "COTTIE PETRIE-NORRIS",
+                "party": "DEM",
+                "color": "#1D37A0",
+                "is_incumbent": true
+            }
+        }
+    },
+    "3037": {
+        "race_title": "NORTH ORANGE COUNTY COMMUNITY COLLEGE DISTRICT Governing Board Member, Trustee Area 4",
+        "candidates": {
+            "10008": {
+                "name": "EVANGELINA REA ROSALES",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "9806": {
+                "name": "MIGUEL ALVAREZ",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            }
+        }
+    },
+    "3038": {
+        "race_title": "NORTH ORANGE COUNTY COMMUNITY COLLEGE DISTRICT Governing Board Member, Trustee Area 5",
+        "candidates": {
+            "10000": {
+                "name": "JACQUELINE RODARTE",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            },
+            "10204": {
+                "name": "DAVE GARCIA-GOMEZ",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            }
+        }
+    },
+    "3040": {
+        "race_title": "NORTH ORANGE COUNTY COMMUNITY COLLEGE DISTRICT Governing Board Member, Trustee Area 7",
+        "candidates": {
+            "10095": {
+                "name": "KERI KROPKE",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "9992": {
+                "name": "RYAN BENT",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": true
+            }
+        }
+    },
+    "3043": {
+        "race_title": "COAST COMMUNITY COLLEGE DISTRICT Governing Board Member, Trustee Area 2",
+        "candidates": {
+            "10121": {
+                "name": "TONY BUI",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "9902": {
+                "name": "JERRY PATTERSON",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            },
+            "9957": {
+                "name": "LONG PHAM",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            }
+        }
+    },
+    "3045": {
+        "race_title": "COAST COMMUNITY COLLEGE DISTRICT Governing Board Member, Trustee Area 4",
+        "candidates": {
+            "9855": {
+                "name": "MICHAEL B COLLIER",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "9895": {
+                "name": "MARY HORNBUCKLE",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            }
+        }
+    },
+    "3052": {
+        "race_title": "RANCHO SANTIAGO COMMUNITY COLLEGE DISTRICT Governing Board Member, Trustee Area 3",
+        "candidates": {
+            "10097": {
+                "name": "SAL TINAJERO",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "10335": {
+                "name": "MIKE GONZALEZ",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            }
+        }
+    },
+    "3054": {
+        "race_title": "RANCHO SANTIAGO COMMUNITY COLLEGE DISTRICT Governing Board Member, Trustee Area 5",
+        "candidates": {
+            "10369": {
+                "name": "SAMUEL ULLOA",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "9788": {
+                "name": "DAVID CROCKETT",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "9997": {
+                "name": "BRETT ELLIOTT FRANKLIN",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "3056": {
+        "race_title": "RANCHO SANTIAGO COMMUNITY COLLEGE DISTRICT Governing Board Member, Trustee Area 7",
+        "candidates": {
+            "10372": {
+                "name": "LORETTA SANCHEZ",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "9783": {
+                "name": "TINA ARIAS MILLER",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            }
+        }
+    },
+    "3058": {
+        "race_title": "SOUTH ORANGE COUNTY COMMUNITY COLLEGE DISTRICT Governing Board Member, Trustee Area 1",
+        "candidates": {
+            "10073": {
+                "name": "CAROLYN INMON",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10370": {
+                "name": "HELEN LOCKE",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "10371": {
+                "name": "MATT WAID",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": false
+            },
+            "10388": {
+                "name": "AARTI KAUSHAL",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "3063": {
+        "race_title": "SOUTH ORANGE COUNTY COMMUNITY COLLEGE DISTRICT Governing Board Member, Trustee Area 6",
+        "candidates": {
+            "10129": {
+                "name": "RYAN DACK",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "9955": {
+                "name": "JAMES R. WRIGHT",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            }
+        }
+    },
+    "3064": {
+        "race_title": "SOUTH ORANGE COUNTY COMMUNITY COLLEGE DISTRICT Governing Board Member, Trustee Area 7",
+        "candidates": {
+            "10198": {
+                "name": "SEAN GAWNE",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "10202": {
+                "name": "MO ENTEZAMPOUR",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "9810": {
+                "name": "TIMOTHY \"TIM\" JEMAL",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": true
+            }
+        }
+    },
+    "3105": {
+        "race_title": "BREA OLINDA UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 5",
+        "candidates": {
+            "10022": {
+                "name": "GAIL LYONS",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            },
+            "9868": {
+                "name": "LAUREN BARNES",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            }
+        }
+    },
+    "3112": {
+        "race_title": "CAPISTRANO UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 2",
+        "candidates": {
+            "9815": {
+                "name": "JIM REARDON",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            },
+            "9843": {
+                "name": "PAMELA BRAUNSTEIN",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            }
+        }
+    },
+    "3113": {
+        "race_title": "CAPISTRANO UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 3",
+        "candidates": {
+            "10294": {
+                "name": "SUE HILL",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "10328": {
+                "name": "LISA DAVIS",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10362": {
+                "name": "ADRIENNE M. SILVA",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            }
+        }
+    },
+    "3115": {
+        "race_title": "CAPISTRANO UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 5",
+        "candidates": {
+            "10327": {
+                "name": "PAUL HEBBARD",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "9891": {
+                "name": "KRISTA CASTELLANOS",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": true
+            },
+            "9977": {
+                "name": "JASMINE FUNES",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "3123": {
+        "race_title": "GARDEN GROVE UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 1",
+        "candidates": {
+            "9907": {
+                "name": "NICHOLAS DIBS",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "9973": {
+                "name": "TERI ROCCO",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            }
+        }
+    },
+    "3127": {
+        "race_title": "GARDEN GROVE UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 5",
+        "candidates": {
+            "10066": {
+                "name": "DINA NGUYEN",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            },
+            "10142": {
+                "name": "PATRICK CAHILL",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10309": {
+                "name": "SAMANTHA BAO ANH NGUYEN",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "3133": {
+        "race_title": "IRVINE UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 3",
+        "candidates": {
+            "10087": {
+                "name": "BETHANY HUANG",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "10091": {
+                "name": "DOUGLAS EUPER",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10170": {
+                "name": "CYRIL YU",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": false
+            },
+            "10375": {
+                "name": "SIDNEY WU",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            }
+        }
+    },
+    "3135": {
+        "race_title": "IRVINE UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 5",
+        "candidates": {
+            "9833": {
+                "name": "PAUL BOKOTA",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            },
+            "9904": {
+                "name": "DEMETRA ARVANITIDIS",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            }
+        }
+    },
+    "3142": {
+        "race_title": "LAGUNA BEACH UNIFIED SCHOOL DISTRICT Governing Board Member",
+        "candidates": {
+            "10070": {
+                "name": "SHERI MORGAN",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "10122": {
+                "name": "KELLY OSBORNE",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": false
+            },
+            "10130": {
+                "name": "HOWARD HILLS",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "9813": {
+                "name": "AMY KRAMER",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "9858": {
+                "name": "JAN VICKERS",
+                "party": null,
+                "color": "#e47300",
+                "is_incumbent": true
+            }
+        }
+    },
+    "3152": {
+        "race_title": "LOS ALAMITOS UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 2",
+        "candidates": {
+            "9860": {
+                "name": "PAURVI TRIVEDI",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "9867": {
+                "name": "CHRIS FOREHAN",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "9986": {
+                "name": "JODY L. ROUBANIS",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "3155": {
+        "race_title": "LOS ALAMITOS UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 5",
+        "candidates": {
+            "10353": {
+                "name": "MATT FILLER",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "9809": {
+                "name": "MEG CUTULI",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": true
+            }
+        }
+    },
+    "3161": {
+        "race_title": "NEWPORT-MESA UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 1",
+        "candidates": {
+            "9898": {
+                "name": "VICKI SNELL",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            },
+            "9911": {
+                "name": "LEAH ERSOYLU",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            }
+        }
+    },
+    "3163": {
+        "race_title": "NEWPORT-MESA UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 3",
+        "candidates": {
+            "9832": {
+                "name": "CAROL CRANE",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "9944": {
+                "name": "CHARLES KENT BOOKER",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            }
+        }
+    },
+    "3166": {
+        "race_title": "NEWPORT-MESA UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 6",
+        "candidates": {
+            "10158": {
+                "name": "XENO RALF MULLER II",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10378": {
+                "name": "ALEXIS ZAVOURIS",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": false
+            },
+            "9797": {
+                "name": "KRISTA WEIGAND",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "9873": {
+                "name": "AMY PETERS",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "3172": {
+        "race_title": "ORANGE UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 2",
+        "candidates": {
+            "9903": {
+                "name": "JOHN ORTEGA",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            },
+            "9927": {
+                "name": "TIGER KENNEDY COSMOS",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            }
+        }
+    },
+    "3173": {
+        "race_title": "ORANGE UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 3",
+        "candidates": {
+            "10065": {
+                "name": "ANA PAGE",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "9787": {
+                "name": "ALEXIA DELIGIANNI-BRYDGES",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": true
+            }
+        }
+    },
+    "3176": {
+        "race_title": "ORANGE UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 6",
+        "candidates": {
+            "10273": {
+                "name": "APRIL BRASWELL",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10305": {
+                "name": "ANGIE SCHLUETER-RUMSEY",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": false
+            },
+            "9853": {
+                "name": "CARRIE LUNDELL",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "9888": {
+                "name": "ALEX MUNOZ",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            }
+        }
+    },
+    "3181": {
+        "race_title": "PLACENTIA-YORBA LINDA UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 1",
+        "candidates": {
+            "10040": {
+                "name": "SHAWN YOUNGBLOOD",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "9795": {
+                "name": "ERIC PADGET",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            },
+            "9851": {
+                "name": "PAOLING GUO",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            }
+        }
+    },
+    "3182": {
+        "race_title": "PLACENTIA-YORBA LINDA UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 2",
+        "candidates": {
+            "10068": {
+                "name": "JOSHUA CORREA",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "10079": {
+                "name": "MARILYN ANDERSON",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "9929": {
+                "name": "LASHE RODRIGUEZ",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            }
+        }
+    },
+    "3183": {
+        "race_title": "PLACENTIA-YORBA LINDA UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 3",
+        "candidates": {
+            "10069": {
+                "name": "LEANDRA BLADES",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "9803": {
+                "name": "MISTY JANSSEN",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "9822": {
+                "name": "SUSAN METCALF",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "9878": {
+                "name": "MIKE NICOSIA",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": false
+            }
+        }
+    },
+    "3192": {
+        "race_title": "SADDLEBACK VALLEY UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 2",
+        "candidates": {
+            "10153": {
+                "name": "TRICIA YEE",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "9896": {
+                "name": "EDWARD WONG",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": true
+            }
+        }
+    },
+    "3194": {
+        "race_title": "SADDLEBACK VALLEY UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 4",
+        "candidates": {
+            "9874": {
+                "name": "BENJAMIN YU",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "9976": {
+                "name": "AMANDA MORRELL",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": true
+            }
+        }
+    },
+    "3201": {
+        "race_title": "SANTA ANA UNIFIED SCHOOL DISTRICT Governing Board Member",
+        "candidates": {
+            "10117": {
+                "name": "OSCAR REYES",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": false
+            },
+            "10259": {
+                "name": "ALFONSO ALVAREZ",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            },
+            "10270": {
+                "name": "RIGO RODRIGUEZ",
+                "party": null,
+                "color": "#e47300",
+                "is_incumbent": true
+            },
+            "10333": {
+                "name": "JUDITH CARRILLO",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "9817": {
+                "name": "CAROLYN TORRES",
+                "party": null,
+                "color": "#8e67a0",
+                "is_incumbent": true
+            },
+            "9963": {
+                "name": "CECILIA AGUINAGA",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            }
+        }
+    },
+    "3211": {
+        "race_title": "TUSTIN UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 1",
+        "candidates": {
+            "9841": {
+                "name": "ALLYSON M. DAMIKOLAS",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "9876": {
+                "name": "KIRK O. HAHN",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "9941": {
+                "name": "TAMMIE K. BULLARD",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": true
+            }
+        }
+    },
+    "3212": {
+        "race_title": "TUSTIN UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 2",
+        "candidates": {
+            "10094": {
+                "name": "SUSAN M. STOCKS",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "10265": {
+                "name": "JAMES H. LAIRD",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": true
+            }
+        }
+    },
+    "3241": {
+        "race_title": "HUNTINGTON BEACH UNION HIGH SCHOOL DISTRICT Governing Board Member",
+        "candidates": {
+            "10046": {
+                "name": "CLAUDIA RAMOS",
+                "party": null,
+                "color": "#e47300",
+                "is_incumbent": false
+            },
+            "9785": {
+                "name": "SUSAN HENRY",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            },
+            "9814": {
+                "name": "MICHAEL SIMONS",
+                "party": null,
+                "color": "#8e67a0",
+                "is_incumbent": true
+            },
+            "9840": {
+                "name": "CHRISTINE HERNANDEZ",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "9933": {
+                "name": "SPENCER HAGAMAN",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "9954": {
+                "name": "SAUL LANKSTER",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": false
+            }
+        }
+    },
+    "3255": {
+        "race_title": "ANAHEIM ELEMENTARY SCHOOL DISTRICT Governing Board Member, Trustee Area 3",
+        "candidates": {
+            "10059": {
+                "name": "LUCILLE KRING",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "9790": {
+                "name": "JOSE PAOLO MAGCALAS",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            }
+        }
+    },
+    "3266": {
+        "race_title": "BUENA PARK SCHOOL DISTRICT Governing Board Member, Trustee Area 4",
+        "candidates": {
+            "10241": {
+                "name": "L CAROLE JENSEN",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "10304": {
+                "name": "IRENE CASTANEDA",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": true
+            }
+        }
+    },
+    "3292": {
+        "race_title": "FOUNTAIN VALLEY SCHOOL DISTRICT Governing Board Member",
+        "candidates": {
+            "10233": {
+                "name": "TOM NGUYEN",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "9780": {
+                "name": "JEANNE GALINDO",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            },
+            "9909": {
+                "name": "STEVE SCHULTZ",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": false
+            },
+            "9923": {
+                "name": "IAN COLLINS",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": true
+            }
+        }
+    },
+    "3311": {
+        "race_title": "HUNTINGTON BEACH CITY SCHOOL DISTRICT Governing Board Member, Trustee Area 1",
+        "candidates": {
+            "10058": {
+                "name": "BRIDGET KAUB",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": true
+            },
+            "10320": {
+                "name": "ROGER S. NOOR",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "3322": {
+        "race_title": "LA HABRA CITY SCHOOL DISTRICT Governing Board Member, Full Term",
+        "candidates": {
+            "9823": {
+                "name": "JOHN DOBSON",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "9937": {
+                "name": "SUSAN M. PRITCHARD",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "9940": {
+                "name": "OFELIA CORONA HANSON",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "3371": {
+        "race_title": "WESTMINSTER SCHOOL DISTRICT Governing Board Member, Trustee Area 1",
+        "candidates": {
+            "10147": {
+                "name": "ANGEL RAMIREZ",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "9916": {
+                "name": "DAVID JOHNSON",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            }
+        }
+    },
+    "4001": {
+        "race_title": "County Supervisor, 1st District",
+        "candidates": {
+            "9776": {
+                "name": "ANDREW DO",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            },
+            "9777": {
+                "name": "SERGIO CONTRERAS",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            }
+        }
+    },
+    "4903": {
+        "race_title": "CITY OF ALISO VIEJO Member, City Council",
+        "candidates": {
+            "10056": {
+                "name": "MICHAEL WINGER",
+                "party": null,
+                "color": "#dc2e07",
+                "is_incumbent": false
+            },
+            "10109": {
+                "name": "DAVID ZERO",
+                "party": null,
+                "color": "#5E5F8F",
+                "is_incumbent": false
+            },
+            "10115": {
+                "name": "MICHAEL W. BROWN",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10139": {
+                "name": "ROSS CHUN",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            },
+            "10150": {
+                "name": "MIKE MUNZING",
+                "party": null,
+                "color": "#e47300",
+                "is_incumbent": true
+            },
+            "10373": {
+                "name": "MAX DUNCAN",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "10379": {
+                "name": "GREG J. WILLIAMS",
+                "party": null,
+                "color": "#8e67a0",
+                "is_incumbent": false
+            },
+            "9960": {
+                "name": "RICHARD HURT",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5004": {
+        "race_title": "CITY OF ANAHEIM Member, City Council, District 1",
+        "candidates": {
+            "10002": {
+                "name": "JOSE DIAZ",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "10090": {
+                "name": "RYAN BALIUS",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10324": {
+                "name": "DENISE BARNES",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            }
+        }
+    },
+    "5007": {
+        "race_title": "CITY OF ANAHEIM Member, City Council, District 4",
+        "candidates": {
+            "10055": {
+                "name": "JEANINE A. ROBBINS",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "10274": {
+                "name": "AVELINO VALENCIA",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": false
+            },
+            "10307": {
+                "name": "JULIE BRUNETTE",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10323": {
+                "name": "ANNEMARIE RANDLE-TREJO",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5008": {
+        "race_title": "CITY OF ANAHEIM Member, City Council, District 5",
+        "candidates": {
+            "10006": {
+                "name": "KENNETH BATISTE",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10228": {
+                "name": "STEVE FAESSEL",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            },
+            "10287": {
+                "name": "SABRINA \"SAV\" QUEZADA",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5011": {
+        "race_title": "CITY OF BREA Member, City Council",
+        "candidates": {
+            "10014": {
+                "name": "CHRISTINE MARICK",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            },
+            "10015": {
+                "name": "ROBYN NEUFELD",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "10149": {
+                "name": "TYLER BAUGH",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "9995": {
+                "name": "MARTY SIMONOFF",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": true
+            }
+        }
+    },
+    "5014": {
+        "race_title": "CITY OF BREA City Treasurer",
+        "candidates": {
+            "10366": {
+                "name": "DENISE EBY",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "9966": {
+                "name": "BEV PERRY",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5025": {
+        "race_title": "CITY OF BUENA PARK Member, City Council, District 3",
+        "candidates": {
+            "10099": {
+                "name": "SUSAN SONNE",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "10231": {
+                "name": "PAUL D. GONZALES",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "9928": {
+                "name": "SHARON SMITH",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5026": {
+        "race_title": "CITY OF BUENA PARK Member, City Council, District 4",
+        "candidates": {
+            "10077": {
+                "name": "ARTHUR C. BROWN",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "9950": {
+                "name": "DONNA VARONA SIPL",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5031": {
+        "race_title": "CITY OF COSTA MESA Mayor",
+        "candidates": {
+            "10253": {
+                "name": "AL MELONE",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": false
+            },
+            "10276": {
+                "name": "KATRINA FOLEY",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": true
+            },
+            "10299": {
+                "name": "QUENTIN \"Q\" PULLEN",
+                "party": null,
+                "color": "#e47300",
+                "is_incumbent": false
+            },
+            "10321": {
+                "name": "WENDY BROOKS LEECE",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "10342": {
+                "name": "SANDRA L. \"SANDY\" GENIS",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5032": {
+        "race_title": "CITY OF COSTA MESA Member, City Council, District 1",
+        "candidates": {
+            "10119": {
+                "name": "JOHN STEPHENS",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": true
+            },
+            "10339": {
+                "name": "DON HARPER",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10341": {
+                "name": "JASON KOMALA",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5033": {
+        "race_title": "CITY OF COSTA MESA  Member, City Council, District 2",
+        "candidates": {
+            "10021": {
+                "name": "LOREN GAMEROS",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "10151": {
+                "name": "BEN CHAPMAN",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10279": {
+                "name": "GARY PARKIN",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5039": {
+        "race_title": "CITY OF COSTA MESA Member, City Council, District 6",
+        "candidates": {
+            "10106": {
+                "name": "JEFFREY HARLAN",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "10159": {
+                "name": "JEFF PETTIS",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "10225": {
+                "name": "HENGAMEH ABRAHAM",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10338": {
+                "name": "LEE RAMOS",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5041": {
+        "race_title": "CITY OF CYPRESS Member, City Council",
+        "candidates": {
+            "10005": {
+                "name": "STEVE MAUSS",
+                "party": null,
+                "color": "#dc2e07",
+                "is_incumbent": false
+            },
+            "10076": {
+                "name": "CARRIE KATSUMATA HAYASHIDA",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": false
+            },
+            "10239": {
+                "name": "FRANCES MARQUEZ",
+                "party": null,
+                "color": "#8e67a0",
+                "is_incumbent": false
+            },
+            "10266": {
+                "name": "COLE THOMPSON",
+                "party": null,
+                "color": "#0e80a4",
+                "is_incumbent": false
+            },
+            "10272": {
+                "name": "ANNE HERTZ",
+                "party": null,
+                "color": "#e47300",
+                "is_incumbent": false
+            },
+            "10322": {
+                "name": "RACHEL STRONG",
+                "party": null,
+                "color": "#5E5F8F",
+                "is_incumbent": false
+            },
+            "10343": {
+                "name": "DAVID GERSTEN",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "9875": {
+                "name": "BLAZE BHENCE",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "9883": {
+                "name": "JIMMY FULLER",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5056": {
+        "race_title": "CITY OF DANA POINT Member, City Council, District 4",
+        "candidates": {
+            "10034": {
+                "name": "MIKE FROST",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10260": {
+                "name": "GARY NEWKIRK",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5057": {
+        "race_title": "CITY OF DANA POINT Member, City Council, District 5",
+        "candidates": {
+            "10044": {
+                "name": "BENJAMIN TYLER BEBEE",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10101": {
+                "name": "MICHAEL VILLAR",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5063": {
+        "race_title": "CITY OF FOUNTAIN VALLEY Member, City Council",
+        "candidates": {
+            "10010": {
+                "name": "MAI KHANH TRAN",
+                "party": null,
+                "color": "#dc2e07",
+                "is_incumbent": false
+            },
+            "10141": {
+                "name": "GLENN GRANDIS",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": false
+            },
+            "10195": {
+                "name": "TED BUI",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "10317": {
+                "name": "CHERYL BROTHERS",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": true
+            },
+            "10356": {
+                "name": "TOM NGUYEN",
+                "party": null,
+                "color": "#e47300",
+                "is_incumbent": false
+            },
+            "10361": {
+                "name": "MARY PHAM",
+                "party": null,
+                "color": "#8e67a0",
+                "is_incumbent": false
+            },
+            "9922": {
+                "name": "JIM CUNNEEN",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5071": {
+        "race_title": "CITY OF FULLERTON Member, City Council, District 1",
+        "candidates": {
+            "10189": {
+                "name": "ANDREW CHO",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "9886": {
+                "name": "FRED JUNG",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5072": {
+        "race_title": "CITY OF FULLERTON Member, City Council, District 2",
+        "candidates": {
+            "10162": {
+                "name": "NICK DUNLAP",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "10206": {
+                "name": "MACKENZIE CHANG",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10221": {
+                "name": "FAISAL QAZI",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "9914": {
+                "name": "CHUCK SARGEANT",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5074": {
+        "race_title": "CITY OF FULLERTON Member, City Council, District 4",
+        "candidates": {
+            "10033": {
+                "name": "AARUNI THAKUR",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10271": {
+                "name": "BRUCE WHITAKER",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5081": {
+        "race_title": "CITY OF GARDEN GROVE Mayor",
+        "candidates": {
+            "10098": {
+                "name": "STEVE JONES",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            },
+            "10133": {
+                "name": "DONALD TAYLOR",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": false
+            },
+            "10175": {
+                "name": "PHAT BUI",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10326": {
+                "name": "DUY NGUYEN",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5085": {
+        "race_title": "CITY OF GARDEN GROVE Member, City Council, District 2",
+        "candidates": {
+            "10215": {
+                "name": "JULIE DIEP",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "9968": {
+                "name": "JOHN R. O'NEILL",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            }
+        }
+    },
+    "5088": {
+        "race_title": "CITY OF GARDEN GROVE Member, City Council, District 5",
+        "candidates": {
+            "10004": {
+                "name": "STEPHANIE KLOPFENSTEIN",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": true
+            },
+            "10345": {
+                "name": "ROBERT TUCKER",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5089": {
+        "race_title": "CITY OF GARDEN GROVE Member, City Council, District 6",
+        "candidates": {
+            "10344": {
+                "name": "HUAN C. NGUYEN",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "9936": {
+                "name": "KIM BERNICE NGUYEN",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": true
+            }
+        }
+    },
+    "5091": {
+        "race_title": "CITY OF HUNTINGTON BEACH Member, City Council",
+        "candidates": {
+            "10026": {
+                "name": "AMORY HANSON",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": false
+            },
+            "10093": {
+                "name": "NATALIE MOSER",
+                "party": null,
+                "color": "#c18bda",
+                "is_incumbent": false
+            },
+            "10154": {
+                "name": "JOHN BRISCOE",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10168": {
+                "name": "ERIC \"SILK\" SILKENSON",
+                "party": null,
+                "color": "#F6881F",
+                "is_incumbent": false
+            },
+            "10177": {
+                "name": "THOMAS MATTHEW LAPARNE",
+                "party": null,
+                "color": "#dc2e07",
+                "is_incumbent": false
+            },
+            "10183": {
+                "name": "GRACEY VAN DER MARK",
+                "party": null,
+                "color": "#5E5F8F",
+                "is_incumbent": false
+            },
+            "10188": {
+                "name": "JEFF MORIN",
+                "party": null,
+                "color": "#67331f",
+                "is_incumbent": false
+            },
+            "10192": {
+                "name": "BRIAN BURLEY",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "10232": {
+                "name": "OSCAR D. RODRIGUEZ",
+                "party": null,
+                "color": "#a5d604",
+                "is_incumbent": false
+            },
+            "10255": {
+                "name": "TITO ORTIZ",
+                "party": null,
+                "color": "#7EB0B2",
+                "is_incumbent": false
+            },
+            "10275": {
+                "name": "CASEY MCKEON",
+                "party": null,
+                "color": "#0e80a4",
+                "is_incumbent": false
+            },
+            "10357": {
+                "name": "MATTHEW HARPER",
+                "party": null,
+                "color": "#e47300",
+                "is_incumbent": false
+            },
+            "10368": {
+                "name": "WILLIAM BILLY O'CONNELL",
+                "party": null,
+                "color": "#326CA6",
+                "is_incumbent": false
+            },
+            "9838": {
+                "name": "DAN KALMICK",
+                "party": null,
+                "color": "#8e67a0",
+                "is_incumbent": false
+            },
+            "9962": {
+                "name": "SONYA GREEN",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5093": {
+        "race_title": "CITY OF HUNTINGTON BEACH City Clerk",
+        "candidates": {
+            "10207": {
+                "name": "ROBIN ESTANISLAU",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": true
+            }
+        }
+    },
+    "5094": {
+        "race_title": "CITY OF HUNTINGTON BEACH City Treasurer",
+        "candidates": {
+            "10127": {
+                "name": "ALISA BACKSTROM",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5101": {
+        "race_title": "CITY OF IRVINE Mayor",
+        "candidates": {
+            "10096": {
+                "name": "KATHERINE DAIGLE",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10289": {
+                "name": "LUIS HUANG",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "9884": {
+                "name": "FARRAH N. KHAN",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "9893": {
+                "name": "CHRISTINA L. SHEA",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": true
+            }
+        }
+    },
+    "5102": {
+        "race_title": "CITY OF IRVINE Member, City Council",
+        "candidates": {
+            "10023": {
+                "name": "ABIGAIL K. POLE",
+                "party": null,
+                "color": "#a5d604",
+                "is_incumbent": false
+            },
+            "10171": {
+                "name": "MIKE CARROLL",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": true
+            },
+            "10180": {
+                "name": "JOHN PARK",
+                "party": null,
+                "color": "#7EB0B2",
+                "is_incumbent": false
+            },
+            "10219": {
+                "name": "CARRIE O'MALLEY",
+                "party": null,
+                "color": "#326CA6",
+                "is_incumbent": false
+            },
+            "10235": {
+                "name": "HAI YANG LIANG",
+                "party": null,
+                "color": "#67331f",
+                "is_incumbent": false
+            },
+            "10348": {
+                "name": "LAURA BRATTON",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "10355": {
+                "name": "DIANA JIANG",
+                "party": null,
+                "color": "#dc2e07",
+                "is_incumbent": false
+            },
+            "10360": {
+                "name": "DYLAN GREEN",
+                "party": null,
+                "color": "#8e67a0",
+                "is_incumbent": false
+            },
+            "10365": {
+                "name": "ANSHUL GARG",
+                "party": null,
+                "color": "#e47300",
+                "is_incumbent": false
+            },
+            "10367": {
+                "name": "LARRY AGRAN",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "9885": {
+                "name": "TAMMY KIM",
+                "party": null,
+                "color": "#0e80a4",
+                "is_incumbent": false
+            },
+            "9892": {
+                "name": "MARK NEWGENT",
+                "party": null,
+                "color": "#c18bda",
+                "is_incumbent": false
+            },
+            "9912": {
+                "name": "LAUREN JOHNSON-NORRIS",
+                "party": null,
+                "color": "#5E5F8F",
+                "is_incumbent": false
+            },
+            "9924": {
+                "name": "CHRISTINA DILLARD",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5111": {
+        "race_title": "CITY OF LAGUNA BEACH Member, City Council",
+        "candidates": {
+            "10038": {
+                "name": "GEORGE WEISS",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": false
+            },
+            "10140": {
+                "name": "LARRY NOKES",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "10277": {
+                "name": "BOB WHALEN",
+                "party": null,
+                "color": "#e47300",
+                "is_incumbent": true
+            },
+            "10296": {
+                "name": "STEVE DICTEROW",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": true
+            },
+            "10300": {
+                "name": "RUBEN FLORES",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5113": {
+        "race_title": "CITY OF LAGUNA BEACH City Clerk",
+        "candidates": {
+            "10031": {
+                "name": "ANN MARIE MCKAY",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10164": {
+                "name": "MARIANN TRACY",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5114": {
+        "race_title": "CITY OF LAGUNA BEACH City Treasurer",
+        "candidates": {
+            "10295": {
+                "name": "LAURA PARISI",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": true
+            }
+        }
+    },
+    "5118": {
+        "race_title": "CITY OF LAGUNA HILLS Member, City Council",
+        "candidates": {
+            "10116": {
+                "name": "BILL HUNT",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "10152": {
+                "name": "JANINE HEFT",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": true
+            },
+            "10329": {
+                "name": "NICK WOOD",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5121": {
+        "race_title": "CITY OF LAGUNA NIGUEL Member, City Council",
+        "candidates": {
+            "10051": {
+                "name": "SHERRY ASTRELLA",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10247": {
+                "name": "MICHAEL HARVEY FAIR",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "10283": {
+                "name": "STEPHANIE ODDO",
+                "party": null,
+                "color": "#8e67a0",
+                "is_incumbent": false
+            },
+            "10334": {
+                "name": "SHANI MOSLEHI",
+                "party": null,
+                "color": "#e47300",
+                "is_incumbent": false
+            },
+            "10337": {
+                "name": "JOHN DHALIWAL",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "9894": {
+                "name": "RISCHI PAUL SHARMA",
+                "party": null,
+                "color": "#5E5F8F",
+                "is_incumbent": false
+            },
+            "9970": {
+                "name": "KELLY JENNINGS",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": false
+            },
+            "9974": {
+                "name": "SANDY RAINS",
+                "party": null,
+                "color": "#dc2e07",
+                "is_incumbent": true
+            }
+        }
+    },
+    "5125": {
+        "race_title": "CITY OF LAGUNA WOODS Member, City Council",
+        "candidates": {
+            "10016": {
+                "name": "SHARI L HORNE",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": true
+            },
+            "10047": {
+                "name": "CYNTHIA CONNERS",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": true
+            },
+            "10074": {
+                "name": "JUDITH P. TROUTMAN",
+                "party": null,
+                "color": "#e47300",
+                "is_incumbent": false
+            },
+            "10089": {
+                "name": "KATHRYN ROBBINS",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": false
+            },
+            "9938": {
+                "name": "NOEL HATCH",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            }
+        }
+    },
+    "5131": {
+        "race_title": "CITY OF LA HABRA Member, City Council",
+        "candidates": {
+            "10114": {
+                "name": "STEVE SIMONIAN",
+                "party": null,
+                "color": "#e47300",
+                "is_incumbent": false
+            },
+            "10210": {
+                "name": "PETER CRUZ",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10211": {
+                "name": "MICHAEL NAVARRO",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "10245": {
+                "name": "TIM SHAW",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": true
+            },
+            "10336": {
+                "name": "ROSE ESPINOZA",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            }
+        }
+    },
+    "5135": {
+        "race_title": "CITY OF LAKE FOREST Member, City Council, District 1",
+        "candidates": {
+            "10184": {
+                "name": "LORI BERGER",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10237": {
+                "name": "RICHA SHARMA",
+                "party": null,
+                "color": "#e47300",
+                "is_incumbent": false
+            },
+            "10315": {
+                "name": "LOUISE M ROBERTSON",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": false
+            },
+            "10331": {
+                "name": "DOUG CIRBO",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "10376": {
+                "name": "CHRIS MCDONALD",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "10380": {
+                "name": "NICK TANNER",
+                "party": null,
+                "color": "#8e67a0",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5139": {
+        "race_title": "CITY OF LAKE FOREST Member, City Council, District 5",
+        "candidates": {
+            "10013": {
+                "name": "ROBERT PEQUENO",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": false
+            },
+            "10050": {
+                "name": "JEANNETTE J. NADAL",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "10242": {
+                "name": "LARISSA CLARK",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10258": {
+                "name": "FRANK WAGONER",
+                "party": null,
+                "color": "#e47300",
+                "is_incumbent": false
+            },
+            "10390": {
+                "name": "SHANE JONES",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5141": {
+        "race_title": "CITY OF LA PALMA Member, City Council",
+        "candidates": {
+            "10124": {
+                "name": "MARSHALL GOODMAN",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": true
+            },
+            "10194": {
+                "name": "MARK I. WALDMAN",
+                "party": null,
+                "color": "#8e67a0",
+                "is_incumbent": false
+            },
+            "10217": {
+                "name": "EMANUEL APARICIO",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10282": {
+                "name": "DEBBIE BAKER",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "10349": {
+                "name": "APRIL KAMILAH BAGASAO BAUTISTA",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "9993": {
+                "name": "TAYLOR H.W. QUAN",
+                "party": null,
+                "color": "#e47300",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5151": {
+        "race_title": "CITY OF LOS ALAMITOS Member, City Council, District 1",
+        "candidates": {
+            "10024": {
+                "name": "TANYA DOBY",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10262": {
+                "name": "DEAN GROSE",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5152": {
+        "race_title": "CITY OF LOS ALAMITOS Member, City Council, District 2",
+        "candidates": {
+            "10297": {
+                "name": "KATE HALLMAN",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "10318": {
+                "name": "RON BATES",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5153": {
+        "race_title": "CITY OF LOS ALAMITOS Member, City Council, District 3",
+        "candidates": {
+            "10313": {
+                "name": "JORDAN B. NEFULDA",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5161": {
+        "race_title": "CITY OF MISSION VIEJO Member, City Council, Two-Year Term",
+        "candidates": {
+            "10025": {
+                "name": "STEVE SIPE",
+                "party": null,
+                "color": "#dc2e07",
+                "is_incumbent": false
+            },
+            "10185": {
+                "name": "RYAN TWOREK",
+                "party": null,
+                "color": "#5E5F8F",
+                "is_incumbent": false
+            },
+            "10208": {
+                "name": "PAULINE HALE",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "10220": {
+                "name": "PATRICIA \"TRISH\" KELLEY",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": true
+            },
+            "10238": {
+                "name": "JESSICA GILBERT",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10252": {
+                "name": "BRIAN GOODELL",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            },
+            "10264": {
+                "name": "CATHY SCHLICHT",
+                "party": null,
+                "color": "#8e67a0",
+                "is_incumbent": false
+            },
+            "10340": {
+                "name": "MICHAEL MCCONNELL",
+                "party": null,
+                "color": "#e47300",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5172": {
+        "race_title": "CITY OF NEWPORT BEACH Member, City Council, District 2",
+        "candidates": {
+            "10030": {
+                "name": "BRAD AVERY",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": true
+            },
+            "9971": {
+                "name": "NANCY SCARBROUGH",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5175": {
+        "race_title": "CITY OF NEWPORT BEACH Member, City Council, District 5",
+        "candidates": {
+            "10240": {
+                "name": "NOAH BLOM",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "9998": {
+                "name": "JEFF HERDMAN",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            }
+        }
+    },
+    "5177": {
+        "race_title": "CITY OF NEWPORT BEACH Member, City Council, District 7",
+        "candidates": {
+            "9881": {
+                "name": "WILL O'NEILL",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": true
+            }
+        }
+    },
+    "5181": {
+        "race_title": "CITY OF ORANGE Mayor",
+        "candidates": {
+            "10167": {
+                "name": "ADRIENNE GLADSON",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10256": {
+                "name": "MARK A MURPHY",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            }
+        }
+    },
+    "5182": {
+        "race_title": "CITY OF ORANGE Member, City Council, District 1",
+        "candidates": {
+            "10029": {
+                "name": "CHRISTIAN L. VAUGHAN",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "10186": {
+                "name": "ARIANNA BARRIOS",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10191": {
+                "name": "DAVID VAZQUEZ",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": false
+            },
+            "10229": {
+                "name": "EUGENE W. FIELDS",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5183": {
+        "race_title": "CITY OF ORANGE Member, City Council, District 2",
+        "candidates": {
+            "10007": {
+                "name": "JON DUMITRU",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "10053": {
+                "name": "MARTIN VARONA",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": false
+            },
+            "10292": {
+                "name": "CAROLINE ALATORRE",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "9931": {
+                "name": "DANIEL CORREA",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5184": {
+        "race_title": "CITY OF ORANGE Member, City Council, District 3",
+        "candidates": {
+            "10011": {
+                "name": "MIKE ALVAREZ",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "10041": {
+                "name": "DANETT ABBOTT-WICKER",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10178": {
+                "name": "JOHN R RUSSO",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5186": {
+        "race_title": "CITY OF ORANGE Member, City Council, District 5",
+        "candidates": {
+            "10100": {
+                "name": "RICK LEDESMA",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "9837": {
+                "name": "ANA GUTIERREZ",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5188": {
+        "race_title": "CITY OF ORANGE City Clerk",
+        "candidates": {
+            "10086": {
+                "name": "PAMELA COLEMAN",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": true
+            }
+        }
+    },
+    "5189": {
+        "race_title": "CITY OF ORANGE City Treasurer",
+        "candidates": {
+            "10146": {
+                "name": "RICHARD A ROHM",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": true
+            }
+        }
+    },
+    "5190": {
+        "race_title": "CITY OF PLACENTIA Member, City Council, District 1",
+        "candidates": {
+            "10176": {
+                "name": "RHONDA SHADER",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            },
+            "9988": {
+                "name": "DEVON GRAY",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5192": {
+        "race_title": "CITY OF PLACENTIA Member, City Council, District 3",
+        "candidates": {
+            "10286": {
+                "name": "JEREMY B. YAMAGUCHI",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": true
+            }
+        }
+    },
+    "5194": {
+        "race_title": "CITY OF PLACENTIA Member, City Council, District 5",
+        "candidates": {
+            "10108": {
+                "name": "HILAIRE FUJI SHIOURA",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10288": {
+                "name": "WARD L. SMITH",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            }
+        }
+    },
+    "5195": {
+        "race_title": "CITY OF PLACENTIA City Clerk, Short Term",
+        "candidates": {
+            "9956": {
+                "name": "ROBERT S. \"BOB\" MCKINNELL",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": true
+            }
+        }
+    },
+    "5196": {
+        "race_title": "CITY OF PLACENTIA City Treasurer",
+        "candidates": {
+            "10042": {
+                "name": "KEVIN A. LARSON",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": true
+            }
+        }
+    },
+    "5198": {
+        "race_title": "RANCHO SANTA MARGARITA Member, City Council",
+        "candidates": {
+            "10190": {
+                "name": "JOHN CHRISTOPOULOS",
+                "party": null,
+                "color": "#e47300",
+                "is_incumbent": false
+            },
+            "10216": {
+                "name": "CAROL GAMBLE",
+                "party": null,
+                "color": "#8e67a0",
+                "is_incumbent": true
+            },
+            "10224": {
+                "name": "CHRIS K. MCLAUGHLIN",
+                "party": null,
+                "color": "#5E5F8F",
+                "is_incumbent": false
+            },
+            "10278": {
+                "name": "BETH SCHWARTZ",
+                "party": null,
+                "color": "#0e80a4",
+                "is_incumbent": false
+            },
+            "10284": {
+                "name": "JULIA BENDIS",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "10285": {
+                "name": "ANDREA MACHUCA",
+                "party": null,
+                "color": "#dc2e07",
+                "is_incumbent": false
+            },
+            "10290": {
+                "name": "TONY BEALL",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            },
+            "10303": {
+                "name": "WENDY BRAUN",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": false
+            },
+            "9948": {
+                "name": "GLENN ACOSTA",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5201": {
+        "race_title": "CITY OF SAN CLEMENTE Member, City Council, Full Term",
+        "candidates": {
+            "10043": {
+                "name": "PATRICK MINNEHAN",
+                "party": null,
+                "color": "#dc2e07",
+                "is_incumbent": false
+            },
+            "10062": {
+                "name": "CHRIS DUNCAN",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10102": {
+                "name": "JEFF WELLMAN",
+                "party": null,
+                "color": "#67331f",
+                "is_incumbent": false
+            },
+            "10120": {
+                "name": "CHARLIE SMITH",
+                "party": null,
+                "color": "#5E5F8F",
+                "is_incumbent": false
+            },
+            "10145": {
+                "name": "BILL HART",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "10179": {
+                "name": "GENE JAMES",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": true
+            },
+            "10280": {
+                "name": "JOSEPH KENNEY",
+                "party": null,
+                "color": "#8e67a0",
+                "is_incumbent": false
+            },
+            "10319": {
+                "name": "THOR JOHNSON",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": false
+            },
+            "10386": {
+                "name": "JEFF PROVANCE JR",
+                "party": null,
+                "color": "#e47300",
+                "is_incumbent": false
+            },
+            "9959": {
+                "name": "AARON WASHINGTON",
+                "party": null,
+                "color": "#0e80a4",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5203": {
+        "race_title": "CITY OF SAN CLEMENTE City Clerk",
+        "candidates": {
+            "9949": {
+                "name": "JOANNE BAADE",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": true
+            }
+        }
+    },
+    "5204": {
+        "race_title": "CITY OF SAN CLEMENTE City Treasurer",
+        "candidates": {
+            "10213": {
+                "name": "MARK A. TAYLOR",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": true
+            }
+        }
+    },
+    "5205": {
+        "race_title": "CITY OF SAN CLEMENTE Member, City Council, Short Term",
+        "candidates": {
+            "10045": {
+                "name": "LARON RUSH",
+                "party": null,
+                "color": "#8e67a0",
+                "is_incumbent": false
+            },
+            "10048": {
+                "name": "STEVEN KNOBLOCK",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": false
+            },
+            "10057": {
+                "name": "TYLER BODEN",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10063": {
+                "name": "DONNA VIDRINE",
+                "party": null,
+                "color": "#dc2e07",
+                "is_incumbent": false
+            },
+            "10105": {
+                "name": "ZHEN WU",
+                "party": null,
+                "color": "#5E5F8F",
+                "is_incumbent": false
+            },
+            "10172": {
+                "name": "JERRY QUINLAN",
+                "party": null,
+                "color": "#e47300",
+                "is_incumbent": false
+            },
+            "10227": {
+                "name": "JIM DAHL",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "10291": {
+                "name": "GEORGE T. GREGORY",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5217": {
+        "race_title": "CITY OF SAN JUAN CAPISTRANO Member, City Council, District 5",
+        "candidates": {
+            "10088": {
+                "name": "JOHN ALPAY",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10138": {
+                "name": "HOWARD HART",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5221": {
+        "race_title": "CITY OF SANTA ANA Mayor",
+        "candidates": {
+            "10035": {
+                "name": "CLAUDIA C. ALVAREZ",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10174": {
+                "name": "VICENTE SARMIENTO",
+                "party": null,
+                "color": "#e47300",
+                "is_incumbent": false
+            },
+            "10187": {
+                "name": "GEORGE M COLLINS",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "10223": {
+                "name": "CECILIA \"CECI\" IGLESIAS",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "10234": {
+                "name": "JOSE SOLORIO",
+                "party": null,
+                "color": "#8e67a0",
+                "is_incumbent": false
+            },
+            "10263": {
+                "name": "MARK I. LOPEZ",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5222": {
+        "race_title": "CITY OF SANTA ANA Member, City Council, Ward 1",
+        "candidates": {
+            "10075": {
+                "name": "CYNTHIA CONTRERAS",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "10135": {
+                "name": "ANTONIO \"TONY\" ADAME",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10193": {
+                "name": "THAI VIET PHAN",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": false
+            },
+            "10236": {
+                "name": "THOMAS ANTHONY GORDON",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5224": {
+        "race_title": "CITY OF SANTA ANA Member, City Council, Ward 3",
+        "candidates": {
+            "10128": {
+                "name": "DANNY VEGA",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": false
+            },
+            "10181": {
+                "name": "JESSIE LOPEZ",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "10222": {
+                "name": "MARK MCLOUGHLIN",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "10246": {
+                "name": "JEFFREY KATZ",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10248": {
+                "name": "JANNELLE WELKER",
+                "party": null,
+                "color": "#e47300",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5226": {
+        "race_title": "CITY OF SANTA ANA Member, City Council, Ward 5",
+        "candidates": {
+            "10113": {
+                "name": "VIC MENDEZ",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "10214": {
+                "name": "JOHNATHAN RYAN HERNANDEZ",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10257": {
+                "name": "LAURA PEREZ",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "9980": {
+                "name": "JUAN VILLEGAS",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": true
+            }
+        }
+    },
+    "5232": {
+        "race_title": "CITY OF SEAL BEACH Member, City Council, District 2",
+        "candidates": {
+            "10112": {
+                "name": "THOMAS MOORE",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            },
+            "10126": {
+                "name": "CAROLE S. DAMOCI",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5234": {
+        "race_title": "CITY OF SEAL BEACH Member, City Council, District 4",
+        "candidates": {
+            "10316": {
+                "name": "SCHELLY SUSTARSIC",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": true
+            }
+        }
+    },
+    "5242": {
+        "race_title": "CITY OF STANTON Member, City Council, District 2",
+        "candidates": {
+            "10165": {
+                "name": "HONG ALYCE VAN",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            },
+            "10166": {
+                "name": "DEWAYNE ALLEN NORMAND",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5245": {
+        "race_title": "CITY OF STANTON Member, City Council, District 4",
+        "candidates": {
+            "10012": {
+                "name": "CAROL WARREN",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": true
+            },
+            "10049": {
+                "name": "JEFF JONES",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "10302": {
+                "name": "JOSH ESTRADA",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5251": {
+        "race_title": "CITY OF TUSTIN Member, City Council",
+        "candidates": {
+            "10173": {
+                "name": "KURT BENSWORTH",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10209": {
+                "name": "AJ JHA",
+                "party": null,
+                "color": "#dc2e07",
+                "is_incumbent": false
+            },
+            "10230": {
+                "name": "LEE FINK",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": false
+            },
+            "10243": {
+                "name": "RYAN GALLAGHER",
+                "party": null,
+                "color": "#e47300",
+                "is_incumbent": false
+            },
+            "10293": {
+                "name": "JORGE VALDES",
+                "party": null,
+                "color": "#0e80a4",
+                "is_incumbent": false
+            },
+            "10298": {
+                "name": "CRISTIAN CUSAC",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "10308": {
+                "name": "REBECCA \"BECKIE\" GOMEZ",
+                "party": null,
+                "color": "#8e67a0",
+                "is_incumbent": false
+            },
+            "10332": {
+                "name": "JAIME \"JAMES\" PEREZ",
+                "party": null,
+                "color": "#5E5F8F",
+                "is_incumbent": false
+            },
+            "9819": {
+                "name": "LETITIA CLARK",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            }
+        }
+    },
+    "5273": {
+        "race_title": "CITY OF WESTMINSTER Member, City Council, District 2",
+        "candidates": {
+            "10036": {
+                "name": "CARLOS MANZO",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10037": {
+                "name": "NAMQUAN NGUYEN",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "10111": {
+                "name": "TRUNG TA",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            }
+        }
+    },
+    "5278": {
+        "race_title": "CITY OF WESTMINSTER Member, City Council, District 3",
+        "candidates": {
+            "10254": {
+                "name": "KIMBERLY HO",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "10261": {
+                "name": "TAI DO",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            }
+        }
+    },
+    "6002": {
+        "race_title": "CAPISTRANO BAY COMMUNITY SERVICES DISTRICT Director",
+        "candidates": {
+            "10161": {
+                "name": "WILLIAM WIERSIG",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "10306": {
+                "name": "BRAD L. JENKINS",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "10325": {
+                "name": "YURI CRAMER",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            }
+        }
+    },
+    "6022": {
+        "race_title": "ROSSMOOR COMMUNITY SERVICES DISTRICT Director, Full Term",
+        "candidates": {
+            "10330": {
+                "name": "NATHAN SEARLES",
+                "party": null,
+                "color": "#e47300",
+                "is_incumbent": false
+            },
+            "9864": {
+                "name": "TONY DEMARCO",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": true
+            },
+            "9865": {
+                "name": "MICHAEL MAYNARD",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": true
+            },
+            "9880": {
+                "name": "JOYCE BLOOM",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "9882": {
+                "name": "JEFFREY BARKE",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            }
+        }
+    },
+    "6081": {
+        "race_title": "SILVERADO-MODJESKA RECREATION AND PARK DISTRICT Director",
+        "candidates": {
+            "10071": {
+                "name": "JULIE A. MORRIS",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "10364": {
+                "name": "MICHELE GRACE AGOPIAN",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "9951": {
+                "name": "CELESTE GOFF VEERKAMP",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            }
+        }
+    },
+    "6102": {
+        "race_title": "COSTA MESA SANITARY DISTRICT Director, Division 2",
+        "candidates": {
+            "10203": {
+                "name": "BRETT ECKLES",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "9967": {
+                "name": "JAMES FERRYMAN",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            }
+        }
+    },
+    "6104": {
+        "race_title": "COSTA MESA SANITARY DISTRICT Director, Division 4",
+        "candidates": {
+            "10268": {
+                "name": "MICHELLE FIGUEREDO-WILSON",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "9805": {
+                "name": "ART PERRY",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            }
+        }
+    },
+    "6132": {
+        "race_title": "MIDWAY CITY SANITARY DISTRICT Director",
+        "candidates": {
+            "10028": {
+                "name": "TAI DO",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "10197": {
+                "name": "JAMISON POWER",
+                "party": null,
+                "color": "#e47300",
+                "is_incumbent": false
+            },
+            "10310": {
+                "name": "TYLER DIEP",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "9828": {
+                "name": "ASHTON ROGER KAUWE",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "9930": {
+                "name": "CHI CHARLIE NGUYEN",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": true
+            }
+        }
+    },
+    "6141": {
+        "race_title": "SUNSET BEACH SANITARY DISTRICT Director, Full Term",
+        "candidates": {
+            "10110": {
+                "name": "GRAHAM HOAD",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            },
+            "9872": {
+                "name": "DAVID EVANS",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "9953": {
+                "name": "JOHN H. WOODS",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": true
+            },
+            "9994": {
+                "name": "JON H. REGNIER",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": true
+            }
+        }
+    },
+    "6152": {
+        "race_title": "SURFSIDE COLONY STORM WATER PROTECTION DISTRICT Trustee",
+        "candidates": {
+            "10132": {
+                "name": "VICTOR J. KRISS",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "10196": {
+                "name": "LINDA GAROFALO",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            },
+            "10385": {
+                "name": "DAVE CHAMBERLAIN",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            }
+        }
+    },
+    "6168": {
+        "race_title": "IRVINE RANCH WATER DISTRICT Director, Division 4",
+        "candidates": {
+            "10017": {
+                "name": "KAREN MCLAUGHLIN",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "10352": {
+                "name": "AARTI KAUSHAL",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "9942": {
+                "name": "MARY AILEEN MATHEIS",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            }
+        }
+    },
+    "6180": {
+        "race_title": "SANTA MARGARITA WATER DISTRICT Director",
+        "candidates": {
+            "10072": {
+                "name": "WARREN MARTIN",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "9789": {
+                "name": "CHARLES \"CHUCK\" GIBSON",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": true
+            },
+            "9831": {
+                "name": "BETTY H. OLSON",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": true
+            },
+            "9849": {
+                "name": "FRANK URY",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": true
+            }
+        }
+    },
+    "6192": {
+        "race_title": "EAST ORANGE COUNTY WATER DISTRICT Director",
+        "candidates": {
+            "9782": {
+                "name": "JOHN L SEARS",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": true
+            },
+            "9834": {
+                "name": "DOUGLASS S. DAVERT",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": true
+            },
+            "9870": {
+                "name": "NOBLE ALEJANDRO DRAKOLN",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "9975": {
+                "name": "JULIO F. MORALES",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            }
+        }
+    },
+    "6222": {
+        "race_title": "MESA WATER DISTRICT Director, Division 2",
+        "candidates": {
+            "10182": {
+                "name": "ADAM C. ERETH",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "9816": {
+                "name": "JAMES R. FISLER",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            }
+        }
+    },
+    "6234": {
+        "race_title": "ORANGE COUNTY WATER DISTRICT Director, Division 4",
+        "candidates": {
+            "10001": {
+                "name": "KRIS BEARD",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10027": {
+                "name": "TAI DO",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "10157": {
+                "name": "JASMIN CARMADELLA",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "10350": {
+                "name": "SAMANTHA BAO ANH NGUYEN",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": false
+            },
+            "9917": {
+                "name": "TRI TA",
+                "party": null,
+                "color": "#e47300",
+                "is_incumbent": true
+            }
+        }
+    },
+    "6236": {
+        "race_title": "ORANGE COUNTY WATER DISTRICT Director, Division 6",
+        "candidates": {
+            "10060": {
+                "name": "MICHAEL ELLIOTT",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "9871": {
+                "name": "CATHY GREEN",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            }
+        }
+    },
+    "6252": {
+        "race_title": "SOUTH COAST WATER DISTRICT Director",
+        "candidates": {
+            "10084": {
+                "name": "DOUGLAS ERDMAN",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": true
+            },
+            "10163": {
+                "name": "WAYNE RAYFIELD",
+                "party": null,
+                "color": "#e47300",
+                "is_incumbent": true
+            },
+            "9786": {
+                "name": "MARKUS J. LENGER",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": false
+            },
+            "9985": {
+                "name": "SCOTT GOLDMAN",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "9987": {
+                "name": "RICK ERKENEFF",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            }
+        }
+    },
+    "6291": {
+        "race_title": "MUNICIPAL WATER DISTRICT OF ORANGE COUNTY Director, Division 1, Short Term",
+        "candidates": {
+            "10019": {
+                "name": "SCOTT HUPP",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10134": {
+                "name": "FRED R. SMITH",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "9848": {
+                "name": "AL NEDERHOOD",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "6293": {
+        "race_title": "MUNICIPAL WATER DISTRICT OF ORANGE COUNTY Director, Division 3",
+        "candidates": {
+            "10137": {
+                "name": "LINDA MOULTON-PATTERSON",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "10311": {
+                "name": "TYLER DIEP",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10314": {
+                "name": "KATHY-NGUYET PHAM",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": false
+            },
+            "9801": {
+                "name": "ROBERT R. \"BOB\" MCVICKER",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            }
+        }
+    },
+    "6294": {
+        "race_title": "MUNICIPAL WATER DISTRICT OF ORANGE COUNTY Director, Division 4",
+        "candidates": {
+            "10039": {
+                "name": "DANA M REED",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "10054": {
+                "name": "STACY LYNNE TAYLOR",
+                "party": null,
+                "color": "#e47300",
+                "is_incumbent": false
+            },
+            "10081": {
+                "name": "ALLAN R. MANSOOR",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            },
+            "9839": {
+                "name": "KARL SECKEL",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": false
+            },
+            "9926": {
+                "name": "CHRISTOPHER GANIERE",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            }
+        }
+    },
+    "6297": {
+        "race_title": "MUNICIPAL WATER DISTRICT OF ORANGE COUNTY Director, Division 7",
+        "candidates": {
+            "10085": {
+                "name": "DEBBIE NEEV",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "9802": {
+                "name": "MEGAN YOO SCHNEIDER",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            }
+        }
+    },
+    "6332": {
+        "race_title": "BUENA PARK LIBRARY DISTRICT Trustee",
+        "candidates": {
+            "10143": {
+                "name": "DENNIS LEE SALTS",
+                "party": null,
+                "color": "#1096bf",
+                "is_incumbent": true
+            },
+            "10244": {
+                "name": "PATRICIA GANER",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": true
+            },
+            "10249": {
+                "name": "L CAROLE JENSEN",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": false
+            },
+            "9989": {
+                "name": "IRENE CASTANEDA",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": true
+            }
+        }
+    },
+    "6401": {
+        "race_title": "SANTIAGO GEOLOGIC HAZARD ABATEMENT DISTRICT Director, Full Term",
+        "candidates": {
+            "10269": {
+                "name": "JAMES GUZIAK",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10346": {
+                "name": "CRAIG S. SCHILL",
+                "party": null,
+                "color": "#C7084D",
+                "is_incumbent": true
+            },
+            "10363": {
+                "name": "BHAVIN PATEL",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "8500": {
+        "race_title": "Proposition 14 - AUTHORIZES BONDS CONTINUING STEM CELL RESEARCH",
+        "candidates": {
+            "-10950": {
+                "name": "No",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10950": {
+                "name": "Yes",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "8501": {
+        "race_title": "Proposition 15 - INCREASES FUNDING SOURCES FOR PUBLIC SCHOOLS, COMMUNITY COLLEGES, AND LOCAL GOVERNMENT SERVICES ",
+        "candidates": {
+            "-10952": {
+                "name": "No",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10952": {
+                "name": "Yes",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "8502": {
+        "race_title": "Proposition 16 - ALLOWS DIVERSITY AS A FACTOR IN PUBLIC EMPLOYMENT, EDUCATION, AND CONTRACTING DECISIONS",
+        "candidates": {
+            "-10953": {
+                "name": "No",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10953": {
+                "name": "Yes",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "8503": {
+        "race_title": "Proposition 17 - RESTORES RIGHT TO VOTE AFTER COMPLETION OF PRISON TERM",
+        "candidates": {
+            "-10954": {
+                "name": "No",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10954": {
+                "name": "Yes",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "8504": {
+        "race_title": "Proposition 18 - AMENDS CALIFORNIA CONSTITUTION TO PERMIT 17- YEAR-OLDS TO VOTE IN PRIMARY AND SPECIAL ELECTIONS",
+        "candidates": {
+            "-10955": {
+                "name": "No",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10955": {
+                "name": "Yes",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "8505": {
+        "race_title": "Proposition 19 - CHANGES CERTAIN PROPERTY TAX RULES",
+        "candidates": {
+            "-10956": {
+                "name": "No",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10956": {
+                "name": "Yes",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "8506": {
+        "race_title": "Proposition 20 - RESTRICTS PAROLE FOR CERTAIN OFFENSES CURRENTLY CONSIDERED TO BE NONVIOLENT",
+        "candidates": {
+            "-10957": {
+                "name": "No",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10957": {
+                "name": "Yes",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "8507": {
+        "race_title": "Proposition 21 - EXPANDS LOCAL GOVERNMENTS' AUTHORITY TO ENACT RENT CONTROL ON RESIDENTIAL PROPERTY",
+        "candidates": {
+            "-10958": {
+                "name": "No",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10958": {
+                "name": "Yes",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "8508": {
+        "race_title": "Proposition 22 - EXEMPTS APP-BASED TRANSPORTATION AND DELIVERY COMPANIES FROM PROVIDING EMPLOYEE BENEFITS TO CERTAIN DRIVERS",
+        "candidates": {
+            "-10959": {
+                "name": "No",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10959": {
+                "name": "Yes",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "8509": {
+        "race_title": "Proposition 23 - ESTABLISHES STATE REQUIREMENTS FOR KIDNEY DIALYSIS CLINICS",
+        "candidates": {
+            "-10960": {
+                "name": "No",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10960": {
+                "name": "Yes",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "8510": {
+        "race_title": "Proposition 24 - AMENDS CONSUMER PRIVACY LAWS",
+        "candidates": {
+            "-10961": {
+                "name": "No",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10961": {
+                "name": "Yes",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "8511": {
+        "race_title": "Proposition 25 - REFERENDUM ON LAW THAT REPLACED MONEY BAIL WITH SYSTEM BASED ON PUBLIC SAFETY AND FLIGHT RISK",
+        "candidates": {
+            "-10962": {
+                "name": "No",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10962": {
+                "name": "Yes",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "8600": {
+        "race_title": "P-City of Cypress, Amend City Charter to Update Noticing, Election Procedures, and Process for Filling a Council Vacancy",
+        "candidates": {
+            "-10951": {
+                "name": "No",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10951": {
+                "name": "Yes",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "8601": {
+        "race_title": "Q-City of Costa Mesa, Retail Cannabis Tax and Regulation Measure",
+        "candidates": {
+            "-10963": {
+                "name": "No",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10963": {
+                "name": "Yes",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "8602": {
+        "race_title": "S-City of Fullerton, Community Services, Street Repair, and Emergency Response Measure",
+        "candidates": {
+            "-10964": {
+                "name": "No",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10964": {
+                "name": "Yes",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "8603": {
+        "race_title": "U-City of Fullerton, Fireworks Ballot Measure",
+        "candidates": {
+            "-10965": {
+                "name": "No",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10965": {
+                "name": "Yes",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "8604": {
+        "race_title": "V-City of Laguna Woods, Advisory Measure on Marijuana Dispensaries",
+        "candidates": {
+            "-10966": {
+                "name": "No",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10966": {
+                "name": "Yes",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "8605": {
+        "race_title": "W-City of La Habra, Cannabis Business Tax/Regulation Ordinance of 2020",
+        "candidates": {
+            "-10967": {
+                "name": "No",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10967": {
+                "name": "Yes",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "8606": {
+        "race_title": "X-City of La Habra,  Citizens\u2019 Initiative for Preservation of Open Space in La Habra",
+        "candidates": {
+            "-10968": {
+                "name": "No",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10968": {
+                "name": "Yes",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "8607": {
+        "race_title": "Y-City of Los Alamitos, Quality of Life, 911 Police Response, Business/Job Protection Measure",
+        "candidates": {
+            "-10969": {
+                "name": "No",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10969": {
+                "name": "Yes",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "8608": {
+        "race_title": "Z-City of Newport Beach,  Addition of Harbor Commission to the Newport Beach City Charter",
+        "candidates": {
+            "-10970": {
+                "name": "No",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10970": {
+                "name": "Yes",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "8609": {
+        "race_title": "AA-City of Orange, The Trails at Santiago Creek Open Space and Residential Project",
+        "candidates": {
+            "-10971": {
+                "name": "No",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10971": {
+                "name": "Yes",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "8610": {
+        "race_title": "BB-City of San Clemente, City Council Term Limits",
+        "candidates": {
+            "-10972": {
+                "name": "No",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10972": {
+                "name": "Yes",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "8611": {
+        "race_title": "CC-City of Tustin, Limited Council Compensation",
+        "candidates": {
+            "-10973": {
+                "name": "No",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10973": {
+                "name": "Yes",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    },
+    "8612": {
+        "race_title": "DD-City of Westminster, Term Limits",
+        "candidates": {
+            "-10974": {
+                "name": "No",
+                "party": null,
+                "color": "#32AB34",
+                "is_incumbent": false
+            },
+            "10974": {
+                "name": "Yes",
+                "party": null,
+                "color": "#F8BD0E",
+                "is_incumbent": false
+            }
+        }
+    }
+}
