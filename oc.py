@@ -51,36 +51,48 @@ def group_results(results):
 
 
 def get_previous_total_ballots(race_id):
-    previous_data = s3.read_from(f"bar-graphs/{self.race_id}/latest.json")
+    previous_data = s3.read_from(f"bar-graphs/{race_id}/latest.json")
 
-    try:
-        previous_total_ballots = previous_data['totalBallots']
-    except IndexError:
-        return 0
-    except:
-        return int(previous_total_ballots)
+    if previous_data:
+        previous_total_ballots = previous_data['total_ballots']
+    else:
+        previous_total_ballots = 0
+
+    return previous_total_ballots
+
+
+def get_race_meta_data(race_id):
+    with open("races.json") as f:
+        race_meta_data = json.loads(f.read())
+
+    return race_meta_data[race_id]
 
 
 def compile_bar_graph_data(race_id, race_data, reporting_time):
 
-    previous_total_ballots = get_previous_total_ballots(race_id)
-
-    total_ballots = 0
+    race_meta_data = get_race_meta_data(race_id)
+    candidates_meta_data = race_meta_data['candidates']
 
     candidates = []
 
-    for c_id, c_data in race_data:
-        candidates.append()
+    for c_id, c_data in race_data.items():
+        candidate_meta_data = candidates_meta_data[c_id]
+        candidate_meta_data["votes"] = int(c_data["TotalVotes"])
+        candidate_meta_data["percent"] = c_data["ContestantVotePercent"]
+        candidates.append(candidate_meta_data) 
+
+    previous_total_ballots = get_previous_total_ballots(race_id)
+    total_ballots = sum([c["votes"] for c in candidates])
 
     compiled_data = {
-        "race_title": "",
+        "race_title": race_meta_data["race_title"],
         "reporting_time": reporting_time,
         "total_ballots": total_ballots,
         "ballots_added": total_ballots - previous_total_ballots,
         "candidates": candidates
     }
 
-    return compiled_data_json
+    return compiled_data
 
 
 def handle_race(race_id, race_data, reporting_time):
@@ -88,9 +100,11 @@ def handle_race(race_id, race_data, reporting_time):
     race_updated = s3.archive(race_json, path=f'oc/parsed/{race_id}')
 
     if race_updated:
-        bar_graph_data = compile_bar_graph_data(race_id, race_data, reporting_time)
-        bar_graph_data_json = json.dumps(compile_bar_graph_data)
-        s3.archive(bar_graph_data_json, path=f"bar-graphs/{race_id}/latest.json")
+        bar_graph_data = compile_bar_graph_data(
+            race_id, race_data, reporting_time
+        )
+        bar_graph_data_json = json.dumps(bar_graph_data)
+        s3.archive(bar_graph_data_json, path=f"bar-graphs/{race_id}")
 
 
 def main():
