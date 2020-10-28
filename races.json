@@ -17,7 +17,7 @@
                 "img_url": "https://vooc-election-results.s3-us-west-2.amazonaws.com/img/TRUMP.png"
             },
             "10393": {
-                "name": "Roque \"rocky\" De La Fuente Guerra/Kanye Omari West",
+                "name": "Roque \"Rocky\" De La Fuente Guerra/Kanye Omari West",
                 "party": "AI",
                 "color": "#89857A",
                 "is_incumbent": false,
@@ -31,7 +31,7 @@
                 "img_url": null
             },
             "10395": {
-                "name": "Jo Jorgensen/Jeremy \"spike\" Cohen",
+                "name": "Jo Jorgensen/Jeremy \"Spike\" Cohen",
                 "party": "LIB",
                 "color": "#f0d612",
                 "is_incumbent": false,
@@ -259,7 +259,7 @@
         "race_title": "MEMBER OF THE STATE ASSEMBLY 68th District",
         "candidates": {
             "9766": {
-                "name": "Steven \"steve\" Choi",
+                "name": "Steven \"Steve\" Choi",
                 "party": "REP",
                 "color": "#A80000",
                 "is_incumbent": true,
@@ -586,7 +586,7 @@
                 "img_url": null
             },
             "9810": {
-                "name": "Timothy \"tim\" Jemal",
+                "name": "Timothy \"Tim\" Jemal",
                 "party": null,
                 "color": "#C7084D",
                 "is_incumbent": true,
@@ -1562,7 +1562,7 @@
                 "img_url": null
             },
             "10287": {
-                "name": "Sabrina \"sav\" Quezada",
+                "name": "Sabrina \"Sav\" Quezada",
                 "party": null,
                 "color": "#C7084D",
                 "is_incumbent": false,
@@ -1685,7 +1685,7 @@
                 "img_url": null
             },
             "10299": {
-                "name": "Quentin \"q\" Pullen",
+                "name": "Quentin \"Q\" Pullen",
                 "party": null,
                 "color": "#e47300",
                 "is_incumbent": false,
@@ -1699,7 +1699,7 @@
                 "img_url": null
             },
             "10342": {
-                "name": "Sandra L. \"sandy\" Genis",
+                "name": "Sandra L. \"Sandy\" Genis",
                 "party": null,
                 "color": "#F8BD0E",
                 "is_incumbent": false,
@@ -2138,7 +2138,7 @@
                 "img_url": null
             },
             "10168": {
-                "name": "Eric \"silk\" Silkenson",
+                "name": "Eric \"Silk\" Silkenson",
                 "party": null,
                 "color": "#F6881F",
                 "is_incumbent": false,
@@ -2830,7 +2830,7 @@
                 "img_url": null
             },
             "10220": {
-                "name": "Patricia \"trish\" Kelley",
+                "name": "Patricia \"Trish\" Kelley",
                 "party": null,
                 "color": "#1096bf",
                 "is_incumbent": true,
@@ -3124,7 +3124,7 @@
         "race_title": "CITY OF PLACENTIA City Clerk, Short Term",
         "candidates": {
             "9956": {
-                "name": "Robert S. \"bob\" Mckinnell",
+                "name": "Robert S. \"Bob\" Mckinnell",
                 "party": null,
                 "color": "#32AB34",
                 "is_incumbent": true,
@@ -3416,7 +3416,7 @@
                 "img_url": null
             },
             "10223": {
-                "name": "Cecilia \"ceci\" Iglesias",
+                "name": "Cecilia \"Ceci\" Iglesias",
                 "party": null,
                 "color": "#C7084D",
                 "is_incumbent": false,
@@ -3449,7 +3449,7 @@
                 "img_url": null
             },
             "10135": {
-                "name": "Antonio \"tony\" Adame",
+                "name": "Antonio \"Tony\" Adame",
                 "party": null,
                 "color": "#32AB34",
                 "is_incumbent": false,
@@ -3666,14 +3666,14 @@
                 "img_url": null
             },
             "10308": {
-                "name": "Rebecca \"beckie\" Gomez",
+                "name": "Rebecca \"Beckie\" Gomez",
                 "party": null,
                 "color": "#8e67a0",
                 "is_incumbent": false,
                 "img_url": null
             },
             "10332": {
-                "name": "Jaime \"james\" Perez",
+                "name": "Jaime \"James\" Perez",
                 "party": null,
                 "color": "#5E5F8F",
                 "is_incumbent": false,
@@ -3999,7 +3999,7 @@
                 "img_url": null
             },
             "9789": {
-                "name": "Charles \"chuck\" Gibson",
+                "name": "Charles \"Chuck\" Gibson",
                 "party": null,
                 "color": "#32AB34",
                 "is_incumbent": true,
@@ -4223,7 +4223,7 @@
                 "img_url": null
             },
             "9801": {
-                "name": "Robert R. \"bob\" Mcvicker",
+                "name": "Robert R. \"Bob\" Mcvicker",
                 "party": null,
                 "color": "#F8BD0E",
                 "is_incumbent": true,

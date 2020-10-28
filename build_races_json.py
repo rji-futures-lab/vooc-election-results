@@ -2,6 +2,7 @@ from csv import DictReader
 from itertools import groupby
 import json
 import re
+from string import capwords
 
 from oc import get_results, parse_results
 
@@ -48,6 +49,8 @@ def get_img_url(candidate_id):
 
 
 def to_title_case(string):
+    if '"' in string:
+        split = string.split(' "')
     return " ".join(
         [word[0].upper() + word[1:].lower() for word in string.split()]
     )
@@ -58,12 +61,14 @@ def format_candidate_name(contestant_name):
         .lstrip("*") \
         .strip()
 
-    formatted_name = ""
+    formatted_name = "/".join(
+        [capwords(name) for name in striped.split("/")]
+    )
 
-    for name in striped.split('/'):
-        title_case = to_title_case(name)
-        formatted_name += title_case
-        formatted_name += "/"
+    if '"' in formatted_name:
+        formatted_name = ' "'.join([
+            string[0].upper() + string[1:] for string in formatted_name.split(' "')
+        ])
 
     return formatted_name.rstrip("/")
 
