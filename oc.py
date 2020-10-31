@@ -1,10 +1,16 @@
 from itertools import groupby
 import json
+import os
+from random import randint
 import xml.etree.ElementTree as et
 
 import requests
 
+from graphics import compile_bar_chart_data, compile_line_chart_data
 import s3
+
+
+SIMULATE_RESULTS = os.getenv('SIMULATE_RESULTS', default=False)
 
 
 def get_results():
@@ -43,6 +49,8 @@ def group_results(results):
 
         for c in contestants:
             c_id = c.pop('ContestantID')
+            if SIMULATE_RESULTS:
+                c['TotalVotes'] = str(randint(0, 10000))
             contestants_by_id[c_id] = c
         
         races_by_id[r_id] = contestants_by_id 
@@ -50,61 +58,20 @@ def group_results(results):
     return races_by_id
 
 
-def get_previous_total_ballots(race_id):
-    previous_data = s3.read_from(f"bar-graphs/{race_id}/latest.json")
-
-    if previous_data:
-        previous_total_ballots = previous_data['total_ballots']
-    else:
-        previous_total_ballots = 0
-
-    return previous_total_ballots
-
-
-def get_race_meta_data(race_id):
-    with open("races.json") as f:
-        race_meta_data = json.loads(f.read())
-
-    return race_meta_data[race_id]
-
-
-def compile_bar_graph_data(race_id, race_data, reporting_time):
-
-    race_meta_data = get_race_meta_data(race_id)
-    candidates_meta_data = race_meta_data['candidates']
-
-    candidates = []
-
-    for c_id, c_data in race_data.items():
-        candidate_meta_data = candidates_meta_data[c_id]
-        candidate_meta_data["votes"] = int(c_data["TotalVotes"])
-        candidate_meta_data["percent"] = c_data["ContestantVotePercent"]
-        candidates.append(candidate_meta_data) 
-
-    previous_total_ballots = get_previous_total_ballots(race_id)
-    total_ballots = sum([c["votes"] for c in candidates])
-
-    compiled_data = {
-        "race_title": race_meta_data["race_title"],
-        "reporting_time": reporting_time,
-        "total_ballots": total_ballots,
-        "ballots_added": total_ballots - previous_total_ballots,
-        "candidates": candidates
-    }
-
-    return compiled_data
-
-
 def handle_race(race_id, race_data, reporting_time):
     race_json = json.dumps(race_data)
     race_updated = s3.archive(race_json, path=f'oc/parsed/{race_id}')
 
     if race_updated:
-        bar_graph_data = compile_bar_graph_data(
+        bar_chart_dict = compile_bar_chart_data(
             race_id, race_data, reporting_time
         )
-        bar_graph_data_json = json.dumps(bar_graph_data)
-        s3.archive(bar_graph_data_json, path=f"bar-graphs/{race_id}")
+        bar_chart_json = json.dumps(bar_chart_dict)
+        s3.archive(bar_chart_json, path=f"bar-charts/{race_id}")
+
+        line_chart_dict = compile_line_chart_data(race_id)
+        line_chart_json = json.dumps(line_chart_dict)
+        s3.archive(line_chart_json, path=f"line-charts/{race_id}")
 
 
 def main():
@@ -114,7 +81,7 @@ def main():
         results, content_type=content_type, path='oc/orig'
     )
 
-    if results_updated:
+    if results_updated or SIMULATE_RESULTS:
         reporting_time, parsed_results = parse_results(results)
         grouped_results = group_results(parsed_results)
 

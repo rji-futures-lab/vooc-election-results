@@ -8,3 +8,5 @@ function.json
 __pycache__/
 infogram-login.txt
 .DS_Store
+wp-login.txt
+contacts.md

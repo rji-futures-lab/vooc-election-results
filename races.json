@@ -44,13 +44,19 @@
                 "is_incumbent": false,
                 "img_url": null
             }
-        }
+        },
+        "sos_paths": [
+            "president/county/los-angeles",
+            "president/county/orange",
+            "president/county/san-bernardino",
+            "president/county/san-diego"
+        ]
     },
     "1120": {
         "race_title": "UNITED STATES REPRESENTATIVE 38th District",
         "candidates": {
             "9744": {
-                "name": "Linda T. Sanchez",
+                "name": "Linda T. S\u00e1nchez",
                 "party": "DEM",
                 "color": "#1D37A0",
                 "is_incumbent": true,
@@ -63,7 +69,12 @@
                 "is_incumbent": false,
                 "img_url": null
             }
-        }
+        },
+        "sos_paths": [
+            "us-rep/district/38",
+            "us-rep/district/38/county/los-angeles",
+            "us-rep/district/38/county/orange"
+        ]
     },
     "1130": {
         "race_title": "UNITED STATES REPRESENTATIVE 39th District",
@@ -82,7 +93,13 @@
                 "is_incumbent": true,
                 "img_url": "https://vooc-election-results.s3-us-west-2.amazonaws.com/img/GilCisneros.png"
             }
-        }
+        },
+        "sos_paths": [
+            "us-rep/district/39",
+            "us-rep/district/39/county/los-angeles",
+            "us-rep/district/39/county/orange",
+            "us-rep/district/39/county/san-bernardino"
+        ]
     },
     "1140": {
         "race_title": "UNITED STATES REPRESENTATIVE 45th District",
@@ -101,7 +118,10 @@
                 "is_incumbent": true,
                 "img_url": "https://vooc-election-results.s3-us-west-2.amazonaws.com/img/KatiePorter.png"
             }
-        }
+        },
+        "sos_paths": [
+            "us-rep/district/45"
+        ]
     },
     "1150": {
         "race_title": "UNITED STATES REPRESENTATIVE 46th District",
@@ -120,7 +140,10 @@
                 "is_incumbent": false,
                 "img_url": "https://vooc-election-results.s3-us-west-2.amazonaws.com/img/LouCorrea.png"
             }
-        }
+        },
+        "sos_paths": [
+            "us-rep/district/46"
+        ]
     },
     "1160": {
         "race_title": "UNITED STATES REPRESENTATIVE 47th District",
@@ -139,7 +162,12 @@
                 "is_incumbent": false,
                 "img_url": "https://vooc-election-results.s3-us-west-2.amazonaws.com/img/JohnBriscoe.png"
             }
-        }
+        },
+        "sos_paths": [
+            "us-rep/district/47",
+            "us-rep/district/47/county/los-angeles",
+            "us-rep/district/47/county/orange"
+        ]
     },
     "1170": {
         "race_title": "UNITED STATES REPRESENTATIVE 48th District",
@@ -158,7 +186,10 @@
                 "is_incumbent": false,
                 "img_url": "https://vooc-election-results.s3-us-west-2.amazonaws.com/img/MichelleSteel.png"
             }
-        }
+        },
+        "sos_paths": [
+            "us-rep/district/48"
+        ]
     },
     "1180": {
         "race_title": "UNITED STATES REPRESENTATIVE 49th District",
@@ -177,7 +208,12 @@
                 "is_incumbent": true,
                 "img_url": "https://vooc-election-results.s3-us-west-2.amazonaws.com/img/Mikelevin.png"
             }
-        }
+        },
+        "sos_paths": [
+            "us-rep/district/49",
+            "us-rep/district/49/county/orange",
+            "us-rep/district/49/county/san-diego"
+        ]
     },
     "1200": {
         "race_title": "STATE SENATOR 29th District",
@@ -196,7 +232,13 @@
                 "is_incumbent": true,
                 "img_url": "https://vooc-election-results.s3-us-west-2.amazonaws.com/img/LingLingChang.png"
             }
-        }
+        },
+        "sos_paths": [
+            "state-senate/district/29",
+            "state-senate/district/29/county/los-angeles",
+            "state-senate/district/29/county/orange",
+            "state-senate/district/29/county/san-bernardino"
+        ]
     },
     "1240": {
         "race_title": "STATE SENATOR 37th District",
@@ -215,7 +257,13 @@
                 "is_incumbent": false,
                 "img_url": "https://vooc-election-results.s3-us-west-2.amazonaws.com/img/DaveMin.png"
             }
-        }
+        },
+        "sos_paths": [
+            "state-assembly/district/37",
+            "state-assembly/district/37/county/san-luis-obispo",
+            "state-assembly/district/37/county/santa-barbara",
+            "state-assembly/district/37/county/ventura"
+        ]
     },
     "1300": {
         "race_title": "MEMBER OF THE STATE ASSEMBLY 55th District",
@@ -234,7 +282,13 @@
                 "is_incumbent": false,
                 "img_url": "https://vooc-election-results.s3-us-west-2.amazonaws.com/img/AndrewRodriguez.png"
             }
-        }
+        },
+        "sos_paths": [
+            "state-assembly/district/55",
+            "state-assembly/district/55/county/los-angeles",
+            "state-assembly/district/55/county/orange",
+            "state-assembly/district/55/county/san-bernardino"
+        ]
     },
     "1310": {
         "race_title": "MEMBER OF THE STATE ASSEMBLY 65th District",
@@ -253,7 +307,10 @@
                 "is_incumbent": false,
                 "img_url": "https://vooc-election-results.s3-us-west-2.amazonaws.com/img/CynthiaThacker.png"
             }
-        }
+        },
+        "sos_paths": [
+            "state-assembly/district/65"
+        ]
     },
     "1320": {
         "race_title": "MEMBER OF THE STATE ASSEMBLY 68th District",
@@ -272,7 +329,10 @@
                 "is_incumbent": false,
                 "img_url": "https://vooc-election-results.s3-us-west-2.amazonaws.com/img/MelissaFox.png"
             }
-        }
+        },
+        "sos_paths": [
+            "state-assembly/district/68"
+        ]
     },
     "1330": {
         "race_title": "MEMBER OF THE STATE ASSEMBLY 69th District",
@@ -291,7 +351,10 @@
                 "is_incumbent": true,
                 "img_url": "https://vooc-election-results.s3-us-west-2.amazonaws.com/img/TomDaly.png"
             }
-        }
+        },
+        "sos_paths": [
+            "state-assembly/district/69"
+        ]
     },
     "1340": {
         "race_title": "MEMBER OF THE STATE ASSEMBLY 72nd District",
@@ -310,7 +373,10 @@
                 "is_incumbent": false,
                 "img_url": "https://vooc-election-results.s3-us-west-2.amazonaws.com/img/DiedreNguyen.png"
             }
-        }
+        },
+        "sos_paths": [
+            "state-assembly/district/72"
+        ]
     },
     "1350": {
         "race_title": "MEMBER OF THE STATE ASSEMBLY 73rd District",
@@ -329,7 +395,10 @@
                 "is_incumbent": false,
                 "img_url": "https://vooc-election-results.s3-us-west-2.amazonaws.com/img/Laurie+Davies.png"
             }
-        }
+        },
+        "sos_paths": [
+            "state-assembly/district/73"
+        ]
     },
     "1360": {
         "race_title": "MEMBER OF THE STATE ASSEMBLY 74th District",
@@ -348,7 +417,10 @@
                 "is_incumbent": true,
                 "img_url": "https://vooc-election-results.s3-us-west-2.amazonaws.com/img/CottiePetrie-Norris.png"
             }
-        }
+        },
+        "sos_paths": [
+            "state-assembly/district/74"
+        ]
     },
     "3037": {
         "race_title": "NORTH OC COMMUNITY COLLEGE DISTRICT Governing Board Member, Trustee Area 4",
@@ -4350,7 +4422,7 @@
         }
     },
     "8500": {
-        "race_title": "STATE PROPOSITION 14 - Authorizes Bonds Continuing Stem Cell Research",
+        "race_title": "STATE PROPOSITION 14",
         "candidates": {
             "-10950": {
                 "name": "No",
@@ -4366,10 +4438,14 @@
                 "is_incumbent": false,
                 "img_url": null
             }
-        }
+        },
+        "description": "Authorizes Bonds Continuing Stem Cell Research",
+        "sos_paths": [
+            "parsed/ballot-measures/county/orange/14"
+        ]
     },
     "8501": {
-        "race_title": "STATE PROPOSITION 15 - Increases Funding Sources For Public Schools, Community Colleges, And Local Government Services",
+        "race_title": "STATE PROPOSITION 15",
         "candidates": {
             "-10952": {
                 "name": "No",
@@ -4385,10 +4461,14 @@
                 "is_incumbent": false,
                 "img_url": null
             }
-        }
+        },
+        "description": "Increases Funding Sources For Public Schools, Community Colleges, And Local Government Services",
+        "sos_paths": [
+            "parsed/ballot-measures/county/orange/15"
+        ]
     },
     "8502": {
-        "race_title": "STATE PROPOSITION 16 - Allows Diversity As A Factor In Public Employment, Education, And Contracting Decisions",
+        "race_title": "STATE PROPOSITION 16",
         "candidates": {
             "-10953": {
                 "name": "No",
@@ -4404,10 +4484,14 @@
                 "is_incumbent": false,
                 "img_url": null
             }
-        }
+        },
+        "description": "Allows Diversity As A Factor In Public Employment, Education, And Contracting Decisions",
+        "sos_paths": [
+            "parsed/ballot-measures/county/orange/16"
+        ]
     },
     "8503": {
-        "race_title": "STATE PROPOSITION 17 - Restores Right To Vote After Completion Of Prison Term",
+        "race_title": "STATE PROPOSITION 17",
         "candidates": {
             "-10954": {
                 "name": "No",
@@ -4423,10 +4507,14 @@
                 "is_incumbent": false,
                 "img_url": null
             }
-        }
+        },
+        "description": "Restores Right To Vote After Completion Of Prison Term",
+        "sos_paths": [
+            "parsed/ballot-measures/county/orange/17"
+        ]
     },
     "8504": {
-        "race_title": "STATE PROPOSITION 18 - Amends California Constitution To Permit 17- Year-olds To Vote In Primary And Special Elections",
+        "race_title": "STATE PROPOSITION 18",
         "candidates": {
             "-10955": {
                 "name": "No",
@@ -4442,10 +4530,14 @@
                 "is_incumbent": false,
                 "img_url": null
             }
-        }
+        },
+        "description": "Amends California Constitution To Permit 17- Year-olds To Vote In Primary And Special Elections",
+        "sos_paths": [
+            "parsed/ballot-measures/county/orange/18"
+        ]
     },
     "8505": {
-        "race_title": "STATE PROPOSITION 19 - Changes Certain Property Tax Rules",
+        "race_title": "STATE PROPOSITION 19",
         "candidates": {
             "-10956": {
                 "name": "No",
@@ -4461,10 +4553,14 @@
                 "is_incumbent": false,
                 "img_url": null
             }
-        }
+        },
+        "description": "Changes Certain Property Tax Rules",
+        "sos_paths": [
+            "parsed/ballot-measures/county/orange/19"
+        ]
     },
     "8506": {
-        "race_title": "STATE PROPOSITION 20 - Restricts Parole For Certain Offenses Currently Considered To Be Nonviolent",
+        "race_title": "STATE PROPOSITION 20",
         "candidates": {
             "-10957": {
                 "name": "No",
@@ -4480,10 +4576,14 @@
                 "is_incumbent": false,
                 "img_url": null
             }
-        }
+        },
+        "description": "Restricts Parole For Certain Offenses Currently Considered To Be Nonviolent",
+        "sos_paths": [
+            "parsed/ballot-measures/county/orange/20"
+        ]
     },
     "8507": {
-        "race_title": "STATE PROPOSITION 21 - Expands Local Governments' Authority To Enact Rent Control On Residential Property",
+        "race_title": "STATE PROPOSITION 21",
         "candidates": {
             "-10958": {
                 "name": "No",
@@ -4499,10 +4599,14 @@
                 "is_incumbent": false,
                 "img_url": null
             }
-        }
+        },
+        "description": "Expands Local Governments' Authority To Enact Rent Control On Residential Property",
+        "sos_paths": [
+            "parsed/ballot-measures/county/orange/21"
+        ]
     },
     "8508": {
-        "race_title": "STATE PROPOSITION 22 - Exempts App-based Transportation And Delivery Companies From Providing Employee Benefits To Certain Drivers",
+        "race_title": "STATE PROPOSITION 22",
         "candidates": {
             "-10959": {
                 "name": "No",
@@ -4518,10 +4622,14 @@
                 "is_incumbent": false,
                 "img_url": null
             }
-        }
+        },
+        "description": "Exempts App-based Transportation And Delivery Companies From Providing Employee Benefits To Certain Drivers",
+        "sos_paths": [
+            "parsed/ballot-measures/county/orange/22"
+        ]
     },
     "8509": {
-        "race_title": "STATE PROPOSITION 23 - Establishes State Requirements For Kidney Dialysis Clinics",
+        "race_title": "STATE PROPOSITION 23",
         "candidates": {
             "-10960": {
                 "name": "No",
@@ -4537,10 +4645,14 @@
                 "is_incumbent": false,
                 "img_url": null
             }
-        }
+        },
+        "description": "Establishes State Requirements For Kidney Dialysis Clinics",
+        "sos_paths": [
+            "parsed/ballot-measures/county/orange/23"
+        ]
     },
     "8510": {
-        "race_title": "STATE PROPOSITION 24 - Amends Consumer Privacy Laws",
+        "race_title": "STATE PROPOSITION 24",
         "candidates": {
             "-10961": {
                 "name": "No",
@@ -4556,10 +4668,14 @@
                 "is_incumbent": false,
                 "img_url": null
             }
-        }
+        },
+        "description": "Amends Consumer Privacy Laws",
+        "sos_paths": [
+            "parsed/ballot-measures/county/orange/24"
+        ]
     },
     "8511": {
-        "race_title": "STATE PROPOSITION 25 - Referendum On Law That Replaced Money Bail With System Based On Public Safety And Flight Risk",
+        "race_title": "STATE PROPOSITION 25",
         "candidates": {
             "-10962": {
                 "name": "No",
@@ -4575,7 +4691,11 @@
                 "is_incumbent": false,
                 "img_url": null
             }
-        }
+        },
+        "description": "Referendum On Law That Replaced Money Bail With System Based On Public Safety And Flight Risk",
+        "sos_paths": [
+            "parsed/ballot-measures/county/orange/25"
+        ]
     },
     "8600": {
         "race_title": "City Ballot Measure P",
@@ -4594,7 +4714,8 @@
                 "is_incumbent": false,
                 "img_url": null
             }
-        }
+        },
+        "description": "City of Cypress, Amend City Charter to Update Noticing, Election Procedures, and Process for Filling a Council Vacancy"
     },
     "8601": {
         "race_title": "City Ballot Measure Q",
@@ -4613,7 +4734,8 @@
                 "is_incumbent": false,
                 "img_url": null
             }
-        }
+        },
+        "description": "City of Costa Mesa, Retail Cannabis Tax and Regulation Measure"
     },
     "8602": {
         "race_title": "City Ballot Measure S",
@@ -4632,7 +4754,8 @@
                 "is_incumbent": false,
                 "img_url": null
             }
-        }
+        },
+        "description": "City of Fullerton, Community Services, Street Repair, and Emergency Response Measure"
     },
     "8603": {
         "race_title": "City Ballot Measure U",
@@ -4651,7 +4774,8 @@
                 "is_incumbent": false,
                 "img_url": null
             }
-        }
+        },
+        "description": "City of Fullerton, Fireworks Ballot Measure"
     },
     "8604": {
         "race_title": "City Ballot Measure V",
@@ -4670,7 +4794,8 @@
                 "is_incumbent": false,
                 "img_url": null
             }
-        }
+        },
+        "description": "City of Laguna Woods, Advisory Measure on Marijuana Dispensaries"
     },
     "8605": {
         "race_title": "City Ballot Measure W",
@@ -4689,7 +4814,8 @@
                 "is_incumbent": false,
                 "img_url": null
             }
-        }
+        },
+        "description": "City of La Habra, Cannabis Business Tax/Regulation Ordinance of 2020"
     },
     "8606": {
         "race_title": "City Ballot Measure X",
@@ -4708,7 +4834,8 @@
                 "is_incumbent": false,
                 "img_url": null
             }
-        }
+        },
+        "description": "City of La Habra,  Citizens\u2019 Initiative for Preservation of Open Space in La Habra"
     },
     "8607": {
         "race_title": "City Ballot Measure Y",
@@ -4727,7 +4854,8 @@
                 "is_incumbent": false,
                 "img_url": null
             }
-        }
+        },
+        "description": "City of Los Alamitos, Quality of Life, 911 Police Response, Business/Job Protection Measure"
     },
     "8608": {
         "race_title": "City Ballot Measure Z",
@@ -4746,7 +4874,8 @@
                 "is_incumbent": false,
                 "img_url": null
             }
-        }
+        },
+        "description": "City of Newport Beach,  Addition of Harbor Commission to the Newport Beach City Charter"
     },
     "8609": {
         "race_title": "City Ballot Measure AA",
@@ -4765,7 +4894,8 @@
                 "is_incumbent": false,
                 "img_url": null
             }
-        }
+        },
+        "description": "City of Orange, The Trails at Santiago Creek Open Space and Residential Project"
     },
     "8610": {
         "race_title": "City Ballot Measure BB",
@@ -4784,7 +4914,8 @@
                 "is_incumbent": false,
                 "img_url": null
             }
-        }
+        },
+        "description": "City of San Clemente, City Council Term Limits"
     },
     "8611": {
         "race_title": "City Ballot Measure CC",
@@ -4803,7 +4934,8 @@
                 "is_incumbent": false,
                 "img_url": null
             }
-        }
+        },
+        "description": "City of Tustin, Limited Council Compensation"
     },
     "8612": {
         "race_title": "City Ballot Measure DD",
@@ -4822,6 +4954,7 @@
                 "is_incumbent": false,
                 "img_url": null
             }
-        }
+        },
+        "description": "City of Westminster, Term Limits"
     }
 }

@@ -4,21 +4,27 @@ Pipeline infrastructure for live 2020 general election results for the [Voice of
 
 ## Proposed pipeline plan
 
-1. Get results from each data source
+1. **Fetch** the results
 
-    a. If data has differences, cache the results in an S3 bucket
+    a. From each County Registrar of Voters
+    b. From each relevant endpoint of the Secretary of States API
 
-2. For any race included in the results:
+2. **Compare** the new results to the previous results.
 
-    a. Subset and transform data for infogram graphic
+    a. If different, **store** a "latest" copy and a datetime-stamped copy.
 
-    - Note: For races that span Local Election Authorities, we also need to integrate the latest version of those results from our cache
+3. **Parse** out results for individual contests
 
-    b. [GET](https://developers.infogr.am/rest/get-infographics-id.html) the infogram graphic
+    a. *Every* contest in OC
+    b. Just the contests with supplementary results for OC contests
+    c. The SoS results are already parsed out.
 
-    c. Modify the infogram graphic [content](https://developers.infogr.am/rest/content-schema.html)
+4. **Compare** and **store** parsed results
 
-    d. [PUT](https://developers.infogr.am/rest/put-infographics-id.html) the infogram graphic content
+5. **Compile** final json for each contest with new parsed results
+
+    a. For the vast majority of the OC contests, we will simply update the datetime stamp and the vote counts
+    b. For contests, we will combine vote counts as well.
 
 
 ## Bootstrapping

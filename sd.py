@@ -3,14 +3,13 @@ import requests
 import json
 import random
 
-from function import *
+import s3
 
 def parse_single(xml, race_id, output_path):
     try:
-        old_results = json.loads(get_cached_results(f'{output_path}/latest.json'))
+        old_results = json.loads(s3.read_from(f'{output_path}/latest.json'))
     except Exception as e:
         old_results = None
-        print(e)
 
     root = et.fromstring(xml)
     xpath = './Table[RaceID="' + str(race_id) + '"]'
@@ -36,12 +35,12 @@ def parse_single(xml, race_id, output_path):
 
     data = json.dumps(data)
 
-    write_to_s3(f'{output_path}/latest.json', data, 'application/json')
-    write_to_s3(f'{output_path}/{json.loads(data)["ReportingTime"]}.json', data, 'application/json')
+    s3.write_to(f'{output_path}/latest.json', data, 'application/json')
+    s3.write_to(f'{output_path}/{json.loads(data)["ReportingTime"]}.json', data, 'application/json')
 
 def parse_sd(xml):
     try:
-        old_results = json.loads(get_cached_results('latest.json'))
+        old_results = json.loads(s3.read_from('latest.json'))
     except Exception as e:
         print(e)
 
@@ -144,21 +143,17 @@ def simulate(url, trials):
 
         data = parse_sd(et.tostring(root, encoding='unicode'))
 
-        write_to_s3(f'test{i}.json', data, 'json')
-        write_to_s3(f'latest.json', data, 'json')
+        s3.write_to(f'test{i}.json', data, 'json')
+        s3.write_to(f'latest.json', data, 'json')
 
         i += 1
 
 def main():
     url = 'http://www.livevoterturnout.com/sandiego/liveresults/summary_10.xml'
     parse_single(requests.get(url).content, 2, 'sd/us-rep/district/49')
-    # data = parse_sd(requests.get(url).content)
-    # write_to_s3(f'latest.json', data, 'json')
-    # write_to_s3(f'{json.loads(data)["generatedDate"]}.json', data, 'json')
+    # s3.write_to(f'latest.json', data, 'json')
+    # s3.write_to(f'{json.loads(data)["generatedDate"]}.json', data, 'json')
     # simulate(url, 4)
-
-def lambda_handler(event, context):
-    main()
 
 if __name__ == '__main__':
     main()

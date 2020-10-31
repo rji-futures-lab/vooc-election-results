@@ -21,11 +21,22 @@ with open("imgs.csv") as f:
     IMGS = {r['candidate_id']: r['url'] for r in reader}
 
 
+with open('sos/candidate-race-endpoints.csv') as f:
+    reader = DictReader(f)
+
+    sorted_endpoints = sorted([e for e in reader], key=lambda x: x['race_id'])
+
+    SOS_CANDIDATE_RACE_ENDPOINTS = {}
+
+    for r_id, g in groupby(sorted_endpoints, key=lambda x: x['race_id']):
+        SOS_CANDIDATE_RACE_ENDPOINTS[r_id] = [e['endpoint'] for e in g]
+
+
 STATE_PROP_PATTERN = re.compile(r"^Proposition (\d+) - (.+)$")
-CITY_MEASURE_PATTERN = re.compile(r"^([A-Z]{1,2})-.+$")
+CITY_MEASURE_PATTERN = re.compile(r"^([A-Z]{1,2})-(.+)$")
 
 
-def assign_color(name, party, sort_order):
+def get_color(name, party, sort_order):
 
     if "MICHAEL TOLAR" in name.upper():
         color = "#62bfff"
@@ -48,14 +59,6 @@ def get_img_url(candidate_id):
     return url
 
 
-def to_title_case(string):
-    if '"' in string:
-        split = string.split(' "')
-    return " ".join(
-        [word[0].upper() + word[1:].lower() for word in string.split()]
-    )
-
-
 def format_candidate_name(contestant_name):
     striped = re.sub(r" \(.+\)", "", contestant_name) \
         .lstrip("*") \
@@ -63,14 +66,17 @@ def format_candidate_name(contestant_name):
 
     formatted_name = "/".join(
         [capwords(name) for name in striped.split("/")]
-    )
+    ).rstrip("/")
 
-    if '"' in formatted_name:
+
+    if formatted_name.startswith('Linda') and formatted_name.endswith('Sanchez'):
+        formatted_name = 'Linda T. Sánchez'
+    elif '"' in formatted_name:
         formatted_name = ' "'.join([
             string[0].upper() + string[1:] for string in formatted_name.split(' "')
         ])
 
-    return formatted_name.rstrip("/")
+    return formatted_name
 
 
 def format_race_title(race_name):
@@ -80,14 +86,34 @@ def format_race_title(race_name):
 
     if state_prop_match:
         num, title = state_prop_match.groups()
-        formatted_name = f"STATE PROPOSITION {num} - {to_title_case(title)}"
+        formatted_name = f"STATE PROPOSITION {num}"
+        description = capwords(title)
     elif city_measure_match:
-        identifier = city_measure_match.groups()[0]
+        identifier, desc = city_measure_match.groups()
         formatted_name = f"City Ballot Measure {identifier}"
+        description = desc
     else:
         formatted_name = race_name
+        description = None
 
-    return formatted_name.replace("ORANGE COUNTY", "OC")
+    return formatted_name.replace("ORANGE COUNTY", "OC"), description
+
+
+def get_sos_paths(race_id, race_name):
+
+    try:
+        paths = SOS_CANDIDATE_RACE_ENDPOINTS[race_id]
+    except KeyError:
+        state_prop_match = STATE_PROP_PATTERN.match(race_name)
+        if state_prop_match:
+            num = state_prop_match.groups()[0]
+            paths = [
+                f"parsed/ballot-measures/county/orange/{num}"
+            ]
+        else:
+            paths = None
+
+    return paths
 
 
 def transform(results):
@@ -122,18 +148,26 @@ def transform(results):
             contestants_by_id[c_id] = {
                 "name": candidate_name_formatted,
                 "party": party,
-                "color": assign_color(candidate_name_orig, party, order_by_last_name),
+                "color": get_color(candidate_name_orig, party, order_by_last_name),
                 "is_incumbent": "*" in candidate_name_orig,
                 "img_url": get_img_url(c_id)
             }
 
         race_title_orig = contestants[0]['RaceName']
-        race_title_formatted = format_race_title(race_title_orig)
+        race_title_formatted, description = format_race_title(race_title_orig)
 
         races_by_id[r_id] = {
             'race_title': race_title_formatted,
             'candidates': contestants_by_id
         }
+
+        if description:
+            races_by_id[r_id]["description"] = description
+
+        sos_paths = get_sos_paths(r_id, race_title_orig)
+
+        if sos_paths:
+            races_by_id[r_id]['sos_paths'] = sos_paths
 
     return races_by_id
 
