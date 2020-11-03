@@ -36,7 +36,7 @@ def get_candidates_by_race_id():
         {
             'id': c['id'],
             'name': c['name'],
-            'is_incumbent': c['is_incumbent'],
+            'is_incumbent': bool(c['is_incumbent']),
             'party': c['party'],
             'color': c['color'],
             'img_url': c['img_url'],
