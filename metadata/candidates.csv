@@ -5,8 +5,8 @@ race_id,id,name,source_name,is_incumbent,party,img_url,color
 1000,10394,Howie Hawkins/Angela Nicole Walker,HOWIE HAWKINS/ANGELA NICOLE WALKER (GRN),False,GRN,,#268327
 1000,10395,"Jo Jorgensen/Jeremy ""Spike"" Cohen","JO JORGENSEN/JEREMY ""SPIKE"" COHEN (LIB)",False,LIB,,#f0d612
 1000,10396,Gloria La Riva/Sunil Freeman,GLORIA LA RIVA/SUNIL FREEMAN (P/F),False,P/F,,#8e67a0
-1120,9744,Linda T. Sánchez,*LINDA T. SANCHEZ (DEM),True,DEM,,#1D37A0
-1120,9745,Michael Tolar,MICHAEL TOLAR (DEM),False,DEM,,#62bfff
+1120,9744,Linda T. Sánchez,*LINDA T. SANCHEZ (DEM),True,DEM,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/LindaSanchez.png,#1D37A0
+1120,9745,Michael Tolar,MICHAEL TOLAR (DEM),False,DEM,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/MichaelTolar.png,#62bfff
 1130,9746,Young Kim,YOUNG KIM (REP),False,REP,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/YoungKim.png,#A80000
 1130,9747,Gil Cisneros,*GIL CISNEROS (DEM),True,DEM,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/GilCisneros.png,#1D37A0
 1140,9748,Greg Raths,GREG RATHS (REP),False,REP,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/Gregraths.png,#A80000

@@ -70,7 +70,7 @@ def format_data(race_id, results, reporting_time):
         'reporting_time': dt.isoformat(),
         'candidate_votes': [
             {
-                'id': dt.isoformat(),
+                'id': mapping['No'],
                 'name': 'No', 
                 'votes': int(results['noVotes'])
             },

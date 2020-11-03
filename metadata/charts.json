@@ -246,7 +246,7 @@
                 "is_incumbent": true,
                 "party": "DEM",
                 "color": "#1D37A0",
-                "img_url": ""
+                "img_url": "https://vooc-election-results.s3-us-west-2.amazonaws.com/img/LindaSanchez.png"
             },
             {
                 "id": "9745",
@@ -254,7 +254,7 @@
                 "is_incumbent": false,
                 "party": "DEM",
                 "color": "#62bfff",
-                "img_url": ""
+                "img_url": "https://vooc-election-results.s3-us-west-2.amazonaws.com/img/MichaelTolar.png"
             }
         ],
         "sources": [
@@ -274,7 +274,7 @@
                 "is_incumbent": true,
                 "party": "DEM",
                 "color": "#1D37A0",
-                "img_url": ""
+                "img_url": "https://vooc-election-results.s3-us-west-2.amazonaws.com/img/LindaSanchez.png"
             },
             {
                 "id": "9745",
@@ -282,7 +282,7 @@
                 "is_incumbent": false,
                 "party": "DEM",
                 "color": "#62bfff",
-                "img_url": ""
+                "img_url": "https://vooc-election-results.s3-us-west-2.amazonaws.com/img/MichaelTolar.png"
             }
         ],
         "sources": [
@@ -1110,7 +1110,7 @@
     },
     "bar-charts/3037": {
         "race_id": "3037",
-        "title": "NORTH OC COMMUNITY COLLEGE DISTRICT \u2014 Trustee Area 4",
+        "title": "NORTH OC COMMUNITY COLLEGE DISTRICT\nTrustee Area 4",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -1137,7 +1137,7 @@
     },
     "line-charts/3037": {
         "race_id": "3037",
-        "title": "NORTH OC COMMUNITY COLLEGE DISTRICT \u2014 Trustee Area 4",
+        "title": "NORTH OC COMMUNITY COLLEGE DISTRICT\nTrustee Area 4",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -1164,7 +1164,7 @@
     },
     "bar-charts/3038": {
         "race_id": "3038",
-        "title": "NORTH OC COMMUNITY COLLEGE DISTRICT \u2014 Trustee Area 5",
+        "title": "NORTH OC COMMUNITY COLLEGE DISTRICT\nTrustee Area 5",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -1191,7 +1191,7 @@
     },
     "line-charts/3038": {
         "race_id": "3038",
-        "title": "NORTH OC COMMUNITY COLLEGE DISTRICT \u2014 Trustee Area 5",
+        "title": "NORTH OC COMMUNITY COLLEGE DISTRICT\nTrustee Area 5",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -1218,7 +1218,7 @@
     },
     "bar-charts/3040": {
         "race_id": "3040",
-        "title": "NORTH OC COMMUNITY COLLEGE DISTRICT \u2014 Trustee Area 7",
+        "title": "NORTH OC COMMUNITY COLLEGE DISTRICT\nTrustee Area 7",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -1245,7 +1245,7 @@
     },
     "line-charts/3040": {
         "race_id": "3040",
-        "title": "NORTH OC COMMUNITY COLLEGE DISTRICT \u2014 Trustee Area 7",
+        "title": "NORTH OC COMMUNITY COLLEGE DISTRICT\nTrustee Area 7",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -1272,7 +1272,7 @@
     },
     "bar-charts/3043": {
         "race_id": "3043",
-        "title": "COAST COMMUNITY COLLEGE DISTRICT \u2014 Trustee Area 2",
+        "title": "COAST COMMUNITY COLLEGE DISTRICT\nTrustee Area 2",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -1307,7 +1307,7 @@
     },
     "line-charts/3043": {
         "race_id": "3043",
-        "title": "COAST COMMUNITY COLLEGE DISTRICT \u2014 Trustee Area 2",
+        "title": "COAST COMMUNITY COLLEGE DISTRICT\nTrustee Area 2",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -1342,7 +1342,7 @@
     },
     "bar-charts/3045": {
         "race_id": "3045",
-        "title": "COAST COMMUNITY COLLEGE DISTRICT \u2014 Trustee Area 4",
+        "title": "COAST COMMUNITY COLLEGE DISTRICT\nTrustee Area 4",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -1369,7 +1369,7 @@
     },
     "line-charts/3045": {
         "race_id": "3045",
-        "title": "COAST COMMUNITY COLLEGE DISTRICT \u2014 Trustee Area 4",
+        "title": "COAST COMMUNITY COLLEGE DISTRICT\nTrustee Area 4",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -1396,7 +1396,7 @@
     },
     "bar-charts/3052": {
         "race_id": "3052",
-        "title": "RANCHO SANTIAGO COMMUNITY COLLEGE DISTRICT \u2014 Trustee Area 3",
+        "title": "RANCHO SANTIAGO COMMUNITY COLLEGE DISTRICT\nTrustee Area 3",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -1423,7 +1423,7 @@
     },
     "line-charts/3052": {
         "race_id": "3052",
-        "title": "RANCHO SANTIAGO COMMUNITY COLLEGE DISTRICT \u2014 Trustee Area 3",
+        "title": "RANCHO SANTIAGO COMMUNITY COLLEGE DISTRICT\nTrustee Area 3",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -1450,7 +1450,7 @@
     },
     "bar-charts/3054": {
         "race_id": "3054",
-        "title": "RANCHO SANTIAGO COMMUNITY COLLEGE DISTRICT \u2014 Trustee Area 5",
+        "title": "RANCHO SANTIAGO COMMUNITY COLLEGE DISTRICT\nTrustee Area 5",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -1485,7 +1485,7 @@
     },
     "line-charts/3054": {
         "race_id": "3054",
-        "title": "RANCHO SANTIAGO COMMUNITY COLLEGE DISTRICT \u2014 Trustee Area 5",
+        "title": "RANCHO SANTIAGO COMMUNITY COLLEGE DISTRICT\nTrustee Area 5",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -1520,7 +1520,7 @@
     },
     "bar-charts/3056": {
         "race_id": "3056",
-        "title": "RANCHO SANTIAGO COMMUNITY COLLEGE DISTRICT \u2014 Trustee Area 7",
+        "title": "RANCHO SANTIAGO COMMUNITY COLLEGE DISTRICT\nTrustee Area 7",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -1547,7 +1547,7 @@
     },
     "line-charts/3056": {
         "race_id": "3056",
-        "title": "RANCHO SANTIAGO COMMUNITY COLLEGE DISTRICT \u2014 Trustee Area 7",
+        "title": "RANCHO SANTIAGO COMMUNITY COLLEGE DISTRICT\nTrustee Area 7",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -1574,7 +1574,7 @@
     },
     "bar-charts/3058": {
         "race_id": "3058",
-        "title": "SOUTH OC COMMUNITY COLLEGE DISTRICT \u2014 Trustee Area 1",
+        "title": "SOUTH OC COMMUNITY COLLEGE DISTRICT\nTrustee Area 1",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -1617,7 +1617,7 @@
     },
     "line-charts/3058": {
         "race_id": "3058",
-        "title": "SOUTH OC COMMUNITY COLLEGE DISTRICT \u2014 Trustee Area 1",
+        "title": "SOUTH OC COMMUNITY COLLEGE DISTRICT\nTrustee Area 1",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -1660,7 +1660,7 @@
     },
     "bar-charts/3063": {
         "race_id": "3063",
-        "title": "SOUTH OC COMMUNITY COLLEGE DISTRICT \u2014 Trustee Area 6",
+        "title": "SOUTH OC COMMUNITY COLLEGE DISTRICT\nTrustee Area 6",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -1687,7 +1687,7 @@
     },
     "line-charts/3063": {
         "race_id": "3063",
-        "title": "SOUTH OC COMMUNITY COLLEGE DISTRICT \u2014 Trustee Area 6",
+        "title": "SOUTH OC COMMUNITY COLLEGE DISTRICT\nTrustee Area 6",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -1714,7 +1714,7 @@
     },
     "bar-charts/3064": {
         "race_id": "3064",
-        "title": "SOUTH OC COMMUNITY COLLEGE DISTRICT \u2014 Trustee Area 7",
+        "title": "SOUTH OC COMMUNITY COLLEGE DISTRICT\nTrustee Area 7",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -1749,7 +1749,7 @@
     },
     "line-charts/3064": {
         "race_id": "3064",
-        "title": "SOUTH OC COMMUNITY COLLEGE DISTRICT \u2014 Trustee Area 7",
+        "title": "SOUTH OC COMMUNITY COLLEGE DISTRICT\nTrustee Area 7",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -1784,7 +1784,7 @@
     },
     "bar-charts/3105": {
         "race_id": "3105",
-        "title": "BREA OLINDA UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 5",
+        "title": "BREA OLINDA UNIFIED SCHOOL DISTRICT\nTrustee Area 5",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -1811,7 +1811,7 @@
     },
     "line-charts/3105": {
         "race_id": "3105",
-        "title": "BREA OLINDA UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 5",
+        "title": "BREA OLINDA UNIFIED SCHOOL DISTRICT\nTrustee Area 5",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -1838,7 +1838,7 @@
     },
     "bar-charts/3112": {
         "race_id": "3112",
-        "title": "CAPISTRANO UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 2",
+        "title": "CAPISTRANO UNIFIED SCHOOL DISTRICT\nTrustee Area 2",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -1865,7 +1865,7 @@
     },
     "line-charts/3112": {
         "race_id": "3112",
-        "title": "CAPISTRANO UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 2",
+        "title": "CAPISTRANO UNIFIED SCHOOL DISTRICT\nTrustee Area 2",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -1892,7 +1892,7 @@
     },
     "bar-charts/3113": {
         "race_id": "3113",
-        "title": "CAPISTRANO UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 3",
+        "title": "CAPISTRANO UNIFIED SCHOOL DISTRICT\nTrustee Area 3",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -1927,7 +1927,7 @@
     },
     "line-charts/3113": {
         "race_id": "3113",
-        "title": "CAPISTRANO UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 3",
+        "title": "CAPISTRANO UNIFIED SCHOOL DISTRICT\nTrustee Area 3",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -1962,7 +1962,7 @@
     },
     "bar-charts/3115": {
         "race_id": "3115",
-        "title": "CAPISTRANO UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 5",
+        "title": "CAPISTRANO UNIFIED SCHOOL DISTRICT\nTrustee Area 5",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -1997,7 +1997,7 @@
     },
     "line-charts/3115": {
         "race_id": "3115",
-        "title": "CAPISTRANO UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 5",
+        "title": "CAPISTRANO UNIFIED SCHOOL DISTRICT\nTrustee Area 5",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -2032,7 +2032,7 @@
     },
     "bar-charts/3123": {
         "race_id": "3123",
-        "title": "GARDEN GROVE UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 1",
+        "title": "GARDEN GROVE UNIFIED SCHOOL DISTRICT\nTrustee Area 1",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -2059,7 +2059,7 @@
     },
     "line-charts/3123": {
         "race_id": "3123",
-        "title": "GARDEN GROVE UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 1",
+        "title": "GARDEN GROVE UNIFIED SCHOOL DISTRICT\nTrustee Area 1",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -2086,7 +2086,7 @@
     },
     "bar-charts/3127": {
         "race_id": "3127",
-        "title": "GARDEN GROVE UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 5",
+        "title": "GARDEN GROVE UNIFIED SCHOOL DISTRICT\nTrustee Area 5",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -2121,7 +2121,7 @@
     },
     "line-charts/3127": {
         "race_id": "3127",
-        "title": "GARDEN GROVE UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 5",
+        "title": "GARDEN GROVE UNIFIED SCHOOL DISTRICT\nTrustee Area 5",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -2156,7 +2156,7 @@
     },
     "bar-charts/3133": {
         "race_id": "3133",
-        "title": "IRVINE UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 3",
+        "title": "IRVINE UNIFIED SCHOOL DISTRICT\nTrustee Area 3",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -2199,7 +2199,7 @@
     },
     "line-charts/3133": {
         "race_id": "3133",
-        "title": "IRVINE UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 3",
+        "title": "IRVINE UNIFIED SCHOOL DISTRICT\nTrustee Area 3",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -2242,7 +2242,7 @@
     },
     "bar-charts/3135": {
         "race_id": "3135",
-        "title": "IRVINE UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 5",
+        "title": "IRVINE UNIFIED SCHOOL DISTRICT\nTrustee Area 5",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -2269,7 +2269,7 @@
     },
     "line-charts/3135": {
         "race_id": "3135",
-        "title": "IRVINE UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 5",
+        "title": "IRVINE UNIFIED SCHOOL DISTRICT\nTrustee Area 5",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -2398,7 +2398,7 @@
     },
     "bar-charts/3152": {
         "race_id": "3152",
-        "title": "LOS ALAMITOS UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 2",
+        "title": "LOS ALAMITOS UNIFIED SCHOOL DISTRICT\nTrustee Area 2",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -2433,7 +2433,7 @@
     },
     "line-charts/3152": {
         "race_id": "3152",
-        "title": "LOS ALAMITOS UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 2",
+        "title": "LOS ALAMITOS UNIFIED SCHOOL DISTRICT\nTrustee Area 2",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -2468,7 +2468,7 @@
     },
     "bar-charts/3155": {
         "race_id": "3155",
-        "title": "LOS ALAMITOS UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 5",
+        "title": "LOS ALAMITOS UNIFIED SCHOOL DISTRICT\nTrustee Area 5",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -2495,7 +2495,7 @@
     },
     "line-charts/3155": {
         "race_id": "3155",
-        "title": "LOS ALAMITOS UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 5",
+        "title": "LOS ALAMITOS UNIFIED SCHOOL DISTRICT\nTrustee Area 5",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -2522,7 +2522,7 @@
     },
     "bar-charts/3161": {
         "race_id": "3161",
-        "title": "NEWPORT-MESA UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 1",
+        "title": "NEWPORT-MESA UNIFIED SCHOOL DISTRICT\nTrustee Area 1",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -2549,7 +2549,7 @@
     },
     "line-charts/3161": {
         "race_id": "3161",
-        "title": "NEWPORT-MESA UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 1",
+        "title": "NEWPORT-MESA UNIFIED SCHOOL DISTRICT\nTrustee Area 1",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -2576,7 +2576,7 @@
     },
     "bar-charts/3163": {
         "race_id": "3163",
-        "title": "NEWPORT-MESA UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 3",
+        "title": "NEWPORT-MESA UNIFIED SCHOOL DISTRICT\nTrustee Area 3",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -2603,7 +2603,7 @@
     },
     "line-charts/3163": {
         "race_id": "3163",
-        "title": "NEWPORT-MESA UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 3",
+        "title": "NEWPORT-MESA UNIFIED SCHOOL DISTRICT\nTrustee Area 3",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -2630,7 +2630,7 @@
     },
     "bar-charts/3166": {
         "race_id": "3166",
-        "title": "NEWPORT-MESA UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 6",
+        "title": "NEWPORT-MESA UNIFIED SCHOOL DISTRICT\nTrustee Area 6",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -2673,7 +2673,7 @@
     },
     "line-charts/3166": {
         "race_id": "3166",
-        "title": "NEWPORT-MESA UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 6",
+        "title": "NEWPORT-MESA UNIFIED SCHOOL DISTRICT\nTrustee Area 6",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -2716,7 +2716,7 @@
     },
     "bar-charts/3172": {
         "race_id": "3172",
-        "title": "ORANGE UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 2",
+        "title": "ORANGE UNIFIED SCHOOL DISTRICT\nTrustee Area 2",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -2743,7 +2743,7 @@
     },
     "line-charts/3172": {
         "race_id": "3172",
-        "title": "ORANGE UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 2",
+        "title": "ORANGE UNIFIED SCHOOL DISTRICT\nTrustee Area 2",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -2770,7 +2770,7 @@
     },
     "bar-charts/3173": {
         "race_id": "3173",
-        "title": "ORANGE UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 3",
+        "title": "ORANGE UNIFIED SCHOOL DISTRICT\nTrustee Area 3",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -2797,7 +2797,7 @@
     },
     "line-charts/3173": {
         "race_id": "3173",
-        "title": "ORANGE UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 3",
+        "title": "ORANGE UNIFIED SCHOOL DISTRICT\nTrustee Area 3",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -2824,7 +2824,7 @@
     },
     "bar-charts/3176": {
         "race_id": "3176",
-        "title": "ORANGE UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 6",
+        "title": "ORANGE UNIFIED SCHOOL DISTRICT\nTrustee Area 6",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -2867,7 +2867,7 @@
     },
     "line-charts/3176": {
         "race_id": "3176",
-        "title": "ORANGE UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 6",
+        "title": "ORANGE UNIFIED SCHOOL DISTRICT\nTrustee Area 6",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -2910,7 +2910,7 @@
     },
     "bar-charts/3181": {
         "race_id": "3181",
-        "title": "PLACENTIA-YORBA LINDA UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 1",
+        "title": "PLACENTIA-YORBA LINDA UNIFIED SCHOOL DISTRICT\nTrustee Area 1",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -2945,7 +2945,7 @@
     },
     "line-charts/3181": {
         "race_id": "3181",
-        "title": "PLACENTIA-YORBA LINDA UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 1",
+        "title": "PLACENTIA-YORBA LINDA UNIFIED SCHOOL DISTRICT\nTrustee Area 1",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -2980,7 +2980,7 @@
     },
     "bar-charts/3182": {
         "race_id": "3182",
-        "title": "PLACENTIA-YORBA LINDA UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 2",
+        "title": "PLACENTIA-YORBA LINDA UNIFIED SCHOOL DISTRICT\nTrustee Area 2",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -3015,7 +3015,7 @@
     },
     "line-charts/3182": {
         "race_id": "3182",
-        "title": "PLACENTIA-YORBA LINDA UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 2",
+        "title": "PLACENTIA-YORBA LINDA UNIFIED SCHOOL DISTRICT\nTrustee Area 2",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -3050,7 +3050,7 @@
     },
     "bar-charts/3183": {
         "race_id": "3183",
-        "title": "PLACENTIA-YORBA LINDA UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 3",
+        "title": "PLACENTIA-YORBA LINDA UNIFIED SCHOOL DISTRICT\nTrustee Area 3",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -3093,7 +3093,7 @@
     },
     "line-charts/3183": {
         "race_id": "3183",
-        "title": "PLACENTIA-YORBA LINDA UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 3",
+        "title": "PLACENTIA-YORBA LINDA UNIFIED SCHOOL DISTRICT\nTrustee Area 3",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -3136,7 +3136,7 @@
     },
     "bar-charts/3192": {
         "race_id": "3192",
-        "title": "SADDLEBACK VALLEY UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 2",
+        "title": "SADDLEBACK VALLEY UNIFIED SCHOOL DISTRICT\nTrustee Area 2",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -3163,7 +3163,7 @@
     },
     "line-charts/3192": {
         "race_id": "3192",
-        "title": "SADDLEBACK VALLEY UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 2",
+        "title": "SADDLEBACK VALLEY UNIFIED SCHOOL DISTRICT\nTrustee Area 2",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -3190,7 +3190,7 @@
     },
     "bar-charts/3194": {
         "race_id": "3194",
-        "title": "SADDLEBACK VALLEY UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 4",
+        "title": "SADDLEBACK VALLEY UNIFIED SCHOOL DISTRICT\nTrustee Area 4",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -3217,7 +3217,7 @@
     },
     "line-charts/3194": {
         "race_id": "3194",
-        "title": "SADDLEBACK VALLEY UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 4",
+        "title": "SADDLEBACK VALLEY UNIFIED SCHOOL DISTRICT\nTrustee Area 4",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -3362,7 +3362,7 @@
     },
     "bar-charts/3211": {
         "race_id": "3211",
-        "title": "TUSTIN UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 1",
+        "title": "TUSTIN UNIFIED SCHOOL DISTRICT\nTrustee Area 1",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -3397,7 +3397,7 @@
     },
     "line-charts/3211": {
         "race_id": "3211",
-        "title": "TUSTIN UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 1",
+        "title": "TUSTIN UNIFIED SCHOOL DISTRICT\nTrustee Area 1",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -3432,7 +3432,7 @@
     },
     "bar-charts/3212": {
         "race_id": "3212",
-        "title": "TUSTIN UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 2",
+        "title": "TUSTIN UNIFIED SCHOOL DISTRICT\nTrustee Area 2",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -3459,7 +3459,7 @@
     },
     "line-charts/3212": {
         "race_id": "3212",
-        "title": "TUSTIN UNIFIED SCHOOL DISTRICT \u2014 Trustee Area 2",
+        "title": "TUSTIN UNIFIED SCHOOL DISTRICT\nTrustee Area 2",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -3604,7 +3604,7 @@
     },
     "bar-charts/3255": {
         "race_id": "3255",
-        "title": "ANAHEIM ELEMENTARY SCHOOL DISTRICT \u2014 Trustee Area 3",
+        "title": "ANAHEIM ELEMENTARY SCHOOL DISTRICT\nTrustee Area 3",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -3631,7 +3631,7 @@
     },
     "line-charts/3255": {
         "race_id": "3255",
-        "title": "ANAHEIM ELEMENTARY SCHOOL DISTRICT \u2014 Trustee Area 3",
+        "title": "ANAHEIM ELEMENTARY SCHOOL DISTRICT\nTrustee Area 3",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -3658,7 +3658,7 @@
     },
     "bar-charts/3266": {
         "race_id": "3266",
-        "title": "BUENA PARK SCHOOL DISTRICT \u2014 Trustee Area 4",
+        "title": "BUENA PARK SCHOOL DISTRICT\nTrustee Area 4",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -3685,7 +3685,7 @@
     },
     "line-charts/3266": {
         "race_id": "3266",
-        "title": "BUENA PARK SCHOOL DISTRICT \u2014 Trustee Area 4",
+        "title": "BUENA PARK SCHOOL DISTRICT\nTrustee Area 4",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -3798,7 +3798,7 @@
     },
     "bar-charts/3311": {
         "race_id": "3311",
-        "title": "HUNTINGTON BEACH CITY SCHOOL DISTRICT \u2014 Trustee Area 1",
+        "title": "HUNTINGTON BEACH CITY SCHOOL DISTRICT\nTrustee Area 1",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -3825,7 +3825,7 @@
     },
     "line-charts/3311": {
         "race_id": "3311",
-        "title": "HUNTINGTON BEACH CITY SCHOOL DISTRICT \u2014 Trustee Area 1",
+        "title": "HUNTINGTON BEACH CITY SCHOOL DISTRICT\nTrustee Area 1",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -3852,7 +3852,7 @@
     },
     "bar-charts/3322": {
         "race_id": "3322",
-        "title": "LA HABRA CITY SCHOOL DISTRICT \u2014 Full Term",
+        "title": "LA HABRA CITY SCHOOL DISTRICT\nFull Term",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -3887,7 +3887,7 @@
     },
     "line-charts/3322": {
         "race_id": "3322",
-        "title": "LA HABRA CITY SCHOOL DISTRICT \u2014 Full Term",
+        "title": "LA HABRA CITY SCHOOL DISTRICT\nFull Term",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -3922,7 +3922,7 @@
     },
     "bar-charts/3371": {
         "race_id": "3371",
-        "title": "WESTMINSTER SCHOOL DISTRICT \u2014 Trustee Area 1",
+        "title": "WESTMINSTER SCHOOL DISTRICT\nTrustee Area 1",
         "description": "Governing Board Member",
         "candidates": [
             {
@@ -3949,7 +3949,7 @@
     },
     "line-charts/3371": {
         "race_id": "3371",
-        "title": "WESTMINSTER SCHOOL DISTRICT \u2014 Trustee Area 1",
+        "title": "WESTMINSTER SCHOOL DISTRICT\nTrustee Area 1",
         "description": "Governing Board Member",
         "candidates": [
             {
