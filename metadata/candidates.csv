@@ -1,0 +1,561 @@
+race_id,id,name,source_name,is_incumbent,party,img_url,color
+1000,10391,Joseph R. Biden/Kamala D. Harris,JOSEPH R. BIDEN/KAMALA D. HARRIS (DEM),False,DEM,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/BIDEN.png,#1D37A0
+1000,10392,Donald J. Trump/Michael R. Pence,*DONALD J. TRUMP/MICHAEL R. PENCE (REP),True,REP,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/TRUMP.png,#A80000
+1000,10393,"Roque ""Rocky"" De La Fuente Guerra/Kanye Omari West","ROQUE ""ROCKY"" DE LA FUENTE GUERRA/KANYE OMARI WEST (AI)",False,AI,,#89857A
+1000,10394,Howie Hawkins/Angela Nicole Walker,HOWIE HAWKINS/ANGELA NICOLE WALKER (GRN),False,GRN,,#268327
+1000,10395,"Jo Jorgensen/Jeremy ""Spike"" Cohen","JO JORGENSEN/JEREMY ""SPIKE"" COHEN (LIB)",False,LIB,,#f0d612
+1000,10396,Gloria La Riva/Sunil Freeman,GLORIA LA RIVA/SUNIL FREEMAN (P/F),False,P/F,,#8e67a0
+1120,9744,Linda T. Sánchez,*LINDA T. SANCHEZ (DEM),True,DEM,,#1D37A0
+1120,9745,Michael Tolar,MICHAEL TOLAR (DEM),False,DEM,,#62bfff
+1130,9746,Young Kim,YOUNG KIM (REP),False,REP,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/YoungKim.png,#A80000
+1130,9747,Gil Cisneros,*GIL CISNEROS (DEM),True,DEM,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/GilCisneros.png,#1D37A0
+1140,9748,Greg Raths,GREG RATHS (REP),False,REP,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/Gregraths.png,#A80000
+1140,9749,Katie Porter,*KATIE PORTER (DEM),True,DEM,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/KatiePorter.png,#1D37A0
+1150,9750,James S. Waters,JAMES S. WATERS (REP),False,REP,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/James+Waters.jpg,#A80000
+1150,9751,Lou Correa,LOU CORREA (DEM),False,DEM,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/LouCorrea.png,#1D37A0
+1160,9752,Alan Lowenthal,*ALAN LOWENTHAL (DEM),True,DEM,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/AlanLowenthal.png,#1D37A0
+1160,9753,John Briscoe,JOHN BRISCOE (REP),False,REP,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/JohnBriscoe.png,#A80000
+1170,9754,Harley Rouda,*HARLEY ROUDA (DEM),True,DEM,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/HarleyRouda.png,#1D37A0
+1170,9755,Michelle Steel,MICHELLE STEEL (REP),False,REP,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/MichelleSteel.png,#A80000
+1180,9756,Brian Maryott,BRIAN MARYOTT (REP),False,REP,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/BrianMaryott.png,#A80000
+1180,9757,Mike Levin,*MIKE LEVIN (DEM),True,DEM,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/Mikelevin.png,#1D37A0
+1200,9758,Josh Newman,JOSH NEWMAN (DEM),False,DEM,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/JoshNewman.png,#1D37A0
+1200,9759,Ling Ling Chang,*LING LING CHANG (REP),True,REP,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/LingLingChang.png,#A80000
+1240,9760,John M. W. Moorlach,*JOHN M. W. MOORLACH (REP),True,REP,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/John+Moorlach.png,#A80000
+1240,9761,Dave Min,DAVE MIN (DEM),False,DEM,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/DaveMin.png,#1D37A0
+1300,9762,Phillip Chen,*PHILLIP CHEN (REP),True,REP,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/PhillipChen.png,#A80000
+1300,9763,Andrew E. Rodriguez,ANDREW E. RODRIGUEZ (DEM),False,DEM,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/AndrewRodriguez.png,#1D37A0
+1310,9764,Sharon Quirk-Silva,*SHARON QUIRK-SILVA (DEM),True,DEM,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/SharonQuirk-Silva.png,#1D37A0
+1310,9765,Cynthia Thacker,CYNTHIA THACKER (REP),False,REP,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/CynthiaThacker.png,#A80000
+1320,9766,"Steven ""Steve"" Choi","*STEVEN ""STEVE"" CHOI (REP)",True,REP,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/StevenChoi.png,#A80000
+1320,9767,Melissa Fox,MELISSA FOX (DEM),False,DEM,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/MelissaFox.png,#1D37A0
+1330,9768,Jon Paul White,JON PAUL WHITE (REP),False,REP,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/JonPaulWhite.png,#A80000
+1330,9769,Tom Daly,*TOM DALY (DEM),True,DEM,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/TomDaly.png,#1D37A0
+1340,9770,Janet Nguyen,JANET NGUYEN (REP),False,REP,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/JanetNguyen.png,#A80000
+1340,9771,Diedre Nguyen,DIEDRE NGUYEN (DEM),False,DEM,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/DiedreNguyen.png,#1D37A0
+1350,9772,Scott Rhinehart,SCOTT RHINEHART (DEM),False,DEM,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/ScottRhinehart.png,#1D37A0
+1350,9773,Laurie Davies,LAURIE DAVIES (REP),False,REP,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/Laurie+Davies.png,#A80000
+1360,9774,Diane Dixon,DIANE DIXON (REP),False,REP,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/DianeDixon.png,#A80000
+1360,9775,Cottie Petrie-Norris,*COTTIE PETRIE-NORRIS (DEM),True,DEM,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/CottiePetrie-Norris.png,#1D37A0
+3037,9806,Miguel Alvarez,MIGUEL ALVAREZ,False,,,#32AB34
+3037,10008,Evangelina Rea Rosales,EVANGELINA REA ROSALES,False,,,#F8BD0E
+3038,10000,Jacqueline Rodarte,*JACQUELINE RODARTE,True,,,#F8BD0E
+3038,10204,Dave Garcia-Gomez,DAVE GARCIA-GOMEZ,False,,,#32AB34
+3040,9992,Ryan Bent,*RYAN BENT,True,,,#32AB34
+3040,10095,Keri Kropke,KERI KROPKE,False,,,#F8BD0E
+3043,9902,Jerry Patterson,*JERRY PATTERSON,True,,,#F8BD0E
+3043,9957,Long Pham,LONG PHAM,False,,,#C7084D
+3043,10121,Tony Bui,TONY BUI,False,,,#32AB34
+3045,9855,Michael B Collier,MICHAEL B COLLIER,False,,,#32AB34
+3045,9895,Mary Hornbuckle,*MARY HORNBUCKLE,True,,,#F8BD0E
+3052,10097,Sal Tinajero,SAL TINAJERO,False,,,#F8BD0E
+3052,10335,Mike Gonzalez,MIKE GONZALEZ,False,,,#32AB34
+3054,9788,David Crockett,DAVID CROCKETT,False,,,#32AB34
+3054,9997,Brett Elliott Franklin,BRETT ELLIOTT FRANKLIN,False,,,#F8BD0E
+3054,10369,Samuel Ulloa,SAMUEL ULLOA,False,,,#C7084D
+3056,9783,Tina Arias Miller,TINA ARIAS MILLER,False,,,#32AB34
+3056,10372,Loretta Sanchez,LORETTA SANCHEZ,False,,,#F8BD0E
+3058,10073,Carolyn Inmon,CAROLYN INMON,False,,,#32AB34
+3058,10370,Helen Locke,HELEN LOCKE,False,,,#C7084D
+3058,10371,Matt Waid,MATT WAID,False,,,#1096bf
+3058,10388,Aarti Kaushal,AARTI KAUSHAL,False,,,#F8BD0E
+3063,9955,James R. Wright,*JAMES R. WRIGHT,True,,,#F8BD0E
+3063,10129,Ryan Dack,RYAN DACK,False,,,#32AB34
+3064,9810,"Timothy ""Tim"" Jemal","*TIMOTHY ""TIM"" JEMAL",True,,,#C7084D
+3064,10198,Sean Gawne,SEAN GAWNE,False,,,#F8BD0E
+3064,10202,Mo Entezampour,MO ENTEZAMPOUR,False,,,#32AB34
+3105,9868,Lauren Barnes,LAUREN BARNES,False,,,#32AB34
+3105,10022,Gail Lyons,*GAIL LYONS,True,,,#F8BD0E
+3112,9815,Jim Reardon,*JIM REARDON,True,,,#F8BD0E
+3112,9843,Pamela Braunstein,PAMELA BRAUNSTEIN,False,,,#32AB34
+3113,10294,Sue Hill,SUE HILL,False,,,#F8BD0E
+3113,10328,Lisa Davis,LISA DAVIS,False,,,#32AB34
+3113,10362,Adrienne M. Silva,ADRIENNE M. SILVA,False,,,#C7084D
+3115,9891,Krista Castellanos,*KRISTA CASTELLANOS,True,,,#32AB34
+3115,9977,Jasmine Funes,JASMINE FUNES,False,,,#F8BD0E
+3115,10327,Paul Hebbard,PAUL HEBBARD,False,,,#C7084D
+3123,9907,Nicholas Dibs,NICHOLAS DIBS,False,,,#32AB34
+3123,9973,Teri Rocco,*TERI ROCCO,True,,,#F8BD0E
+3127,10066,Dina Nguyen,*DINA NGUYEN,True,,,#F8BD0E
+3127,10142,Patrick Cahill,PATRICK CAHILL,False,,,#32AB34
+3127,10309,Samantha Bao Anh Nguyen,SAMANTHA BAO ANH NGUYEN,False,,,#F8BD0E
+3133,10087,Bethany Huang,BETHANY HUANG,False,,,#F8BD0E
+3133,10091,Douglas Euper,DOUGLAS EUPER,False,,,#32AB34
+3133,10170,Cyril Yu,CYRIL YU,False,,,#1096bf
+3133,10375,Sidney Wu,SIDNEY WU,False,,,#C7084D
+3135,9833,Paul Bokota,*PAUL BOKOTA,True,,,#F8BD0E
+3135,9904,Demetra Arvanitidis,DEMETRA ARVANITIDIS,False,,,#32AB34
+3142,9813,Amy Kramer,AMY KRAMER,False,,,#F8BD0E
+3142,9858,Jan Vickers,*JAN VICKERS,True,,,#e47300
+3142,10070,Sheri Morgan,SHERI MORGAN,False,,,#C7084D
+3142,10122,Kelly Osborne,KELLY OSBORNE,False,,,#1096bf
+3142,10130,Howard Hills,HOWARD HILLS,False,,,#32AB34
+3152,9860,Paurvi Trivedi,PAURVI TRIVEDI,False,,,#C7084D
+3152,9867,Chris Forehan,CHRIS FOREHAN,False,,,#32AB34
+3152,9986,Jody L. Roubanis,JODY L. ROUBANIS,False,,,#F8BD0E
+3155,9809,Meg Cutuli,*MEG CUTULI,True,,,#32AB34
+3155,10353,Matt Filler,MATT FILLER,False,,,#F8BD0E
+3161,9898,Vicki Snell,*VICKI SNELL,True,,,#F8BD0E
+3161,9911,Leah Ersoylu,LEAH ERSOYLU,False,,,#32AB34
+3163,9832,Carol Crane,CAROL CRANE,False,,,#F8BD0E
+3163,9944,Charles Kent Booker,CHARLES KENT BOOKER,False,,,#32AB34
+3166,9797,Krista Weigand,KRISTA WEIGAND,False,,,#C7084D
+3166,9873,Amy Peters,AMY PETERS,False,,,#F8BD0E
+3166,10158,Xeno Ralf Muller Ii,XENO RALF MULLER II,False,,,#32AB34
+3166,10378,Alexis Zavouris,ALEXIS ZAVOURIS,False,,,#1096bf
+3172,9903,John Ortega,*JOHN ORTEGA,True,,,#F8BD0E
+3172,9927,Tiger Kennedy Cosmos,TIGER KENNEDY COSMOS,False,,,#32AB34
+3173,9787,Alexia Deligianni-Brydges,*ALEXIA DELIGIANNI-BRYDGES,True,,,#32AB34
+3173,10065,Ana Page,ANA PAGE,False,,,#F8BD0E
+3176,9853,Carrie Lundell,CARRIE LUNDELL,False,,,#F8BD0E
+3176,9888,Alex Munoz,ALEX MUNOZ,False,,,#C7084D
+3176,10273,April Braswell,APRIL BRASWELL,False,,,#32AB34
+3176,10305,Angie Schlueter-Rumsey,ANGIE SCHLUETER-RUMSEY,False,,,#1096bf
+3181,9795,Eric Padget,*ERIC PADGET,True,,,#F8BD0E
+3181,9851,Paoling Guo,PAOLING GUO,False,,,#32AB34
+3181,10040,Shawn Youngblood,SHAWN YOUNGBLOOD,False,,,#C7084D
+3182,9929,Lashe Rodriguez,LASHE RODRIGUEZ,False,,,#C7084D
+3182,10068,Joshua Correa,JOSHUA CORREA,False,,,#F8BD0E
+3182,10079,Marilyn Anderson,MARILYN ANDERSON,False,,,#32AB34
+3183,9803,Misty Janssen,MISTY JANSSEN,False,,,#F8BD0E
+3183,9822,Susan Metcalf,SUSAN METCALF,False,,,#C7084D
+3183,9878,Mike Nicosia,MIKE NICOSIA,False,,,#1096bf
+3183,10069,Leandra Blades,LEANDRA BLADES,False,,,#32AB34
+3192,9896,Edward Wong,*EDWARD WONG,True,,,#32AB34
+3192,10153,Tricia Yee,TRICIA YEE,False,,,#F8BD0E
+3194,9874,Benjamin Yu,BENJAMIN YU,False,,,#F8BD0E
+3194,9976,Amanda Morrell,*AMANDA MORRELL,True,,,#32AB34
+3201,9817,Carolyn Torres,*CAROLYN TORRES,True,,,#8e67a0
+3201,9963,Cecilia Aguinaga,CECILIA AGUINAGA,False,,,#32AB34
+3201,10117,Oscar Reyes,OSCAR REYES,False,,,#1096bf
+3201,10259,Alfonso Alvarez,*ALFONSO ALVAREZ,True,,,#F8BD0E
+3201,10270,Rigo Rodriguez,*RIGO RODRIGUEZ,True,,,#e47300
+3201,10333,Judith Carrillo,JUDITH CARRILLO,False,,,#C7084D
+3211,9841,Allyson M. Damikolas,ALLYSON M. DAMIKOLAS,False,,,#F8BD0E
+3211,9876,Kirk O. Hahn,KIRK O. HAHN,False,,,#C7084D
+3211,9941,Tammie K. Bullard,*TAMMIE K. BULLARD,True,,,#32AB34
+3212,10094,Susan M. Stocks,SUSAN M. STOCKS,False,,,#F8BD0E
+3212,10265,James H. Laird,*JAMES H. LAIRD,True,,,#32AB34
+3241,9785,Susan Henry,*SUSAN HENRY,True,,,#F8BD0E
+3241,9814,Michael Simons,*MICHAEL SIMONS,True,,,#8e67a0
+3241,9840,Christine Hernandez,CHRISTINE HERNANDEZ,False,,,#C7084D
+3241,9933,Spencer Hagaman,SPENCER HAGAMAN,False,,,#32AB34
+3241,9954,Saul Lankster,SAUL LANKSTER,False,,,#1096bf
+3241,10046,Claudia Ramos,CLAUDIA RAMOS,False,,,#e47300
+3255,9790,Jose Paolo Magcalas,*JOSE PAOLO MAGCALAS,True,,,#F8BD0E
+3255,10059,Lucille Kring,LUCILLE KRING,False,,,#32AB34
+3266,10241,L Carole Jensen,L CAROLE JENSEN,False,,,#F8BD0E
+3266,10304,Irene Castaneda,*IRENE CASTANEDA,True,,,#32AB34
+3292,9780,Jeanne Galindo,*JEANNE GALINDO,True,,,#F8BD0E
+3292,9909,Steve Schultz,STEVE SCHULTZ,False,,,#1096bf
+3292,9923,Ian Collins,*IAN COLLINS,True,,,#32AB34
+3292,10233,Tom Nguyen,TOM NGUYEN,False,,,#C7084D
+3311,10058,Bridget Kaub,*BRIDGET KAUB,True,,,#32AB34
+3311,10320,Roger S. Noor,ROGER S. NOOR,False,,,#F8BD0E
+3322,9823,John Dobson,JOHN DOBSON,False,,,#32AB34
+3322,9937,Susan M. Pritchard,SUSAN M. PRITCHARD,False,,,#C7084D
+3322,9940,Ofelia Corona Hanson,OFELIA CORONA HANSON,False,,,#F8BD0E
+3371,9916,David Johnson,DAVID JOHNSON,False,,,#32AB34
+3371,10147,Angel Ramirez,ANGEL RAMIREZ,False,,,#F8BD0E
+4001,9776,Andrew Do,*ANDREW DO,True,,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/AndrewDo.png,#F8BD0E
+4001,9777,Sergio Contreras,SERGIO CONTRERAS,False,,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/SergioContreras.png,#32AB34
+4903,9960,Richard Hurt,RICHARD HURT,False,,,#1096bf
+4903,10056,Michael Winger,MICHAEL WINGER,False,,,#dc2e07
+4903,10109,David Zero,DAVID ZERO,False,,,#5E5F8F
+4903,10115,Michael W. Brown,MICHAEL W. BROWN,False,,,#32AB34
+4903,10139,Ross Chun,*ROSS CHUN,True,,,#F8BD0E
+4903,10150,Mike Munzing,*MIKE MUNZING,True,,,#e47300
+4903,10373,Max Duncan,MAX DUNCAN,False,,,#C7084D
+4903,10379,Greg J. Williams,GREG J. WILLIAMS,False,,,#8e67a0
+5004,10002,Jose Diaz,JOSE DIAZ,False,,,#C7084D
+5004,10090,Ryan Balius,RYAN BALIUS,False,,,#32AB34
+5004,10324,Denise Barnes,*DENISE BARNES,True,,,#F8BD0E
+5007,10055,Jeanine A. Robbins,JEANINE A. ROBBINS,False,,,#C7084D
+5007,10274,Avelino Valencia,AVELINO VALENCIA,False,,,#1096bf
+5007,10307,Julie Brunette,JULIE BRUNETTE,False,,,#32AB34
+5007,10323,Annemarie Randle-Trejo,ANNEMARIE RANDLE-TREJO,False,,,#F8BD0E
+5008,10006,Kenneth Batiste,KENNETH BATISTE,False,,,#32AB34
+5008,10228,Steve Faessel,*STEVE FAESSEL,True,,,#F8BD0E
+5008,10287,"Sabrina ""Sav"" Quezada","SABRINA ""SAV"" QUEZADA",False,,,#C7084D
+5011,9995,Marty Simonoff,*MARTY SIMONOFF,True,,,#1096bf
+5011,10014,Christine Marick,*CHRISTINE MARICK,True,,,#F8BD0E
+5011,10015,Robyn Neufeld,ROBYN NEUFELD,False,,,#C7084D
+5011,10149,Tyler Baugh,TYLER BAUGH,False,,,#32AB34
+5014,9966,Bev Perry,BEV PERRY,False,,,#F8BD0E
+5014,10366,Denise Eby,DENISE EBY,False,,,#32AB34
+5025,9928,Sharon Smith,SHARON SMITH,False,,,#F8BD0E
+5025,10099,Susan Sonne,SUSAN SONNE,False,,,#C7084D
+5025,10231,Paul D. Gonzales,PAUL D. GONZALES,False,,,#32AB34
+5026,9950,Donna Varona Sipl,DONNA VARONA SIPL,False,,,#F8BD0E
+5026,10077,Arthur C. Brown,ARTHUR C. BROWN,False,,,#32AB34
+5031,10253,Al Melone,AL MELONE,False,,,#1096bf
+5031,10276,Katrina Foley,*KATRINA FOLEY,True,,,#32AB34
+5031,10299,"Quentin ""Q"" Pullen","QUENTIN ""Q"" PULLEN",False,,,#e47300
+5031,10321,Wendy Brooks Leece,WENDY BROOKS LEECE,False,,,#C7084D
+5031,10342,"Sandra L. ""Sandy"" Genis","SANDRA L. ""SANDY"" GENIS",False,,,#F8BD0E
+5032,10119,John Stephens,*JOHN STEPHENS,True,,,#C7084D
+5032,10339,Don Harper,DON HARPER,False,,,#32AB34
+5032,10341,Jason Komala,JASON KOMALA,False,,,#F8BD0E
+5033,10021,Loren Gameros,LOREN GAMEROS,False,,,#F8BD0E
+5033,10151,Ben Chapman,BEN CHAPMAN,False,,,#32AB34
+5033,10279,Gary Parkin,GARY PARKIN,False,,,#C7084D
+5039,10106,Jeffrey Harlan,JEFFREY HARLAN,False,,,#F8BD0E
+5039,10159,Jeff Pettis,JEFF PETTIS,False,,,#C7084D
+5039,10225,Hengameh Abraham,HENGAMEH ABRAHAM,False,,,#32AB34
+5039,10338,Lee Ramos,LEE RAMOS,False,,,#1096bf
+5041,9875,Blaze Bhence,BLAZE BHENCE,False,,,#32AB34
+5041,9883,Jimmy Fuller,JIMMY FULLER,False,,,#F8BD0E
+5041,10005,Steve Mauss,STEVE MAUSS,False,,,#dc2e07
+5041,10076,Carrie Katsumata Hayashida,CARRIE KATSUMATA HAYASHIDA,False,,,#1096bf
+5041,10239,Frances Marquez,FRANCES MARQUEZ,False,,,#8e67a0
+5041,10266,Cole Thompson,COLE THOMPSON,False,,,#0e80a4
+5041,10272,Anne Hertz,ANNE HERTZ,False,,,#e47300
+5041,10322,Rachel Strong,RACHEL STRONG,False,,,#5E5F8F
+5041,10343,David Gersten,DAVID GERSTEN,False,,,#C7084D
+5056,10034,Mike Frost,MIKE FROST,False,,,#32AB34
+5056,10260,Gary Newkirk,GARY NEWKIRK,False,,,#F8BD0E
+5057,10044,Benjamin Tyler Bebee,BENJAMIN TYLER BEBEE,False,,,#32AB34
+5057,10101,Michael Villar,MICHAEL VILLAR,False,,,#F8BD0E
+5063,9922,Jim Cunneen,JIM CUNNEEN,False,,,#C7084D
+5063,10010,Mai Khanh Tran,MAI KHANH TRAN,False,,,#dc2e07
+5063,10141,Glenn Grandis,GLENN GRANDIS,False,,,#1096bf
+5063,10195,Ted Bui,TED BUI,False,,,#F8BD0E
+5063,10317,Cheryl Brothers,*CHERYL BROTHERS,True,,,#32AB34
+5063,10356,Tom Nguyen,TOM NGUYEN,False,,,#e47300
+5063,10361,Mary Pham,MARY PHAM,False,,,#8e67a0
+5071,9886,Fred Jung,FRED JUNG,False,,,#F8BD0E
+5071,10189,Andrew Cho,ANDREW CHO,False,,,#32AB34
+5072,9914,Chuck Sargeant,CHUCK SARGEANT,False,,,#1096bf
+5072,10162,Nick Dunlap,NICK DUNLAP,False,,,#F8BD0E
+5072,10206,Mackenzie Chang,MACKENZIE CHANG,False,,,#32AB34
+5072,10221,Faisal Qazi,FAISAL QAZI,False,,,#C7084D
+5074,10033,Aaruni Thakur,AARUNI THAKUR,False,,,#32AB34
+5074,10271,Bruce Whitaker,BRUCE WHITAKER,False,,,#F8BD0E
+5081,10098,Steve Jones,*STEVE JONES,True,,,#F8BD0E
+5081,10133,Donald Taylor,DONALD TAYLOR,False,,,#1096bf
+5081,10175,Phat Bui,PHAT BUI,False,,,#32AB34
+5081,10326,Duy Nguyen,DUY NGUYEN,False,,,#C7084D
+5085,9968,John R. O'Neill,*JOHN R. O'NEILL,True,,,#F8BD0E
+5085,10215,Julie Diep,JULIE DIEP,False,,,#32AB34
+5088,10004,Stephanie Klopfenstein,*STEPHANIE KLOPFENSTEIN,True,,,#32AB34
+5088,10345,Robert Tucker,ROBERT TUCKER,False,,,#F8BD0E
+5089,9936,Kim Bernice Nguyen,*KIM BERNICE NGUYEN,True,,,#32AB34
+5089,10344,Huan C. Nguyen,HUAN C. NGUYEN,False,,,#32AB34
+5091,9838,Dan Kalmick,DAN KALMICK,False,,,#8e67a0
+5091,9962,Sonya Green,SONYA GREEN,False,,,#C7084D
+5091,10026,Amory Hanson,AMORY HANSON,False,,,#1096bf
+5091,10093,Natalie Moser,NATALIE MOSER,False,,,#c18bda
+5091,10154,John Briscoe,JOHN BRISCOE,False,,,#32AB34
+5091,10168,"Eric ""Silk"" Silkenson","ERIC ""SILK"" SILKENSON",False,,,#F6881F
+5091,10177,Thomas Matthew Laparne,THOMAS MATTHEW LAPARNE,False,,,#dc2e07
+5091,10183,Gracey Van Der Mark,GRACEY VAN DER MARK,False,,,#5E5F8F
+5091,10188,Jeff Morin,JEFF MORIN,False,,,#67331f
+5091,10192,Brian Burley,BRIAN BURLEY,False,,,#F8BD0E
+5091,10232,Oscar D. Rodriguez,OSCAR D. RODRIGUEZ,False,,,#a5d604
+5091,10255,Tito Ortiz,TITO ORTIZ,False,,,#7EB0B2
+5091,10275,Casey Mckeon,CASEY MCKEON,False,,,#0e80a4
+5091,10357,Matthew Harper,MATTHEW HARPER,False,,,#e47300
+5091,10368,William Billy O'Connell,WILLIAM BILLY O'CONNELL,False,,,#326CA6
+5093,10207,Robin Estanislau,*ROBIN ESTANISLAU,True,,,#32AB34
+5094,10127,Alisa Backstrom,ALISA BACKSTROM,False,,,#32AB34
+5101,9884,Farrah N. Khan,FARRAH N. KHAN,False,,,#C7084D
+5101,9893,Christina L. Shea,*CHRISTINA L. SHEA,True,,,#1096bf
+5101,10096,Katherine Daigle,KATHERINE DAIGLE,False,,,#32AB34
+5101,10289,Luis Huang,LUIS HUANG,False,,,#F8BD0E
+5102,9885,Tammy Kim,TAMMY KIM,False,,,#0e80a4
+5102,9892,Mark Newgent,MARK NEWGENT,False,,,#c18bda
+5102,9912,Lauren Johnson-Norris,LAUREN JOHNSON-NORRIS,False,,,#5E5F8F
+5102,9924,Christina Dillard,CHRISTINA DILLARD,False,,,#1096bf
+5102,10023,Abigail K. Pole,ABIGAIL K. POLE,False,,,#a5d604
+5102,10171,Mike Carroll,*MIKE CARROLL,True,,,#C7084D
+5102,10180,John Park,JOHN PARK,False,,,#7EB0B2
+5102,10219,Carrie O'Malley,CARRIE O'MALLEY,False,,,#326CA6
+5102,10235,Hai Yang Liang,HAI YANG LIANG,False,,,#67331f
+5102,10348,Laura Bratton,LAURA BRATTON,False,,,#F8BD0E
+5102,10355,Diana Jiang,DIANA JIANG,False,,,#dc2e07
+5102,10360,Dylan Green,DYLAN GREEN,False,,,#8e67a0
+5102,10365,Anshul Garg,ANSHUL GARG,False,,,#e47300
+5102,10367,Larry Agran,LARRY AGRAN,False,,,#32AB34
+5111,10038,George Weiss,GEORGE WEISS,False,,,#1096bf
+5111,10140,Larry Nokes,LARRY NOKES,False,,,#C7084D
+5111,10277,Bob Whalen,*BOB WHALEN,True,,,#e47300
+5111,10296,Steve Dicterow,*STEVE DICTEROW,True,,,#32AB34
+5111,10300,Ruben Flores,RUBEN FLORES,False,,,#F8BD0E
+5113,10031,Ann Marie Mckay,ANN MARIE MCKAY,False,,,#32AB34
+5113,10164,Mariann Tracy,MARIANN TRACY,False,,,#F8BD0E
+5114,10295,Laura Parisi,*LAURA PARISI,True,,,#32AB34
+5118,10116,Bill Hunt,BILL HUNT,False,,,#F8BD0E
+5118,10152,Janine Heft,*JANINE HEFT,True,,,#32AB34
+5118,10329,Nick Wood,NICK WOOD,False,,,#C7084D
+5121,9894,Rischi Paul Sharma,RISCHI PAUL SHARMA,False,,,#5E5F8F
+5121,9970,Kelly Jennings,KELLY JENNINGS,False,,,#1096bf
+5121,9974,Sandy Rains,*SANDY RAINS,True,,,#dc2e07
+5121,10051,Sherry Astrella,SHERRY ASTRELLA,False,,,#32AB34
+5121,10247,Michael Harvey Fair,MICHAEL HARVEY FAIR,False,,,#C7084D
+5121,10283,Stephanie Oddo,STEPHANIE ODDO,False,,,#8e67a0
+5121,10334,Shani Moslehi,SHANI MOSLEHI,False,,,#e47300
+5121,10337,John Dhaliwal,JOHN DHALIWAL,False,,,#F8BD0E
+5125,9938,Noel Hatch,*NOEL HATCH,True,,,#F8BD0E
+5125,10016,Shari L Horne,*SHARI L HORNE,True,,,#C7084D
+5125,10047,Cynthia Conners,*CYNTHIA CONNERS,True,,,#32AB34
+5125,10074,Judith P. Troutman,JUDITH P. TROUTMAN,False,,,#e47300
+5125,10089,Kathryn Robbins,KATHRYN ROBBINS,False,,,#1096bf
+5131,10114,Steve Simonian,STEVE SIMONIAN,False,,,#e47300
+5131,10210,Peter Cruz,PETER CRUZ,False,,,#32AB34
+5131,10211,Michael Navarro,MICHAEL NAVARRO,False,,,#C7084D
+5131,10245,Tim Shaw,*TIM SHAW,True,,,#1096bf
+5131,10336,Rose Espinoza,*ROSE ESPINOZA,True,,,#F8BD0E
+5135,10184,Lori Berger,LORI BERGER,False,,,#32AB34
+5135,10237,Richa Sharma,RICHA SHARMA,False,,,#e47300
+5135,10315,Louise M Robertson,LOUISE M ROBERTSON,False,,,#1096bf
+5135,10331,Doug Cirbo,DOUG CIRBO,False,,,#F8BD0E
+5135,10376,Chris Mcdonald,CHRIS MCDONALD,False,,,#C7084D
+5135,10380,Nick Tanner,NICK TANNER,False,,,#8e67a0
+5139,10013,Robert Pequeno,ROBERT PEQUENO,False,,,#1096bf
+5139,10050,Jeannette J. Nadal,JEANNETTE J. NADAL,False,,,#C7084D
+5139,10242,Larissa Clark,LARISSA CLARK,False,,,#32AB34
+5139,10258,Frank Wagoner,FRANK WAGONER,False,,,#e47300
+5139,10390,Shane Jones,SHANE JONES,False,,,#F8BD0E
+5141,9993,Taylor H.w. Quan,TAYLOR H.W. QUAN,False,,,#e47300
+5141,10124,Marshall Goodman,*MARSHALL GOODMAN,True,,,#1096bf
+5141,10194,Mark I. Waldman,MARK I. WALDMAN,False,,,#8e67a0
+5141,10217,Emanuel Aparicio,EMANUEL APARICIO,False,,,#32AB34
+5141,10282,Debbie Baker,DEBBIE BAKER,False,,,#F8BD0E
+5141,10349,April Kamilah Bagasao Bautista,APRIL KAMILAH BAGASAO BAUTISTA,False,,,#C7084D
+5151,10024,Tanya Doby,TANYA DOBY,False,,,#32AB34
+5151,10262,Dean Grose,DEAN GROSE,False,,,#F8BD0E
+5152,10297,Kate Hallman,KATE HALLMAN,False,,,#F8BD0E
+5152,10318,Ron Bates,RON BATES,False,,,#32AB34
+5153,10313,Jordan B. Nefulda,JORDAN B. NEFULDA,False,,,#32AB34
+5161,10025,Steve Sipe,STEVE SIPE,False,,,#dc2e07
+5161,10185,Ryan Tworek,RYAN TWOREK,False,,,#5E5F8F
+5161,10208,Pauline Hale,PAULINE HALE,False,,,#C7084D
+5161,10220,"Patricia ""Trish"" Kelley","*PATRICIA ""TRISH"" KELLEY",True,,,#1096bf
+5161,10238,Jessica Gilbert,JESSICA GILBERT,False,,,#32AB34
+5161,10252,Brian Goodell,*BRIAN GOODELL,True,,,#F8BD0E
+5161,10264,Cathy Schlicht,CATHY SCHLICHT,False,,,#8e67a0
+5161,10340,Michael Mcconnell,MICHAEL MCCONNELL,False,,,#e47300
+5172,9971,Nancy Scarbrough,NANCY SCARBROUGH,False,,,#F8BD0E
+5172,10030,Brad Avery,*BRAD AVERY,True,,,#32AB34
+5175,9998,Jeff Herdman,*JEFF HERDMAN,True,,,#F8BD0E
+5175,10240,Noah Blom,NOAH BLOM,False,,,#32AB34
+5177,9881,Will O'Neill,*WILL O'NEILL,True,,,#32AB34
+5181,10167,Adrienne Gladson,ADRIENNE GLADSON,False,,,#32AB34
+5181,10256,Mark A Murphy,*MARK A MURPHY,True,,,#F8BD0E
+5182,10029,Christian L. Vaughan,CHRISTIAN L. VAUGHAN,False,,,#C7084D
+5182,10186,Arianna Barrios,ARIANNA BARRIOS,False,,,#32AB34
+5182,10191,David Vazquez,DAVID VAZQUEZ,False,,,#1096bf
+5182,10229,Eugene W. Fields,EUGENE W. FIELDS,False,,,#F8BD0E
+5183,9931,Daniel Correa,DANIEL CORREA,False,,,#F8BD0E
+5183,10007,Jon Dumitru,JON DUMITRU,False,,,#C7084D
+5183,10053,Martin Varona,MARTIN VARONA,False,,,#1096bf
+5183,10292,Caroline Alatorre,CAROLINE ALATORRE,False,,,#32AB34
+5184,10011,Mike Alvarez,MIKE ALVAREZ,False,,,#F8BD0E
+5184,10041,Danett Abbott-Wicker,DANETT ABBOTT-WICKER,False,,,#32AB34
+5184,10178,John R Russo,JOHN R RUSSO,False,,,#C7084D
+5186,9837,Ana Gutierrez,ANA GUTIERREZ,False,,,#32AB34
+5186,10100,Rick Ledesma,RICK LEDESMA,False,,,#F8BD0E
+5188,10086,Pamela Coleman,*PAMELA COLEMAN,True,,,#32AB34
+5189,10146,Richard A Rohm,*RICHARD A ROHM,True,,,#32AB34
+5190,9988,Devon Gray,DEVON GRAY,False,,,#32AB34
+5190,10176,Rhonda Shader,*RHONDA SHADER,True,,,#F8BD0E
+5192,10286,Jeremy B. Yamaguchi,*JEREMY B. YAMAGUCHI,True,,,#32AB34
+5194,10108,Hilaire Fuji Shioura,HILAIRE FUJI SHIOURA,False,,,#32AB34
+5194,10288,Ward L. Smith,*WARD L. SMITH,True,,,#F8BD0E
+5195,9956,"Robert S. ""Bob"" Mckinnell","*ROBERT S. ""BOB"" MCKINNELL",True,,,#32AB34
+5196,10042,Kevin A. Larson,*KEVIN A. LARSON,True,,,#32AB34
+5198,9948,Glenn Acosta,GLENN ACOSTA,False,,,#32AB34
+5198,10190,John Christopoulos,JOHN CHRISTOPOULOS,False,,,#e47300
+5198,10216,Carol Gamble,*CAROL GAMBLE,True,,,#8e67a0
+5198,10224,Chris K. Mclaughlin,CHRIS K. MCLAUGHLIN,False,,,#5E5F8F
+5198,10278,Beth Schwartz,BETH SCHWARTZ,False,,,#0e80a4
+5198,10284,Julia Bendis,JULIA BENDIS,False,,,#C7084D
+5198,10285,Andrea Machuca,ANDREA MACHUCA,False,,,#dc2e07
+5198,10290,Tony Beall,*TONY BEALL,True,,,#F8BD0E
+5198,10303,Wendy Braun,WENDY BRAUN,False,,,#1096bf
+5201,9959,Aaron Washington,AARON WASHINGTON,False,,,#0e80a4
+5201,10043,Patrick Minnehan,PATRICK MINNEHAN,False,,,#dc2e07
+5201,10062,Chris Duncan,CHRIS DUNCAN,False,,,#32AB34
+5201,10102,Jeff Wellman,JEFF WELLMAN,False,,,#67331f
+5201,10120,Charlie Smith,CHARLIE SMITH,False,,,#5E5F8F
+5201,10145,Bill Hart,BILL HART,False,,,#F8BD0E
+5201,10179,Gene James,*GENE JAMES,True,,,#C7084D
+5201,10280,Joseph Kenney,JOSEPH KENNEY,False,,,#8e67a0
+5201,10319,Thor Johnson,THOR JOHNSON,False,,,#1096bf
+5201,10386,Jeff Provance Jr,JEFF PROVANCE JR,False,,,#e47300
+5203,9949,Joanne Baade,*JOANNE BAADE,True,,,#32AB34
+5204,10213,Mark A. Taylor,*MARK A. TAYLOR,True,,,#32AB34
+5205,10045,Laron Rush,LARON RUSH,False,,,#8e67a0
+5205,10048,Steven Knoblock,STEVEN KNOBLOCK,False,,,#1096bf
+5205,10057,Tyler Boden,TYLER BODEN,False,,,#32AB34
+5205,10063,Donna Vidrine,DONNA VIDRINE,False,,,#dc2e07
+5205,10105,Zhen Wu,ZHEN WU,False,,,#5E5F8F
+5205,10172,Jerry Quinlan,JERRY QUINLAN,False,,,#e47300
+5205,10227,Jim Dahl,JIM DAHL,False,,,#F8BD0E
+5205,10291,George T. Gregory,GEORGE T. GREGORY,False,,,#C7084D
+5217,10088,John Alpay,JOHN ALPAY,False,,,#32AB34
+5217,10138,Howard Hart,HOWARD HART,False,,,#F8BD0E
+5221,10035,Claudia C. Alvarez,CLAUDIA C. ALVAREZ,False,,,#32AB34
+5221,10174,Vicente Sarmiento,VICENTE SARMIENTO,False,,,#e47300
+5221,10187,George M Collins,GEORGE M COLLINS,False,,,#F8BD0E
+5221,10223,"Cecilia ""Ceci"" Iglesias","CECILIA ""CECI"" IGLESIAS",False,,,#C7084D
+5221,10234,Jose Solorio,JOSE SOLORIO,False,,,#8e67a0
+5221,10263,Mark I. Lopez,MARK I. LOPEZ,False,,,#1096bf
+5222,10075,Cynthia Contreras,CYNTHIA CONTRERAS,False,,,#F8BD0E
+5222,10135,"Antonio ""Tony"" Adame","ANTONIO ""TONY"" ADAME",False,,,#32AB34
+5222,10193,Thai Viet Phan,THAI VIET PHAN,False,,,#1096bf
+5222,10236,Thomas Anthony Gordon,THOMAS ANTHONY GORDON,False,,,#C7084D
+5224,10128,Danny Vega,DANNY VEGA,False,,,#1096bf
+5224,10181,Jessie Lopez,JESSIE LOPEZ,False,,,#F8BD0E
+5224,10222,Mark Mcloughlin,MARK MCLOUGHLIN,False,,,#C7084D
+5224,10246,Jeffrey Katz,JEFFREY KATZ,False,,,#32AB34
+5224,10248,Jannelle Welker,JANNELLE WELKER,False,,,#e47300
+5226,9980,Juan Villegas,*JUAN VILLEGAS,True,,,#1096bf
+5226,10113,Vic Mendez,VIC MENDEZ,False,,,#F8BD0E
+5226,10214,Johnathan Ryan Hernandez,JOHNATHAN RYAN HERNANDEZ,False,,,#32AB34
+5226,10257,Laura Perez,LAURA PEREZ,False,,,#C7084D
+5232,10112,Thomas Moore,*THOMAS MOORE,True,,,#F8BD0E
+5232,10126,Carole S. Damoci,CAROLE S. DAMOCI,False,,,#32AB34
+5234,10316,Schelly Sustarsic,*SCHELLY SUSTARSIC,True,,,#32AB34
+5242,10165,Hong Alyce Van,*HONG ALYCE VAN,True,,,#F8BD0E
+5242,10166,Dewayne Allen Normand,DEWAYNE ALLEN NORMAND,False,,,#32AB34
+5245,10012,Carol Warren,*CAROL WARREN,True,,,#C7084D
+5245,10049,Jeff Jones,JEFF JONES,False,,,#F8BD0E
+5245,10302,Josh Estrada,JOSH ESTRADA,False,,,#32AB34
+5251,9819,Letitia Clark,*LETITIA CLARK,True,,,#F8BD0E
+5251,10173,Kurt Bensworth,KURT BENSWORTH,False,,,#32AB34
+5251,10209,Aj Jha,AJ JHA,False,,,#dc2e07
+5251,10230,Lee Fink,LEE FINK,False,,,#1096bf
+5251,10243,Ryan Gallagher,RYAN GALLAGHER,False,,,#e47300
+5251,10293,Jorge Valdes,JORGE VALDES,False,,,#0e80a4
+5251,10298,Cristian Cusac,CRISTIAN CUSAC,False,,,#C7084D
+5251,10308,"Rebecca ""Beckie"" Gomez","REBECCA ""BECKIE"" GOMEZ",False,,,#8e67a0
+5251,10332,"Jaime ""James"" Perez","JAIME ""JAMES"" PEREZ",False,,,#5E5F8F
+5273,10036,Carlos Manzo,CARLOS MANZO,False,,,#32AB34
+5273,10037,Namquan Nguyen,NAMQUAN NGUYEN,False,,,#F8BD0E
+5273,10111,Trung Ta,TRUNG TA,False,,,#C7084D
+5278,10254,Kimberly Ho,KIMBERLY HO,False,,,#F8BD0E
+5278,10261,Tai Do,TAI DO,False,,,#32AB34
+6002,10161,William Wiersig,WILLIAM WIERSIG,False,,,#C7084D
+6002,10306,Brad L. Jenkins,BRAD L. JENKINS,False,,,#F8BD0E
+6002,10325,Yuri Cramer,YURI CRAMER,False,,,#32AB34
+6022,9864,Tony Demarco,*TONY DEMARCO,True,,,#C7084D
+6022,9865,Michael Maynard,*MICHAEL MAYNARD,True,,,#1096bf
+6022,9880,Joyce Bloom,JOYCE BLOOM,False,,,#F8BD0E
+6022,9882,Jeffrey Barke,JEFFREY BARKE,False,,,#32AB34
+6022,10330,Nathan Searles,NATHAN SEARLES,False,,,#e47300
+6081,9951,Celeste Goff Veerkamp,CELESTE GOFF VEERKAMP,False,,,#C7084D
+6081,10071,Julie A. Morris,JULIE A. MORRIS,False,,,#F8BD0E
+6081,10364,Michele Grace Agopian,MICHELE GRACE AGOPIAN,False,,,#32AB34
+6102,9967,James Ferryman,*JAMES FERRYMAN,True,,,#F8BD0E
+6102,10203,Brett Eckles,BRETT ECKLES,False,,,#32AB34
+6104,9805,Art Perry,*ART PERRY,True,,,#F8BD0E
+6104,10268,Michelle Figueredo-Wilson,MICHELLE FIGUEREDO-WILSON,False,,,#32AB34
+6132,9828,Ashton Roger Kauwe,ASHTON ROGER KAUWE,False,,,#C7084D
+6132,9930,Chi Charlie Nguyen,*CHI CHARLIE NGUYEN,True,,,#1096bf
+6132,10028,Tai Do,TAI DO,False,,,#F8BD0E
+6132,10197,Jamison Power,JAMISON POWER,False,,,#e47300
+6132,10310,Tyler Diep,TYLER DIEP,False,,,#32AB34
+6141,9872,David Evans,DAVID EVANS,False,,,#32AB34
+6141,9953,John H. Woods,*JOHN H. WOODS,True,,,#1096bf
+6141,9994,Jon H. Regnier,*JON H. REGNIER,True,,,#C7084D
+6141,10110,Graham Hoad,*GRAHAM HOAD,True,,,#F8BD0E
+6152,10132,Victor J. Kriss,VICTOR J. KRISS,False,,,#C7084D
+6152,10196,Linda Garofalo,*LINDA GAROFALO,True,,,#F8BD0E
+6152,10385,Dave Chamberlain,DAVE CHAMBERLAIN,False,,,#32AB34
+6168,9942,Mary Aileen Matheis,*MARY AILEEN MATHEIS,True,,,#F8BD0E
+6168,10017,Karen Mclaughlin,KAREN MCLAUGHLIN,False,,,#C7084D
+6168,10352,Aarti Kaushal,AARTI KAUSHAL,False,,,#32AB34
+6180,9789,"Charles ""Chuck"" Gibson","*CHARLES ""CHUCK"" GIBSON",True,,,#32AB34
+6180,9831,Betty H. Olson,*BETTY H. OLSON,True,,,#C7084D
+6180,9849,Frank Ury,*FRANK URY,True,,,#1096bf
+6180,10072,Warren Martin,WARREN MARTIN,False,,,#F8BD0E
+6192,9782,John L Sears,*JOHN L SEARS,True,,,#1096bf
+6192,9834,Douglass S. Davert,*DOUGLASS S. DAVERT,True,,,#32AB34
+6192,9870,Noble Alejandro Drakoln,NOBLE ALEJANDRO DRAKOLN,False,,,#F8BD0E
+6192,9975,Julio F. Morales,JULIO F. MORALES,False,,,#C7084D
+6222,9816,James R. Fisler,*JAMES R. FISLER,True,,,#F8BD0E
+6222,10182,Adam C. Ereth,ADAM C. ERETH,False,,,#32AB34
+6234,9917,Tri Ta,*TRI TA,True,,,#e47300
+6234,10001,Kris Beard,KRIS BEARD,False,,,#32AB34
+6234,10027,Tai Do,TAI DO,False,,,#C7084D
+6234,10157,Jasmin Carmadella,JASMIN CARMADELLA,False,,,#F8BD0E
+6234,10350,Samantha Bao Anh Nguyen,SAMANTHA BAO ANH NGUYEN,False,,,#1096bf
+6236,9871,Cathy Green,*CATHY GREEN,True,,,#F8BD0E
+6236,10060,Michael Elliott,MICHAEL ELLIOTT,False,,,#32AB34
+6252,9786,Markus J. Lenger,MARKUS J. LENGER,False,,,#1096bf
+6252,9985,Scott Goldman,SCOTT GOLDMAN,False,,,#C7084D
+6252,9987,Rick Erkeneff,*RICK ERKENEFF,True,,,#F8BD0E
+6252,10084,Douglas Erdman,*DOUGLAS ERDMAN,True,,,#32AB34
+6252,10163,Wayne Rayfield,*WAYNE RAYFIELD,True,,,#e47300
+6291,9848,Al Nederhood,AL NEDERHOOD,False,,,#F8BD0E
+6291,10019,Scott Hupp,SCOTT HUPP,False,,,#32AB34
+6291,10134,Fred R. Smith,FRED R. SMITH,False,,,#C7084D
+6293,9801,"Robert R. ""Bob"" Mcvicker","*ROBERT R. ""BOB"" MCVICKER",True,,,#F8BD0E
+6293,10137,Linda Moulton-Patterson,LINDA MOULTON-PATTERSON,False,,,#C7084D
+6293,10311,Tyler Diep,TYLER DIEP,False,,,#32AB34
+6293,10314,Kathy-Nguyet Pham,KATHY-NGUYET PHAM,False,,,#1096bf
+6294,9839,Karl Seckel,KARL SECKEL,False,,,#1096bf
+6294,9926,Christopher Ganiere,CHRISTOPHER GANIERE,False,,,#32AB34
+6294,10039,Dana M Reed,DANA M REED,False,,,#C7084D
+6294,10054,Stacy Lynne Taylor,STACY LYNNE TAYLOR,False,,,#e47300
+6294,10081,Allan R. Mansoor,ALLAN R. MANSOOR,False,,,#F8BD0E
+6297,9802,Megan Yoo Schneider,*MEGAN YOO SCHNEIDER,True,,,#F8BD0E
+6297,10085,Debbie Neev,DEBBIE NEEV,False,,,#32AB34
+6332,9989,Irene Castaneda,*IRENE CASTANEDA,True,,,#32AB34
+6332,10143,Dennis Lee Salts,*DENNIS LEE SALTS,True,,,#1096bf
+6332,10244,Patricia Ganer,*PATRICIA GANER,True,,,#F8BD0E
+6332,10249,L Carole Jensen,L CAROLE JENSEN,False,,,#C7084D
+6401,10269,James Guziak,JAMES GUZIAK,False,,,#32AB34
+6401,10346,Craig S. Schill,*CRAIG S. SCHILL,True,,,#C7084D
+6401,10363,Bhavin Patel,BHAVIN PATEL,False,,,#F8BD0E
+8500,-10950,No,No,False,,,cb2a06
+8500,10950,Yes,Yes,False,,,#268327
+8501,-10952,No,No,False,,,cb2a06
+8501,10952,Yes,Yes,False,,,#268327
+8502,-10953,No,No,False,,,cb2a06
+8502,10953,Yes,Yes,False,,,#268327
+8503,-10954,No,No,False,,,cb2a06
+8503,10954,Yes,Yes,False,,,#268327
+8504,-10955,No,No,False,,,cb2a06
+8504,10955,Yes,Yes,False,,,#268327
+8505,-10956,No,No,False,,,cb2a06
+8505,10956,Yes,Yes,False,,,#268327
+8506,-10957,No,No,False,,,cb2a06
+8506,10957,Yes,Yes,False,,,#268327
+8507,-10958,No,No,False,,,cb2a06
+8507,10958,Yes,Yes,False,,,#268327
+8508,-10959,No,No,False,,,cb2a06
+8508,10959,Yes,Yes,False,,,#268327
+8509,-10960,No,No,False,,,cb2a06
+8509,10960,Yes,Yes,False,,,#268327
+8510,-10961,No,No,False,,,cb2a06
+8510,10961,Yes,Yes,False,,,#268327
+8511,-10962,No,No,False,,,cb2a06
+8511,10962,Yes,Yes,False,,,#268327
+8600,-10951,No,No,False,,,cb2a06
+8600,10951,Yes,Yes,False,,,#268327
+8601,-10963,No,No,False,,,cb2a06
+8601,10963,Yes,Yes,False,,,#268327
+8602,-10964,No,No,False,,,cb2a06
+8602,10964,Yes,Yes,False,,,#268327
+8603,-10965,No,No,False,,,cb2a06
+8603,10965,Yes,Yes,False,,,#268327
+8604,-10966,No,No,False,,,cb2a06
+8604,10966,Yes,Yes,False,,,#268327
+8605,-10967,No,No,False,,,cb2a06
+8605,10967,Yes,Yes,False,,,#268327
+8606,-10968,No,No,False,,,cb2a06
+8606,10968,Yes,Yes,False,,,#268327
+8607,-10969,No,No,False,,,cb2a06
+8607,10969,Yes,Yes,False,,,#268327
+8608,-10970,No,No,False,,,cb2a06
+8608,10970,Yes,Yes,False,,,#268327
+8609,-10971,No,No,False,,,cb2a06
+8609,10971,Yes,Yes,False,,,#268327
+8610,-10972,No,No,False,,,cb2a06
+8610,10972,Yes,Yes,False,,,#268327
+8611,-10973,No,No,False,,,cb2a06
+8611,10973,Yes,Yes,False,,,#268327
+8612,-10974,No,No,False,,,cb2a06
+8612,10974,Yes,Yes,False,,,#268327

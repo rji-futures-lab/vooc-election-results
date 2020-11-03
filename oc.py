@@ -6,7 +6,6 @@ import xml.etree.ElementTree as et
 
 import requests
 
-from graphics import compile_bar_chart_data, compile_line_chart_data
 import s3
 
 
@@ -58,20 +57,29 @@ def group_results(results):
     return races_by_id
 
 
+def format_data(race_data, reporting_time):
+    return {
+        'reporting_time': reporting_time,
+        'candidate_votes': [
+            {
+                'id': k,
+                'name': v['ContestantName'], 
+                'is_incumbent': "*" in v['ContestantName'],
+                'votes': int(v['TotalVotes'])
+            } 
+            for k, v in race_data.items()
+        ]
+    }
+
+
 def handle_race(race_id, race_data, reporting_time):
     race_json = json.dumps(race_data)
     race_updated = s3.archive(race_json, path=f'oc/parsed/{race_id}')
 
     if race_updated:
-        bar_chart_dict = compile_bar_chart_data(
-            race_id, race_data, reporting_time
-        )
-        bar_chart_json = json.dumps(bar_chart_dict)
-        s3.archive(bar_chart_json, path=f"bar-charts/{race_id}")
-
-        line_chart_dict = compile_line_chart_data(race_id)
-        line_chart_json = json.dumps(line_chart_dict)
-        s3.archive(line_chart_json, path=f"line-charts/{race_id}")
+        formatted_data = format_data(race_data, reporting_time)
+        formatted_json = json.dumps(formatted_data)
+        s3.archive(formatted_json, path=f'oc/formatted/{race_id}')
 
 
 def main():

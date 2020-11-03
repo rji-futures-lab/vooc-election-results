@@ -1,10 +1,15 @@
+from itertools import groupby
 import json
 
 import s3
 
 
-def get_previous_total_ballots(race_id):
-    previous_data = s3.read_from(f"bar-charts/{race_id}/latest.json")
+with open("metadata/charts.json") as f:
+    CHART_METADATA = json.loads(f.read())
+
+
+def get_previous_total_ballots(path):
+    previous_data = s3.read_from(f"{path}/latest.json")
 
     if previous_data:
         as_dict = json.loads(previous_data)
@@ -15,79 +20,151 @@ def get_previous_total_ballots(race_id):
     return previous_total_ballots
 
 
-def get_race_meta_data(race_id):
-    with open("races.json") as f:
-        race_meta_data = json.loads(f.read())
+def get_candidate_race_source_data(path):
+    source_data = s3.read_from(f"{path}/latest.json")
 
-    return race_meta_data[race_id]
+    if source_data:
+        as_dict = json.loads(source_data)
+    else:
+        data = None
+
+    return data
 
 
-def compile_bar_chart_data(race_id, race_data, reporting_time):
+def get_source_data(path):
+    source_data = s3.read_from(f"{path}/latest.json")
+    try:
+        as_dict = json.loads(source_data)
+    except TypeError:
+        import ipdb; ipdb.set_trace()
 
-    race_meta_data = get_race_meta_data(race_id)
-    candidates_meta_data = race_meta_data['candidates']
+    return as_dict
 
-    candidates = []
 
-    for c_id, c_data in race_data.items():
-        candidate_data = candidates_meta_data[c_id]
-        candidate_data["votes"] = int(c_data["TotalVotes"]) 
-        candidates.append(candidate_data) 
+def compile_bar_chart_data(path):
 
-    previous_total_ballots = get_previous_total_ballots(race_id)
-    total_ballots = sum([c["votes"] for c in candidates])
+    meta_data = CHART_METADATA[path].copy()
+    sources = meta_data['sources']
+    source_data = [get_source_data(path) for path in sources]
+
+    reporting_times = sorted([i['reporting_time'] for i in source_data], reverse=True)
+    
+    candidate_votes = []
+    for i in source_data:
+        for j in i['candidate_votes']:
+            candidate_votes.append(j)
+
+    previous_total_ballots = get_previous_total_ballots(path)
+    total_ballots = sum([c["votes"] for c in candidate_votes])
+
+    candidate_votes.sort(key=lambda x: x['id'])
 
     candidate_image_count = 0
+    candidates = []
 
-    for candidate in candidates:
-        candidate["percent"] = round((candidate["votes"] / total_ballots) * 100, 2)
+    for c_id, g in groupby(candidate_votes, key=lambda x: x['id']):
+        candidate_lookup = [c for c in meta_data['candidates'] if c['id'] == c_id]
+
+        try:
+            assert len(candidate_lookup) == 1
+        except AssertionError:
+            import ipdb; ipdb.set_trace()
+
+        candidate = candidate_lookup[0]
+        
+        candidate_votes_total = sum([i["votes"] for i in g])
+        candidate_pct = round((candidate_votes_total / total_ballots) * 100, 2)
+        
+        candidate['votes'] = candidate_votes_total
+        candidate["percent"] = candidate_pct
+        candidate["is_incumbent"] = bool(candidate['is_incumbent'])
 
         if candidate['img_url']:
             candidate_image_count += 1
 
-    data_dict = {
-        "race_title": race_meta_data["race_title"],
-        "reporting_time": reporting_time,
+        candidates.append(candidate)
+
+    chart_data = {
+        "race_title": meta_data['title'],
+        "reporting_time": reporting_times[0],
         "total_ballots": total_ballots,
         "ballots_added": total_ballots - previous_total_ballots,
+        "source": meta_data['source_label'],
         "use_candidate_images": candidate_image_count == len(candidates),
         "candidates": candidates,
     }
 
-    if 'description' in race_meta_data:
-        data_dict['description'] = race_meta_data['description']
+    if len(meta_data['description']) > 0:
+        chart_data['description'] = meta_data['description']
 
-    return data_dict
+    return chart_data
 
 
-def compile_line_chart_data(race_id):
+def compile_line_chart_data(path):
     
-    previous_data = s3.read_from(f"line-charts/{race_id}/latest.json")
-    race_meta_data = get_race_meta_data(race_id)
+    previous_data = s3.read_from(f"{path}/latest.json")
+    meta_data = CHART_METADATA[path]
+
+    assert len(meta_data['sources']) == 1
+    source_data_path = meta_data['sources'][0]
 
     if previous_data:
-        data_dict = json.loads(previous_data)
+        chart_data = json.loads(previous_data)
     else:
-        data_dict = {
-            "race_title": race_meta_data["race_title"],
+        chart_data = {
+            "race_title": meta_data["title"],
             "latest_reporting_time": "",
             "latest_total_ballots": 0,
+            "source": CHART_METADATA[source_data_path]['source_label'],
             "latest_ballots_added": 0,
-            "updates": []
+            "updates": {
+                "race_wide": [],
+                "per_candidate": []
+            }
         }
 
-    if 'description' in race_meta_data:
-        data_dict['description'] = race_meta_data['description']
+    if len(meta_data['description']) > 0:
+        chart_data['description'] = meta_data['description']
 
-    latest_bar_graph_data = json.loads(s3.read_from(f"bar-charts/{race_id}/latest.json"))
+    source_data = json.loads(s3.read_from(f"{source_data_path}/latest.json"))
 
-    data_dict["latest_reporting_time"] = latest_bar_graph_data["reporting_time"]
-    data_dict["latest_total_ballots"] = latest_bar_graph_data["total_ballots"]
-    data_dict["latest_ballots_added"] = latest_bar_graph_data["ballots_added"]
+    chart_data["latest_reporting_time"] = source_data["reporting_time"]
+    chart_data["latest_total_ballots"] = source_data["total_ballots"]
+    chart_data["latest_ballots_added"] = source_data["ballots_added"]
+
+    new_race_wide_update = {
+        'reporting_time': source_data["reporting_time"],
+        'total_ballots': source_data["total_ballots"],
+        'ballots_added': source_data["ballots_added"],
+    }
+
+    chart_data["updates"]["race_wide"].append(new_race_wide_update)
+    chart_data["updates"]["race_wide"].sort(
+        key=lambda x: x['reporting_time'], reverse=True
+    )
     
-    data_dict["updates"].append(latest_bar_graph_data)
-    data_dict["updates"].sort(key=lambda x: x['reporting_time'], reverse=True)
+    for c in source_data['candidates']:
+        c['reporting_time'] = source_data["reporting_time"]
 
-    assert len(data_dict["updates"]) > 1
+    chart_data["updates"]["per_candidate"].extend(source_data['candidates'])
+    chart_data["updates"]["per_candidate"].sort(
+        key=lambda x: x['reporting_time'], reverse=True
+    )
 
-    return data_dict
+    return chart_data
+
+
+def main():
+    for path in CHART_METADATA:
+        if 'bar-charts' in path:
+            bar_chart_data = compile_bar_chart_data(path)
+            bar_chart_json = json.dumps(bar_chart_data)
+            s3.archive(bar_chart_json, path=path)
+        elif 'line-charts' in path:
+            line_chart_data = compile_line_chart_data(path)
+            line_chart_json = json.dumps(line_chart_data)
+            s3.archive(line_chart_json, path=path)
+
+
+if __name__ == '__main__':
+    main()

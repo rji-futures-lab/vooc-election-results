@@ -1,3 +1,4 @@
+metadata/.cache/
 data/*
 .python-version
 .envrc

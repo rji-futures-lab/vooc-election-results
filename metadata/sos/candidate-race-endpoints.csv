@@ -1,4 +1,5 @@
 race_id,endpoint
+1000,president
 1000,president/county/los-angeles
 1000,president/county/orange
 1000,president/county/san-bernardino
@@ -23,10 +24,7 @@ race_id,endpoint
 1200,state-senate/district/29/county/los-angeles
 1200,state-senate/district/29/county/orange
 1200,state-senate/district/29/county/san-bernardino
-1240,state-assembly/district/37
-1240,state-assembly/district/37/county/san-luis-obispo
-1240,state-assembly/district/37/county/santa-barbara
-1240,state-assembly/district/37/county/ventura
+1240,state-senate/district/37
 1300,state-assembly/district/55
 1300,state-assembly/district/55/county/los-angeles
 1300,state-assembly/district/55/county/orange

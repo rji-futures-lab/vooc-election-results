@@ -1,159 +1,90 @@
-import xml.etree.ElementTree as et
-import requests
+from itertools import groupby
 import json
-import random
+import os
+from random import randint
+import xml.etree.ElementTree as et
 
+import requests
+
+from graphics import compile_bar_chart_data, compile_line_chart_data
 import s3
 
-def parse_single(xml, race_id, output_path):
-    try:
-        old_results = json.loads(s3.read_from(f'{output_path}/latest.json'))
-    except Exception as e:
-        old_results = None
 
+SIMULATE_RESULTS = os.getenv('SIMULATE_RESULTS', default=False)
+
+
+CANDIDATE_ID_MAPPINGS = {
+    # Brian Maryott
+    "8": "9756",
+    # Mike Levin
+    "7": "9757",
+}
+
+
+def get_results():
+    url = "http://www.livevoterturnout.com/sandiego/liveresults/summary_10.xml"
+    r = requests.get(url)
+    r.raise_for_status()
+
+    return r.headers['content-type'], r.content
+
+
+def parse_results(xml):
     root = et.fromstring(xml)
-    xpath = './Table[RaceID="' + str(race_id) + '"]'
-    
-    elements = root.findall(xpath)
-    candidates = [{c.tag: c.text for c in list(e)} for e in elements]
 
-    data = json.loads('{"totalVotes": 0, "ReportingTime": "", "candidates": []}')
-    data['ReportingTime'] = root.find('GeneratedDate').text
+    reporting_time = root.find('./GeneratedDate').text
 
-    for candidate in candidates:
-        item = {
-            'Name': candidate['ContestantName'],
-            'Party': candidate['Party'],
-            'Votes': candidate['TotalVotes'],
-            'Percent': candidate['ContestantVotePercent'],
-            'Incumbent': False
-        }
+    xpath = "./Table[RaceID='2']"
 
-        data['totalVotes'] += int(item['Votes'])
-        data['votesAdded'] = data['totalVotes'] - old_results['totalVotes'] if old_results else data['totalVotes']
-        data['candidates'].append(item)
+    tables = root.findall(xpath)
 
-    data = json.dumps(data)
+    results = []
 
-    s3.write_to(f'{output_path}/latest.json', data, 'application/json')
-    s3.write_to(f'{output_path}/{json.loads(data)["ReportingTime"]}.json', data, 'application/json')
+    for table in tables:
+        candidate = {c.tag: c.text for c in list(table)}
+        if SIMULATE_RESULTS:
+            candidate['TotalVotes'] = str(randint(0, 10000))
+        results.append(candidate)
 
-def parse_sd(xml):
-    try:
-        old_results = json.loads(s3.read_from('latest.json'))
-    except Exception as e:
-        print(e)
+    return reporting_time, results
 
-    data = json.loads('{"generatedDate": "", "source": "SD"}')
 
-    root = et.fromstring(xml)
-    data['generatedDate'] = root.find('GeneratedDate').text
-    elements = root.findall('./Table')
+def format_data(race_data, reporting_time):
+    return {
+        'reporting_time': reporting_time,
+        'candidate_votes': [
+            {
+                'id': CANDIDATE_ID_MAPPINGS[c['ContestantID']],
+                'name': c['ContestantName'], 
+                # 'is_incumbent': "*" in v['ContestantName'],
+                'votes': int(c['TotalVotes'])
+            } 
+            for c in race_data
+        ]
+    }
 
-    races_list = [{c.tag: c.text for c in list(e)} for e in elements]
 
-    current_id = '0'
-    for race in races_list:
+def handle_race(race_data, reporting_time):
+    race_json = json.dumps(race_data)
+    race_updated = s3.archive(race_json, path=f'sd/parsed/2')
 
-        if str(race['RaceID']) == current_id:
-            candidate = {
-                'name': race['ContestantName'],
-                'party': race['Party'],
-                'isIncumbent': False,
-                'totalVotes': race['TotalVotes'],
-                'contestantVotePercent': race['ContestantVotePercent']
-            }
-            data[current_id]['totalBallots'] += int(race['TotalVotes'])
-            data[current_id]['ballotsAdded'] = data[current_id]['totalBallots'] - old_results[current_id]['totalBallots']
-            data[current_id]['contestants'][race['ContestantID']] = candidate
+    if race_updated:
+        formatted_data = format_data(race_data, reporting_time)
+        formatted_json = json.dumps(formatted_data)
+        s3.archive(formatted_json, path=f"sd/formatted/2")
 
-        else:
-            current_id = str(race['RaceID'])
-            item = {str(race['RaceID']):
-                {
-                    'raceName': race['RaceName'],
-                    'ballotsAdded': 0,
-                    'totalBallots': 0,
-                    'contestants': {
-                        race['ContestantID']: {
-                            'name': race['ContestantName'],
-                            'party': race['Party'],
-                            'isIncumbent': False,
-                            'totalVotes': race['TotalVotes'],
-                            'contestantVotePercent': race['ContestantVotePercent']
-                        }
-                    }
-                }
-            }
-            item[str(race['RaceID'])]['totalBallots'] += int(race['TotalVotes'])
-            item[str(race['RaceID'])]['ballotsAdded'] = item[str(race['RaceID'])]['totalBallots'] - old_results[current_id]['totalBallots']
-            data.update(item)
-
-    with open('data/sd/output/output.json', 'w') as f:
-        json.dump(data, f)
-
-    return json.dumps(data)
-
-def simulate(url, trials):
-    i = 1
-    root = et.fromstring(requests.get(url).content)
-
-    max_voter_turnout = random.uniform(0.7, 0.8) * int(root.find('RegisteredVoters').text)
-    avg_votes_per_precinct = max_voter_turnout / 1414
-    
-    while i <= trials:
-        elements = root.findall('./Table')
-
-        candidate = 1
-        num_candidates = 0
-        current_id = '0'
-        for table in elements:
-            total_votes = round(random.uniform(avg_votes_per_precinct*int(table.find('NumberOfPrec').text)*0.22*i, avg_votes_per_precinct*int(table.find('NumberOfPrec').text)*0.25*i))
-
-            if current_id == table.find('RaceID'):
-                table.find('TotalVotes').text = str(vote_distribution[candidate])
-                table.find('ContestantVotePercent').text = str(vote_distribution[candidate]/total_votes*100)[0:4]
-                candidate += 1
-            else:
-                current_id = table.find('RaceID').text
-                candidate = 0
-
-                xpath = './/*[RaceID="' + str(current_id) + '"]' 
-                num_candidates = len(root.findall(xpath))
-                
-                j = 0
-                k = 0
-                vote_distribution = []
-                distribution_total = 0
-                while j < num_candidates:
-                    vote_distribution.append(random.uniform(0, 1))
-                    distribution_total += vote_distribution[j]
-                    j += 1
-                while k < num_candidates:
-                    vote_distribution[k] = round((vote_distribution[k] / distribution_total) * total_votes)
-                    distribution_total += vote_distribution[k]
-                    k += 1
-
-                table.find('TotalVotes').text = str(vote_distribution[0])
-                table.find('ContestantVotePercent').text = str(vote_distribution[0]/total_votes*100)[0:4]
-
-        file = "data/sd/input/test" + str(i) + ".xml"
-        with open(file, 'w') as f:
-            f.write(et.tostring(root, encoding='unicode'))
-
-        data = parse_sd(et.tostring(root, encoding='unicode'))
-
-        s3.write_to(f'test{i}.json', data, 'json')
-        s3.write_to(f'latest.json', data, 'json')
-
-        i += 1
 
 def main():
-    url = 'http://www.livevoterturnout.com/sandiego/liveresults/summary_10.xml'
-    parse_single(requests.get(url).content, 2, 'sd/us-rep/district/49')
-    # s3.write_to(f'latest.json', data, 'json')
-    # s3.write_to(f'{json.loads(data)["generatedDate"]}.json', data, 'json')
-    # simulate(url, 4)
+    content_type, results = get_results()
+
+    results_updated = s3.archive(
+        results, content_type=content_type, path='sd/orig'
+    )
+
+    if results_updated or SIMULATE_RESULTS:
+        reporting_time, race_data = parse_results(results)
+        handle_race(race_data, reporting_time)
+
 
 if __name__ == '__main__':
     main()

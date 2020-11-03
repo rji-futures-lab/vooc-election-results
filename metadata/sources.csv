@@ -1,0 +1,5 @@
+id,name,url,full_results_endpoint
+oc,OC Registrar of Voters,https://www.livevoterturnout.com/Orange/LiveResults,summary_6.xml
+sd,San Diego Registrar of Voters,http://www.livevoterturnout.com/sandiego/liveresults,summary_10.xml
+la,Los Angeles County Registrar of Voters,https://rrcc.co.la.ca.us/results,results-06037-2020-11-03.xml
+sos,California Secretary of State,https://api.sos.ca.gov/returns,
