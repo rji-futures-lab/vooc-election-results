@@ -154,17 +154,35 @@ def compile_line_chart_data(path):
     return chart_data
 
 
-def main():
-    for path in CHART_METADATA:
-        if 'bar-charts' in path:
-            bar_chart_data = compile_bar_chart_data(path)
-            bar_chart_json = json.dumps(bar_chart_data)
-            s3.archive(bar_chart_json, path=path)
-        elif 'line-charts' in path:
-            line_chart_data = compile_line_chart_data(path)
-            line_chart_json = json.dumps(line_chart_data)
-            s3.archive(line_chart_json, path=path)
+def compile_chart_data(path):
+    if 'bar-charts' in path:
+        bar_chart_data = compile_bar_chart_data(path)
+        bar_chart_json = json.dumps(bar_chart_data)
+        s3.archive(bar_chart_json, path=path)
+    elif 'line-charts' in path:
+        line_chart_data = compile_line_chart_data(path)
+        line_chart_json = json.dumps(line_chart_data)
+        s3.archive(line_chart_json, path=path)
+
+
+def main(path=None):
+    if path:
+        compile_chart_data(path)
+    else:
+        for path in CHART_METADATA:
+            compile_chart_data(path)
 
 
 if __name__ == '__main__':
-    main()
+    import argparse
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument(
+        '-p',
+        '--path',
+        type=str,
+    )
+
+    args = parser.parse_args()
+
+    main(args.path)
