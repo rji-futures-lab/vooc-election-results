@@ -1,9 +1,11 @@
+from datetime import datetime
 from itertools import groupby
 import json
 import os
 from random import randint
 import xml.etree.ElementTree as et
 
+import pytz
 import requests
 
 import s3
@@ -77,7 +79,7 @@ def get_results():
 def parse_contests(xml):
     root = et.fromstring(xml)
 
-    reporting_time = root.find('GeneratedDate').text
+    reporting_time = root.findtext('GeneratedDate')
 
     data = {}
 
@@ -105,8 +107,12 @@ def parse_contests(xml):
 
 
 def format_data(race_data, reporting_time):
+
+    dt = datetime.fromisoformat(reporting_time) \
+        .astimezone(pytz.timezone('US/Pacific'))
+
     return {
-        'reporting_time': reporting_time,
+        'reporting_time': dt.isoformat(),
         'candidate_votes': [
             {
                 'id': k,

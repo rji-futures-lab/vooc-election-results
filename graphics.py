@@ -77,7 +77,7 @@ def compile_bar_chart_data(path):
         
         candidate['votes'] = candidate_votes_total
         candidate["percent"] = candidate_pct
-        candidate["is_incumbent"] = bool(candidate['is_incumbent'])
+        candidate["is_incumbent"] = candidate['is_incumbent']
 
         if candidate['img_url']:
             candidate_image_count += 1

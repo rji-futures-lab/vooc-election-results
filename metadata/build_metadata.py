@@ -1,3 +1,4 @@
+from distutils.util import strtobool
 import csv
 from itertools import groupby
 import json
@@ -36,7 +37,7 @@ def get_candidates_by_race_id():
         {
             'id': c['id'],
             'name': c['name'],
-            'is_incumbent': bool(c['is_incumbent']),
+            'is_incumbent': bool(strtobool(c['is_incumbent'])),
             'party': c['party'],
             'color': c['color'],
             'img_url': c['img_url'],

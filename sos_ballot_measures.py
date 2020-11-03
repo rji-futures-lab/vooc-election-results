@@ -1,10 +1,12 @@
 from csv import DictReader
+from datetime import datetime
 from itertools import groupby
 import json
 import os
 from random import randint
 from time import sleep
 
+import pytz
 import requests
 
 import s3
@@ -57,11 +59,18 @@ def format_data(race_id, results, reporting_time):
 
     mapping = get_candidate_id_name_mapping(race_id)
 
+    rt = reporting_time \
+        .replace('a.m.', 'AM') \
+        .replace('p.m.', 'PM') 
+
+    dt = datetime.strptime(rt, '%B %d, %Y, %I:%M %p') \
+        .astimezone(pytz.timezone('US/Pacific'))
+
     formatted = {
-        'reporting_time': reporting_time,
+        'reporting_time': dt.isoformat(),
         'candidate_votes': [
             {
-                'id': mapping['No'],
+                'id': dt.isoformat(),
                 'name': 'No', 
                 'votes': int(results['noVotes'])
             },
