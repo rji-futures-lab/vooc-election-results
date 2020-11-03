@@ -33,10 +33,7 @@ def get_candidate_race_source_data(path):
 
 def get_source_data(path):
     source_data = s3.read_from(f"{path}/latest.json")
-    try:
-        as_dict = json.loads(source_data)
-    except TypeError:
-        import ipdb; ipdb.set_trace()
+    as_dict = json.loads(source_data)
 
     return as_dict
 
@@ -64,11 +61,8 @@ def compile_bar_chart_data(path):
 
     for c_id, g in groupby(candidate_votes, key=lambda x: x['id']):
         candidate_lookup = [c for c in meta_data['candidates'] if c['id'] == c_id]
-
-        try:
-            assert len(candidate_lookup) == 1
-        except AssertionError:
-            import ipdb; ipdb.set_trace()
+    
+        assert len(candidate_lookup) == 1
 
         candidate = candidate_lookup[0]
         
