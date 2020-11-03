@@ -11,7 +11,7 @@ race_id,id,name,source_name,is_incumbent,party,img_url,color
 1130,9747,Gil Cisneros,*GIL CISNEROS (DEM),True,DEM,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/GilCisneros.png,#1D37A0
 1140,9748,Greg Raths,GREG RATHS (REP),False,REP,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/Gregraths.png,#A80000
 1140,9749,Katie Porter,*KATIE PORTER (DEM),True,DEM,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/KatiePorter.png,#1D37A0
-1150,9750,James S. Waters,JAMES S. WATERS (REP),False,REP,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/James+Waters.jpg,#A80000
+1150,9750,James S. Waters,JAMES S. WATERS (REP),False,REP,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/James+Waters.png,#A80000
 1150,9751,Lou Correa,LOU CORREA (DEM),False,DEM,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/LouCorrea.png,#1D37A0
 1160,9752,Alan Lowenthal,*ALAN LOWENTHAL (DEM),True,DEM,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/AlanLowenthal.png,#1D37A0
 1160,9753,John Briscoe,JOHN BRISCOE (REP),False,REP,https://vooc-election-results.s3-us-west-2.amazonaws.com/img/JohnBriscoe.png,#A80000
