@@ -3,4 +3,4 @@
 
 aws lambda update-function-configuration \
     --function-name ${PROJECT_NAME} \
-    --environment "Variables={PROJECT_NAME=${PROJECT_NAME},SIMULATE_RESULTS=${SIMULATE_RESULTS}}"
+    --environment "Variables={PROJECT_NAME=${PROJECT_NAME}}"

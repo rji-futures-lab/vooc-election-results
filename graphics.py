@@ -67,7 +67,10 @@ def compile_bar_chart_data(path):
         candidate = candidate_lookup[0]
         
         candidate_votes_total = sum([i["votes"] for i in g])
-        candidate_pct = round((candidate_votes_total / total_ballots) * 100, 2)
+        try:
+            candidate_pct = round((candidate_votes_total / total_ballots) * 100, 2)
+        except ZeroDivisionError:
+            candidate_pct = 0
         
         candidate['votes'] = candidate_votes_total
         candidate["percent"] = candidate_pct

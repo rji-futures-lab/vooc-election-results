@@ -1,19 +1,30 @@
+import json
 import os
 
 import boto3
 
+import la
 import oc
 import sd
-import sos
+import sos_ballot_measures
+import sos_candidate_races
+import graphics
 
 
 LAMBDA_CLIENT = boto3.client('lambda')
 
 
-def handle_source(source):
+with open("metadata/charts.json") as f:
+    CHART_METADATA = json.loads(f.read())
+
+
+def handle_command(command, args=None):
     payload = {
-        'source': service['name'],
+        'command': command,
     }
+
+    if args:
+        payload.update(args)
 
     return LAMBDA_CLIENT.invoke(
         FunctionName=os.getenv('PROJECT_NAME'),
@@ -22,15 +33,41 @@ def handle_source(source):
     )
 
 
+def compile_all_graphics():
+    for path in CHART_METADATA:
+        handle_command('graphics', args={'path': path})
+
+
+def route_event(event):
+    if event['command'] == 'oc':
+        oc.main()
+    elif event['command'] == 'la':
+        la.main()
+    elif event['command'] == 'sd':
+        sd.main()
+    elif event['command'] == 'sos_ballot_measures':
+        sos_ballot_measures.main()
+    elif event['command'] == 'sos_candidate_races':
+        sos_candidate_races.main()
+    elif event['command'] == 'graphics':
+        graphics.main(path=event['path'])
+
+
 def lambda_handler(event, context):
-    if 'source' in event:
-        if event['source'] == 'oc':
-            oc.main()
-        elif event['source'] == 'sd':
-            sd.main()
-        elif event['source'] == 'sos'
-            sos.main()
+    if 'command' in event:
+        route_event(event)
     else:
-        handle_source('oc')
-        handle_source('sd')
-        handle_source('sos')
+        main()
+
+
+def main():
+    handle_command('la')
+    handle_command('oc')
+    handle_command('sd')
+    handle_command('sos_ballot_measures')
+    handle_command('sos_candidate_races')
+    compile_all_graphics()
+
+if __name__ == '__main__':
+    main()
+
