@@ -38,6 +38,11 @@ def compile_all_graphics():
         handle_command('graphics', args={'path': path})
 
 
+def get_all_sos_candidate_races():
+    for i in [1000, 1130, 1200, 1300]:
+        handle_command('sos_candidate_races', args={'race_id': i})    
+
+
 def route_event(event):
     if event['command'] == 'oc':
         oc.main()
@@ -65,7 +70,7 @@ def main():
     handle_command('oc')
     handle_command('sd')
     handle_command('sos_ballot_measures')
-    handle_command('sos_candidate_races')
+    get_all_sos_candidate_races()
     compile_all_graphics()
 
 if __name__ == '__main__':
