@@ -16,88 +16,49 @@ id,title,source_title,description,has_bar_chart,has_line_chart
 1340,MEMBER OF THE STATE ASSEMBLY 72nd District,MEMBER OF THE STATE ASSEMBLY 72nd District,,True,False
 1350,MEMBER OF THE STATE ASSEMBLY 73rd District,MEMBER OF THE STATE ASSEMBLY 73rd District,,True,False
 1360,MEMBER OF THE STATE ASSEMBLY 74th District,MEMBER OF THE STATE ASSEMBLY 74th District,,True,False
-3037,"NORTH OC COMMUNITY COLLEGE DISTRICT
-Trustee Area 4","NORTH ORANGE COUNTY COMMUNITY COLLEGE DISTRICT Governing Board Member, Trustee Area 4",Governing Board Member,True,False
-3038,"NORTH OC COMMUNITY COLLEGE DISTRICT
-Trustee Area 5","NORTH ORANGE COUNTY COMMUNITY COLLEGE DISTRICT Governing Board Member, Trustee Area 5",Governing Board Member,True,False
-3040,"NORTH OC COMMUNITY COLLEGE DISTRICT
-Trustee Area 7","NORTH ORANGE COUNTY COMMUNITY COLLEGE DISTRICT Governing Board Member, Trustee Area 7",Governing Board Member,True,False
-3043,"COAST COMMUNITY COLLEGE DISTRICT
-Trustee Area 2","COAST COMMUNITY COLLEGE DISTRICT Governing Board Member, Trustee Area 2",Governing Board Member,True,False
-3045,"COAST COMMUNITY COLLEGE DISTRICT
-Trustee Area 4","COAST COMMUNITY COLLEGE DISTRICT Governing Board Member, Trustee Area 4",Governing Board Member,True,False
-3052,"RANCHO SANTIAGO COMMUNITY COLLEGE DISTRICT
-Trustee Area 3","RANCHO SANTIAGO COMMUNITY COLLEGE DISTRICT Governing Board Member, Trustee Area 3",Governing Board Member,True,False
-3054,"RANCHO SANTIAGO COMMUNITY COLLEGE DISTRICT
-Trustee Area 5","RANCHO SANTIAGO COMMUNITY COLLEGE DISTRICT Governing Board Member, Trustee Area 5",Governing Board Member,True,False
-3056,"RANCHO SANTIAGO COMMUNITY COLLEGE DISTRICT
-Trustee Area 7","RANCHO SANTIAGO COMMUNITY COLLEGE DISTRICT Governing Board Member, Trustee Area 7",Governing Board Member,True,False
-3058,"SOUTH OC COMMUNITY COLLEGE DISTRICT
-Trustee Area 1","SOUTH ORANGE COUNTY COMMUNITY COLLEGE DISTRICT Governing Board Member, Trustee Area 1",Governing Board Member,True,False
-3063,"SOUTH OC COMMUNITY COLLEGE DISTRICT
-Trustee Area 6","SOUTH ORANGE COUNTY COMMUNITY COLLEGE DISTRICT Governing Board Member, Trustee Area 6",Governing Board Member,True,False
-3064,"SOUTH OC COMMUNITY COLLEGE DISTRICT
-Trustee Area 7","SOUTH ORANGE COUNTY COMMUNITY COLLEGE DISTRICT Governing Board Member, Trustee Area 7",Governing Board Member,True,False
-3105,"BREA OLINDA UNIFIED SCHOOL DISTRICT
-Trustee Area 5","BREA OLINDA UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 5",Governing Board Member,True,False
-3112,"CAPISTRANO UNIFIED SCHOOL DISTRICT
-Trustee Area 2","CAPISTRANO UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 2",Governing Board Member,True,False
-3113,"CAPISTRANO UNIFIED SCHOOL DISTRICT
-Trustee Area 3","CAPISTRANO UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 3",Governing Board Member,True,False
-3115,"CAPISTRANO UNIFIED SCHOOL DISTRICT
-Trustee Area 5","CAPISTRANO UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 5",Governing Board Member,True,False
-3123,"GARDEN GROVE UNIFIED SCHOOL DISTRICT
-Trustee Area 1","GARDEN GROVE UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 1",Governing Board Member,True,False
-3127,"GARDEN GROVE UNIFIED SCHOOL DISTRICT
-Trustee Area 5","GARDEN GROVE UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 5",Governing Board Member,True,False
-3133,"IRVINE UNIFIED SCHOOL DISTRICT
-Trustee Area 3","IRVINE UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 3",Governing Board Member,True,False
-3135,"IRVINE UNIFIED SCHOOL DISTRICT
-Trustee Area 5","IRVINE UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 5",Governing Board Member,True,False
+3037,NORTH OC COMMUNITY COLLEGE DISTRICT — Trustee Area 4,"NORTH ORANGE COUNTY COMMUNITY COLLEGE DISTRICT Governing Board Member, Trustee Area 4",Governing Board Member,True,False
+3038,NORTH OC COMMUNITY COLLEGE DISTRICT — Trustee Area 5,"NORTH ORANGE COUNTY COMMUNITY COLLEGE DISTRICT Governing Board Member, Trustee Area 5",Governing Board Member,True,False
+3040,NORTH OC COMMUNITY COLLEGE DISTRICT — Trustee Area 7,"NORTH ORANGE COUNTY COMMUNITY COLLEGE DISTRICT Governing Board Member, Trustee Area 7",Governing Board Member,True,False
+3043,COAST COMMUNITY COLLEGE DISTRICT — Trustee Area 2,"COAST COMMUNITY COLLEGE DISTRICT Governing Board Member, Trustee Area 2",Governing Board Member,True,False
+3045,COAST COMMUNITY COLLEGE DISTRICT — Trustee Area 4,"COAST COMMUNITY COLLEGE DISTRICT Governing Board Member, Trustee Area 4",Governing Board Member,True,False
+3052,RANCHO SANTIAGO COMMUNITY COLLEGE DISTRICT — Trustee Area 3,"RANCHO SANTIAGO COMMUNITY COLLEGE DISTRICT Governing Board Member, Trustee Area 3",Governing Board Member,True,False
+3054,RANCHO SANTIAGO COMMUNITY COLLEGE DISTRICT — Trustee Area 5,"RANCHO SANTIAGO COMMUNITY COLLEGE DISTRICT Governing Board Member, Trustee Area 5",Governing Board Member,True,False
+3056,RANCHO SANTIAGO COMMUNITY COLLEGE DISTRICT — Trustee Area 7,"RANCHO SANTIAGO COMMUNITY COLLEGE DISTRICT Governing Board Member, Trustee Area 7",Governing Board Member,True,False
+3058,SOUTH OC COMMUNITY COLLEGE DISTRICT — Trustee Area 1,"SOUTH ORANGE COUNTY COMMUNITY COLLEGE DISTRICT Governing Board Member, Trustee Area 1",Governing Board Member,True,False
+3063,SOUTH OC COMMUNITY COLLEGE DISTRICT — Trustee Area 6,"SOUTH ORANGE COUNTY COMMUNITY COLLEGE DISTRICT Governing Board Member, Trustee Area 6",Governing Board Member,True,False
+3064,SOUTH OC COMMUNITY COLLEGE DISTRICT — Trustee Area 7,"SOUTH ORANGE COUNTY COMMUNITY COLLEGE DISTRICT Governing Board Member, Trustee Area 7",Governing Board Member,True,False
+3105,BREA OLINDA UNIFIED SCHOOL DISTRICT — Trustee Area 5,"BREA OLINDA UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 5",Governing Board Member,True,False
+3112,CAPISTRANO UNIFIED SCHOOL DISTRICT — Trustee Area 2,"CAPISTRANO UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 2",Governing Board Member,True,False
+3113,CAPISTRANO UNIFIED SCHOOL DISTRICT — Trustee Area 3,"CAPISTRANO UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 3",Governing Board Member,True,False
+3115,CAPISTRANO UNIFIED SCHOOL DISTRICT — Trustee Area 5,"CAPISTRANO UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 5",Governing Board Member,True,False
+3123,GARDEN GROVE UNIFIED SCHOOL DISTRICT — Trustee Area 1,"GARDEN GROVE UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 1",Governing Board Member,True,False
+3127,GARDEN GROVE UNIFIED SCHOOL DISTRICT — Trustee Area 5,"GARDEN GROVE UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 5",Governing Board Member,True,False
+3133,IRVINE UNIFIED SCHOOL DISTRICT — Trustee Area 3,"IRVINE UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 3",Governing Board Member,True,False
+3135,IRVINE UNIFIED SCHOOL DISTRICT — Trustee Area 5,"IRVINE UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 5",Governing Board Member,True,False
 3142,LAGUNA BEACH UNIFIED SCHOOL DISTRICT,LAGUNA BEACH UNIFIED SCHOOL DISTRICT Governing Board Member,Governing Board Member,True,False
-3152,"LOS ALAMITOS UNIFIED SCHOOL DISTRICT
-Trustee Area 2","LOS ALAMITOS UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 2",Governing Board Member,True,False
-3155,"LOS ALAMITOS UNIFIED SCHOOL DISTRICT
-Trustee Area 5","LOS ALAMITOS UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 5",Governing Board Member,True,False
-3161,"NEWPORT-MESA UNIFIED SCHOOL DISTRICT
-Trustee Area 1","NEWPORT-MESA UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 1",Governing Board Member,True,False
-3163,"NEWPORT-MESA UNIFIED SCHOOL DISTRICT
-Trustee Area 3","NEWPORT-MESA UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 3",Governing Board Member,True,False
-3166,"NEWPORT-MESA UNIFIED SCHOOL DISTRICT
-Trustee Area 6","NEWPORT-MESA UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 6",Governing Board Member,True,False
-3172,"ORANGE UNIFIED SCHOOL DISTRICT
-Trustee Area 2","ORANGE UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 2",Governing Board Member,True,False
-3173,"ORANGE UNIFIED SCHOOL DISTRICT
-Trustee Area 3","ORANGE UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 3",Governing Board Member,True,False
-3176,"ORANGE UNIFIED SCHOOL DISTRICT
-Trustee Area 6","ORANGE UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 6",Governing Board Member,True,False
-3181,"PLACENTIA-YORBA LINDA UNIFIED SCHOOL DISTRICT
-Trustee Area 1","PLACENTIA-YORBA LINDA UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 1",Governing Board Member,True,False
-3182,"PLACENTIA-YORBA LINDA UNIFIED SCHOOL DISTRICT
-Trustee Area 2","PLACENTIA-YORBA LINDA UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 2",Governing Board Member,True,False
-3183,"PLACENTIA-YORBA LINDA UNIFIED SCHOOL DISTRICT
-Trustee Area 3","PLACENTIA-YORBA LINDA UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 3",Governing Board Member,True,False
-3192,"SADDLEBACK VALLEY UNIFIED SCHOOL DISTRICT
-Trustee Area 2","SADDLEBACK VALLEY UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 2",Governing Board Member,True,False
-3194,"SADDLEBACK VALLEY UNIFIED SCHOOL DISTRICT
-Trustee Area 4","SADDLEBACK VALLEY UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 4",Governing Board Member,True,False
+3152,LOS ALAMITOS UNIFIED SCHOOL DISTRICT — Trustee Area 2,"LOS ALAMITOS UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 2",Governing Board Member,True,False
+3155,LOS ALAMITOS UNIFIED SCHOOL DISTRICT — Trustee Area 5,"LOS ALAMITOS UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 5",Governing Board Member,True,False
+3161,NEWPORT-MESA UNIFIED SCHOOL DISTRICT — Trustee Area 1,"NEWPORT-MESA UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 1",Governing Board Member,True,False
+3163,NEWPORT-MESA UNIFIED SCHOOL DISTRICT — Trustee Area 3,"NEWPORT-MESA UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 3",Governing Board Member,True,False
+3166,NEWPORT-MESA UNIFIED SCHOOL DISTRICT — Trustee Area 6,"NEWPORT-MESA UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 6",Governing Board Member,True,False
+3172,ORANGE UNIFIED SCHOOL DISTRICT — Trustee Area 2,"ORANGE UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 2",Governing Board Member,True,False
+3173,ORANGE UNIFIED SCHOOL DISTRICT — Trustee Area 3,"ORANGE UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 3",Governing Board Member,True,False
+3176,ORANGE UNIFIED SCHOOL DISTRICT — Trustee Area 6,"ORANGE UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 6",Governing Board Member,True,False
+3181,PLACENTIA-YORBA LINDA UNIFIED SCHOOL DISTRICT — Trustee Area 1,"PLACENTIA-YORBA LINDA UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 1",Governing Board Member,True,False
+3182,PLACENTIA-YORBA LINDA UNIFIED SCHOOL DISTRICT — Trustee Area 2,"PLACENTIA-YORBA LINDA UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 2",Governing Board Member,True,False
+3183,PLACENTIA-YORBA LINDA UNIFIED SCHOOL DISTRICT — Trustee Area 3,"PLACENTIA-YORBA LINDA UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 3",Governing Board Member,True,False
+3192,SADDLEBACK VALLEY UNIFIED SCHOOL DISTRICT — Trustee Area 2,"SADDLEBACK VALLEY UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 2",Governing Board Member,True,False
+3194,SADDLEBACK VALLEY UNIFIED SCHOOL DISTRICT — Trustee Area 4,"SADDLEBACK VALLEY UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 4",Governing Board Member,True,False
 3201,SANTA ANA UNIFIED SCHOOL DISTRICT,SANTA ANA UNIFIED SCHOOL DISTRICT Governing Board Member,Governing Board Member,True,False
-3211,"TUSTIN UNIFIED SCHOOL DISTRICT
-Trustee Area 1","TUSTIN UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 1",Governing Board Member,True,False
-3212,"TUSTIN UNIFIED SCHOOL DISTRICT
-Trustee Area 2","TUSTIN UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 2",Governing Board Member,True,False
+3211,TUSTIN UNIFIED SCHOOL DISTRICT — Trustee Area 1,"TUSTIN UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 1",Governing Board Member,True,False
+3212,TUSTIN UNIFIED SCHOOL DISTRICT — Trustee Area 2,"TUSTIN UNIFIED SCHOOL DISTRICT Governing Board Member, Trustee Area 2",Governing Board Member,True,False
 3241,HUNTINGTON BEACH UNION HIGH SCHOOL DISTRICT,HUNTINGTON BEACH UNION HIGH SCHOOL DISTRICT Governing Board Member,Governing Board Member,True,False
-3255,"ANAHEIM ELEMENTARY SCHOOL DISTRICT
-Trustee Area 3","ANAHEIM ELEMENTARY SCHOOL DISTRICT Governing Board Member, Trustee Area 3",Governing Board Member,True,False
-3266,"BUENA PARK SCHOOL DISTRICT
-Trustee Area 4","BUENA PARK SCHOOL DISTRICT Governing Board Member, Trustee Area 4",Governing Board Member,True,False
+3255,ANAHEIM ELEMENTARY SCHOOL DISTRICT — Trustee Area 3,"ANAHEIM ELEMENTARY SCHOOL DISTRICT Governing Board Member, Trustee Area 3",Governing Board Member,True,False
+3266,BUENA PARK SCHOOL DISTRICT — Trustee Area 4,"BUENA PARK SCHOOL DISTRICT Governing Board Member, Trustee Area 4",Governing Board Member,True,False
 3292,FOUNTAIN VALLEY SCHOOL DISTRICT,FOUNTAIN VALLEY SCHOOL DISTRICT Governing Board Member,Governing Board Member,True,False
-3311,"HUNTINGTON BEACH CITY SCHOOL DISTRICT
-Trustee Area 1","HUNTINGTON BEACH CITY SCHOOL DISTRICT Governing Board Member, Trustee Area 1",Governing Board Member,True,False
-3322,"LA HABRA CITY SCHOOL DISTRICT
-Full Term","LA HABRA CITY SCHOOL DISTRICT Governing Board Member, Full Term",Governing Board Member,True,False
-3371,"WESTMINSTER SCHOOL DISTRICT
-Trustee Area 1","WESTMINSTER SCHOOL DISTRICT Governing Board Member, Trustee Area 1",Governing Board Member,True,False
+3311,HUNTINGTON BEACH CITY SCHOOL DISTRICT — Trustee Area 1,"HUNTINGTON BEACH CITY SCHOOL DISTRICT Governing Board Member, Trustee Area 1",Governing Board Member,True,False
+3322,LA HABRA CITY SCHOOL DISTRICT — Full Term,"LA HABRA CITY SCHOOL DISTRICT Governing Board Member, Full Term",Governing Board Member,True,False
+3371,WESTMINSTER SCHOOL DISTRICT — Trustee Area 1,"WESTMINSTER SCHOOL DISTRICT Governing Board Member, Trustee Area 1",Governing Board Member,True,False
 4001,"County Supervisor, 1st District","County Supervisor, 1st District",,True,False
 4903,"CITY OF ALISO VIEJO Member, City Council","CITY OF ALISO VIEJO Member, City Council",,True,False
 5004,"CITY OF ANAHEIM Member, City Council, District 1","CITY OF ANAHEIM Member, City Council, District 1",,True,False
